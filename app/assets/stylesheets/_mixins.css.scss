@@ -1,0 +1,100 @@
+@mixin bg($color, $alpha) {
+  $rgba: rgba($color, $alpha);
+  $ie-hex-str: ie-hex-str($rgba);
+  background-color: transparent;
+  background-color: $rgba;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
+  zoom: 1;
+}
+
+@mixin round($round: 3px) {
+  -webkit-border-radius: $round;
+  -moz-border-radius: $round;
+  border-radius: $round;
+}
+@mixin round_bottom($round: 3px) {
+  -moz-border-radius-bottomright: $round;
+  -moz-border-radius-bottomleft: $round;
+  -webkit-border-bottom-right-radius: $round;
+  -webkit-border-bottom-left-radius: $round;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  border-bottom-right-radius: $round;
+  border-bottom-left-radius: $round;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@mixin round_top($round: 3px) {
+  -moz-border-radius-topright: $round;
+  -moz-border-radius-topleft: $round;
+  -webkit-border-top-right-radius: $round;
+  -webkit-border-top-left-radius: $round;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-bottomright: 0;
+  border-top-right-radius: $round;
+  border-top-left-radius: $round;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+@mixin gradient_y($color_top, $color_bottom) {
+  background-color: $color_bottom;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from($color_top), to($color_bottom));
+  background-image: -moz-linear-gradient(top, $color_top, $color_bottom);
+  background-image: -ms-linear-gradient(top, $color_top, $color_bottom);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $color_top), color-stop(100%, $color_bottom));
+  background-image: -webkit-linear-gradient(top, $color_top, $color_bottom);
+  background-image: -o-linear-gradient(top, $color_top, $color_bottom);
+  background-image: linear-gradient(top, $color_top, $color_bottom);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color_top', endColorstr='$color_bottom', GradientType=0);
+}
+
+@mixin gradient_x($color_left, $color_right) {
+  background-color: $color_right;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left, right, from($color_left), to($color_right));
+  background-image: -moz-linear-gradient(left, $color_left, $color_right);
+  background-image: -ms-linear-gradient(left, $color_left, $color_right);
+  background-image: -webkit-gradient(linear, left, right, color-stop(0%, $color_left), color-stop(100%, $color_right));
+  background-image: -webkit-linear-gradient(left, $color_left, $color_right);
+  background-image: -o-linear-gradient(left, $color_left, $color_right);
+  background-image: linear-gradient(left, $color_left, $color_right);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color_left', endColorstr='$color_right', GradientType=0);
+}
+
+@mixin sprite($x, $y, $repeat: no-repeat) {
+  background-image: url(image_path("sprite.png"));
+  background-repeat: $repeat;
+  background-position: $x $y;
+  text-indent: -5000em;
+  overflow: hidden;
+  display: inline-block;
+}
+
+@mixin icon_with_text_sprite($width, $x, $y, $repeat: no-repeat) {
+  background-image: url(image_path("sprite.png"));
+  background-repeat: $repeat;
+  background-position: $x $y;
+  padding-left: ($width + 4);
+  display: inline-block;
+}
+
+@mixin chevron($color) {
+    font-size: 0;
+  height: 0;
+  line-height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 23px 0 23px 23px;
+  border-left-color: red;
+  border-left-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  right: -23px;
+  top: 0;
+}

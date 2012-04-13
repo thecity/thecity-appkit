@@ -1,0 +1,26 @@
+%html
+	%head
+		%title The City Utilities
+		= stylesheet_link_tag    "application", :media => "all"
+		= javascript_include_tag "application"
+		= csrf_meta_tags
+	%body{:onload => 'prettyPrint()'}
+		%div.container
+			%section.main
+				%aside.sidebar
+					%header.masthead
+						%h1 The City Utilities
+					%div.sidebar-inner
+						%nav.sidenav
+							%ul
+								= link_with_active_class('Big Picture', root_path)
+								= link_with_active_class('Typography', typography_path)
+								= link_with_active_class('Forms', forms_path)
+								= link_with_active_class('Tables', tables_path)
+								= link_with_active_class('Grid', grid_path)
+								= link_with_active_class('Buttons', buttons_path)
+								= link_with_active_class('Center Stage', center_stage_path)
+								= link_with_active_class('News Feed Items', news_feed_items_path)
+				%section.content.clearfix
+					%div.content-inner
+						= yield

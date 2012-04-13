@@ -1,0 +1,51 @@
+%div.container_12.clearfix
+	%header.center_stage
+		%h1 So you've built an app for The City. 
+		%div.context_bar
+	%section	
+		%h2
+			%strong Awesome.
+		
+		%p.intro.grid_5.suffix_3
+			We're happy about that. We have provided a few tools for you. We hope these tools will make it easier for you to make your app fit nicely within The City.			
+		%p.grid_5.suffix_3 We've put together and hosted a stylesheet for you to include in your app. This will provide you with the basic styles that we use in The City. To place it in your app, paste the following in the head of your document:
+		
+		%pre.clear.prettyprint
+			:escaped
+				<link rel="stylesheet" href="http://a.really.long.path.to/the_citys/css/file.css" />
+
+		%h3.gutterbottom What's included in The City Utilities?
+
+		%div.grid_4
+			%h4.rule The Big Picture
+			%p 
+				We've included a reset for default styles and leveling the playing field between browsers. We've also included a 
+				=link_to 'list of utility classes', utilities_path
+				for use throughout your app.
+		%div.grid_4.omega
+			%h4.rule 
+				= link_to "Typography", typography_path
+			%p Here are The City's defaults for headings, paragraphs, list and all other typographic styles. There are also a few utility classes that you may need.
+		
+		%div.grid_4
+			%h4.rule
+				= link_to "Forms", forms_path
+			%p In The City, we've leveraged the 12-column form grid from the smart folks at <a href="http://formee.org">Formee</a>. We show you how to structure your forms so that everything lines up just right. 
+		%div.grid_4.omega
+			%h4.rule
+				= link_to "Tables", tables_path
+			%p You can put borders around your table cells, or you can zebra-stripe them. Or both. 
+		
+		%div.grid_4.clear
+			%h4.rule
+				= link_to "Grid", grid_path
+			%p 8 columns. Fluid. It's based off of <a href="http://960.gs">960.gs</a>. We adapted it to fit the content area in The City. The City's content area is not fluid, but this will be future friendly.
+		%div.grid_4.omega
+			%h4.rule
+				= link_to "Buttons", buttons_path
+			%p We have 4 buttons colors with the basic style. We'll explain how to use the various classnames and make your buttons look like they belong in The City.
+		
+		%div.grid_4
+			%h4.rule
+				= link_to "Center Stage", center_stage_path
+			%p Every page in The City has Center Stage. It's where the page header lives. You can add tabs for page nav as well.

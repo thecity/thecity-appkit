@@ -1,0 +1,97 @@
+// Place all the styles related to the Conformity controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "colors";
+@import "mixins";
+
+body {
+	@include gradient_y(#a52001, #cd5a13);
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 980px;
+	min-width: 768px;
+	@include bg($white, 1);
+	@include round_bottom(3px);
+	box-shadow: 0 0 7px rgba(0,0,0,0.25);
+}
+
+/* SIDEBAR */
+.sidebar {
+	width: 192px;
+	position: absolute;
+	margin-right: 1px;
+	nav ul {
+		list-style-type: none;
+	}
+}
+.masthead {
+	padding: 20px;
+	border-bottom: 1px solid $gray_2;
+	h1 {
+		@include sprite(0, 0);
+		height: 94px;
+		width: 162px;
+		margin: 0;
+	}
+}
+.sidenav {
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		font-size: 18px;
+		border-bottom: 1px solid $gray_2;
+		margin: 1px 0 0 0;
+		position: relative;
+		a {
+			padding: 6px 20px;
+			display: block;
+			width: 152px;
+			margin: 1px 0;
+			text-decoration: none;
+			color: $gray_5;
+			&:hover {
+				@include gradient_x($white, $gray_1);
+			}
+		}
+		&.active {
+			a {
+				@include gradient_y($gray_5, $gray_4);
+				color: $white;
+			}
+		}
+	}
+}
+/* @end SIDEBAR */
+
+.content {
+	margin-left: 193px;
+	min-height: 500px;
+	border-left: 1px solid $gray_2;
+	padding: 0 1px;
+	border-top: 0;
+	border-bottom: 0;
+	.content-inner {
+		padding: 20px;
+	}
+}
+pre {
+	font-size: 12px; 
+	padding: 10px !important;
+	word-wrap: break-word;
+	@include bg($orange, .2);
+	@include round(3px);
+	line-height: 1.5;
+	border: 1px solid $orange !important;
+	color: $gray_8;
+	margin-bottom: 30px;
+}
+table { 
+	pre {
+		padding: 3px;
+	}
+	h1, h2, h3, h4, h5, h6 {margin: 0;}
+}

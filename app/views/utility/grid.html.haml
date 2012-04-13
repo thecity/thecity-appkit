@@ -1,0 +1,124 @@
+%header.center_stage
+	%h1 Grid
+	%div.context_bar
+
+%article
+	%h2.rule 8 columns of fluid goodness
+	%div.grid_4
+		%p
+			The fluid grid system is kindly provided by 
+			=link_to '960.gs.', 'http://960.gs'
+			Though the grid is fluid, The City does not support a fluid layout. However, using a fluid grid will allow for some flexibility in the future.
+		%p
+			The area in which your app will live is currently 
+			%strong 740px 
+			wide. 
+	%div.grid_4.omega
+		%p Your columns can total up to 8, but your last column needs a class of 'omega' to keep off that right margin.
+		%pre.prettyprint
+			=preserve do
+				:escaped
+					<div class="grid_4"></div>
+					<div class="grid_4 omega"></div>
+
+	%div.clear
+	%div.grid_1
+		%p.demo grid_1
+	%div.grid_1
+		%p.demo grid_1
+	%div.grid_1
+		%p.demo grid_1
+	%div.grid_1
+		%p.demo grid_1
+	%div.grid_1
+		%p.demo grid_1
+	%div.grid_1
+		%p.demo grid_1
+	%div.grid_1
+		%p.demo grid_1
+	%div.grid_1.omega
+		%p.demo grid_1
+
+	%div.grid_2
+		%p.demo grid_2
+	%div.grid_2
+		%p.demo grid_2
+	%div.grid_2
+		%p.demo grid_2
+	%div.grid_2.omega
+		%p.demo grid_2
+
+	%div.grid_3
+		%p.demo grid_3
+	%div.grid_5.omega
+		%p.demo grid_5
+
+	%div.grid_4
+		%p.demo grid_4
+	%div.grid_4.omega
+		%p.demo grid_4
+
+	%div.grid_5
+		%p.demo grid_5
+	%div.grid_3.omega
+		%p.demo grid_3
+
+	%div.grid_6
+		%p.demo grid_6
+	%div.grid_2.omega
+		%p.demo grid_2
+
+	%div.grid_7
+		%p.demo grid_7
+	%div.grid_1.omega
+		%p.demo grid_1
+
+	%div.grid_8
+		%p.demo grid_8
+
+	%h3.rule.gutterbottom Pushing &amp; Pulling Columns
+
+	%div.push_1.grid_1.clear
+		%p.demo push_1
+	%div.push_2.grid_1.clear
+		%p.demo push_2
+	%div.push_3.grid_1.clear
+		%p.demo push_3
+	%div.push_4.grid_1.clear
+		%p.demo push_4
+	%div.push_5.grid_1.clear
+		%p.demo push_5
+	%div.push_6.grid_1.clear
+		%p.demo push_6
+	%div.push_7.grid_1.clear
+		%p.demo push_7
+
+	%div.pull_1.grid_1.clear.right
+		%p.demo pull_1
+	%div.pull_2.grid_1.clear.right
+		%p.demo pull_2
+	%div.pull_3.grid_1.clear.right
+		%p.demo pull_3
+	%div.pull_4.grid_1.clear.right
+		%p.demo pull_4
+	%div.pull_5.grid_1.clear.right
+		%p.demo pull_5
+	%div.pull_6.grid_1.clear.right
+		%p.demo pull_6
+	%div.pull_7.grid_1.clear.right
+		%p.demo pull_7
+
+	%h3.rule.gutterbottom.clear Prefixes &amp; Suffixes
+
+	%div.grid_6.prefix_1.suffix_1.box.clear
+		%p.demo grid_6 prefix_1 suffix_1
+	%div.grid_5.prefix_2.suffix_1.box.clear
+		%p.demo grid_5 prefix_2 suffix_1
+	%div.grid_4.prefix_3.suffix_1.box.clear
+		%p.demo grid_4 prefix_3 suffix_1
+	%div.grid_5.prefix_1.suffix_2.box.clear
+		%p.demo grid_5 prefix_1 suffix_2
+	%div.grid_4.prefix_1.suffix_3.box.clear
+		%p.demo grid_4 prefix_1 suffix_3
+	%div.grid_3.prefix_1.suffix_4.box.clear
+		%p.demo grid_3 prefix_1 suffix_4
