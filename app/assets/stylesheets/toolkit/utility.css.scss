@@ -51,6 +51,11 @@ table {
   border-spacing: 0;
 }
 
+body {
+  /* WE NEED THIS FOR ADDING 20PX OF GUTTER FOR THE 
+     APP INSIDE THE CITY'S CONTAINER */
+  margin: 20px;
+}
 
 /*
   Variable Grid System (Fluid Version).
@@ -698,6 +703,8 @@ table {
   position: relative;
   padding: 2px 15px 10px 64px;
   border-right: 5px solid $gray_5;
+  margin-bottom: 15px;
+  clear: both;
   .thumb {
     position: absolute;
     left: 0;
