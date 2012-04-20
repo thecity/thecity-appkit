@@ -513,9 +513,9 @@ body {
 a {color: $link_blue; text-decoration: none;}
 a:hover {color: $link_blue_hover;}
 
-h1,h2,h3,h4,h5,h6 {letter-spacing: -0.025em; color: $gray_8; font-weight: bold;}
+h1,h2,h3,h4,h5,h6 {letter-spacing: -0.025em; color: $gray_8; font-weight: bold; line-height: 1.3; margin-bottom: 3px;}
 h1 {font-size:32px;}
-h2 {font-size: 24px; margin-bottom: 7px;}
+h2 {font-size: 24px;}
 h3 {font-size: 20px;}
 h4 {font-size: 16px;}
 h5 {font-size: 13px;}
@@ -532,6 +532,7 @@ h6 {
 ul {
   margin-left: 15px;
   list-style-type: disc;
+  margin-bottom: 3px;
 }
 ol {
   list-style-type: decimal;
@@ -601,6 +602,8 @@ strong {font-weight: bold;}
 .nostyle {list-style-type: none; margin-left: 0;}
 .guttertop {margin-top: 20px;}
 .gutterbottom {margin-bottom: 20px;}
+.smallgutterbottom {margin-bottom: 10px;}
+.smallguttertop {margin-top: 10px;}
 .right {float: right;}
 .left {float: left;}
 /* TABLES */
@@ -749,3 +752,18 @@ table {
     }
   }
 }
+
+/* GENERIC CONTAINER ITEMS */
+.item {
+  padding: 10px;
+  @includ round(3px);
+  @include bg($gray_1, 1);
+  background-image: url(image_path("form_bg.png"));
+  background-repeat: repeat;
+  background-position: 0 0;
+  margin-bottom: 15px;
+  p {
+    margin-bottom: 0;
+  }
+}
+/* @end */
