@@ -6,6 +6,8 @@
 
 body {
 	@include gradient_y(#a52001, #cd5a13);
+	padding: 0; 
+	margin: 0 !important;
 }
 
 .container {

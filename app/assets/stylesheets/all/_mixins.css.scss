@@ -1,9 +1,9 @@
 @mixin bg($color, $alpha) {
   $rgba: rgba($color, $alpha);
-  $ie-hex-str: ie-hex-str($rgba);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($rgba)}', endColorstr='#{ie-hex-str($rgba)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($rgba)}', endColorstr='#{ie-hex-str($rgba)}');;
   background-color: transparent;
   background-color: $rgba;
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
   zoom: 1;
 }
 
@@ -44,28 +44,20 @@
 
 @mixin gradient_y($color_top, $color_bottom) {
   background-color: $color_bottom;
-  background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left top, left bottom, from($color_top), to($color_bottom));
-  background-image: -moz-linear-gradient(top, $color_top, $color_bottom);
-  background-image: -ms-linear-gradient(top, $color_top, $color_bottom);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $color_top), color-stop(100%, $color_bottom));
-  background-image: -webkit-linear-gradient(top, $color_top, $color_bottom);
-  background-image: -o-linear-gradient(top, $color_top, $color_bottom);
-  background-image: linear-gradient(top, $color_top, $color_bottom);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color_top', endColorstr='$color_bottom', GradientType=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($color_top)}', endColorstr='#{ie-hex-str($color_bottom)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($color_top)}', endColorstr='#{ie-hex-str($color_bottom)}');;
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from($color_top), to($color_bottom));
+  background: -moz-linear-gradient(top,  $color_top,  $color_bottom);
 }
 
 @mixin gradient_x($color_left, $color_right) {
   background-color: $color_right;
-  background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left, right, from($color_left), to($color_right));
-  background-image: -moz-linear-gradient(left, $color_left, $color_right);
-  background-image: -ms-linear-gradient(left, $color_left, $color_right);
-  background-image: -webkit-gradient(linear, left, right, color-stop(0%, $color_left), color-stop(100%, $color_right));
-  background-image: -webkit-linear-gradient(left, $color_left, $color_right);
-  background-image: -o-linear-gradient(left, $color_left, $color_right);
-  background-image: linear-gradient(left, $color_left, $color_right);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color_left', endColorstr='$color_right', GradientType=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#{ie-hex-str($color_left)}', endColorstr='#{ie-hex-str($color_right)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#{ie-hex-str($color_left)}', endColorstr='#{ie-hex-str($color_right)}');;
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from($color_left), to($color_right));
+  background: -moz-linear-gradient(top,  $color_left,  $color_right);
 }
 
 @mixin sprite($x, $y, $repeat: no-repeat) {
