@@ -644,6 +644,7 @@ table {
   @include gradient_y($gray_6, $gray_7);
   margin: -20px -20px 20px -20px;
   padding: 16px 20px 0 20px;
+  @include clearfix;
   .context_bar {
     height: 5px;
     border-top: 1px solid white;
@@ -667,9 +668,10 @@ table {
       margin-left: 0;
       li {
         display: inline-block;
+        float: left;
         font-size: 11px;
         line-height: 17px;
-        margin-right: 0;
+        margin-right: 3px;
         a {
           padding: 3px 9px 2px 9px;
           display: block;
