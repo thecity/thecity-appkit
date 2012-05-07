@@ -7,6 +7,17 @@
   zoom: 1;
 }
 
+@mixin clearfix {
+  *display: inline-block;
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
 @mixin round($round: 3px) {
   -webkit-border-radius: $round;
   -moz-border-radius: $round;
