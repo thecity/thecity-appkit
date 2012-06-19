@@ -1,5 +1,3 @@
-require 'sass'
-
 module Sass::Script::Functions
   # LARS: Snatched from compass - 2011-11-29 - used for gradients in IE6-9
   # returns an IE hex string for a color with an alpha channel
