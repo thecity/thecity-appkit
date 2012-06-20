@@ -67,8 +67,8 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#{ie-hex-str($color_left)}', endColorstr='#{ie-hex-str($color_right)}');";
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#{ie-hex-str($color_left)}', endColorstr='#{ie-hex-str($color_right)}');;
   zoom: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from($color_left), to($color_right));
-  background: -moz-linear-gradient(top,  $color_left,  $color_right);
+  background: -webkit-gradient(linear, left top, right top, from($color_left), to($color_right));
+  background: -moz-linear-gradient(left,  $color_left,  $color_right);
 }
 
 @mixin sprite($x, $y, $repeat: no-repeat) {
