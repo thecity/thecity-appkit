@@ -353,9 +353,6 @@ form {
 .formee fieldset, form fieldset {
   @include round(3px);
   @include bg($gray_1, 1);
-  background-image: url(image_path("form_bg.png"));
-  background-repeat: repeat;
-  background-position: 0 0;
   padding: 15px;
 }
 .formee legend, form legend {
@@ -760,9 +757,6 @@ table {
   padding: 10px;
   @includ round(3px);
   @include bg($gray_1, 1);
-  background-image: url(image_path("form_bg.png"));
-  background-repeat: repeat;
-  background-position: 0 0;
   margin-bottom: 15px;
   p {
     margin-bottom: 0;
