@@ -65,5 +65,5 @@ CityUtility::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  config.assets.precompile += %w( application-all.css application-ie.css application-all.js application-ie.js)
+  config.assets.precompile += %w( application-all.css application-ie.css application-all.js application-ie.js docs.css)
 end
