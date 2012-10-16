@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Thecity-appkit : The City AppKit" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+    <link rel="stylesheet" href="http://dcascn3rg03ga.cloudfront.net/appkit/v1/city-utility.css" />
+    <link href="/javascripts/prettify/prettify.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/prettify/prettify.js" type="text/javascript"></script>
+
+    <title>TheCity AppKit</title>
+  </head>
+
+  <body onload='prettyPrint()'>
+    <div class='container'>
+      <section class='main'>
+        <aside class='sidebar'>
+          <header class='masthead'>
+            <h1>The City Utilities</h1>
+          </header>
+          <div class='sidebar-inner'>
+            <nav class='sidenav'>
+              <ul>
+                <li class=""><a href="/">Big Picture</a></li>
+                <li class=""><a href="/typography.html">Typography</a></li>
+                <li class=""><a href="/forms.html">Forms</a></li>
+                <li class=""><a href="/tables.html">Tables</a></li>
+                <li class="active"><a href="/grid.html">Grid</a></li>
+                <li class=""><a href="/buttons.html">Buttons</a></li>
+                <li class=""><a href="/center_stage.html">Center Stage</a></li>
+                <li class=""><a href="/news_feed_items.html">News Feed Items</a></li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+
+        <section class='content clearfix'>
+          <div class='content-inner'>
+
+            <!-- page-content -->
+            <header class='center_stage'>
+              <h1>Grid</h1>
+              <div class='context_bar'></div>
+            </header>
+            
+            <article>
+              <h2 class='rule'>8 columns of fluid goodness</h2>
+              <div class='grid_4'>
+                <p>The fluid grid system is kindly provided by <a href="http://960.gs">960.gs.</a> Though the grid is fluid, The City does not support a fluid layout. However, using a fluid grid will allow for some flexibility in the future.</p>
+                <p>The area in which your app will live is currently <strong>740px</strong> wide.</p>
+              </div>
+
+              <div class='grid_4 omega'>
+                <p>Your columns can total up to 8, but your last column needs a class of 'omega' to keep off that right margin.</p>
+                <pre class='prettyprint'>&lt;div class=&quot;grid_4&quot;&gt;&lt;/div&gt;&#x000A;&lt;div class=&quot;grid_4 omega&quot;&gt;&lt;/div&gt;</pre>
+              </div>
+              <div class='clear'></div>
+
+              <div class='grid_1'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_1'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_1'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_1'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_1'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_1'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_1'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_1 omega'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_2'>
+                <p class='demo'>grid_2</p>
+              </div>
+              <div class='grid_2'>
+                <p class='demo'>grid_2</p>
+              </div>
+              <div class='grid_2'>
+                <p class='demo'>grid_2</p>
+              </div>
+              <div class='grid_2 omega'>
+                <p class='demo'>grid_2</p>
+              </div>
+              <div class='grid_3'>
+                <p class='demo'>grid_3</p>
+              </div>
+              <div class='grid_5 omega'>
+                <p class='demo'>grid_5</p>
+              </div>
+              <div class='grid_4'>
+                <p class='demo'>grid_4</p>
+              </div>
+              <div class='grid_4 omega'>
+                <p class='demo'>grid_4</p>
+              </div>
+              <div class='grid_5'>
+                <p class='demo'>grid_5</p>
+              </div>
+              <div class='grid_3 omega'>
+                <p class='demo'>grid_3</p>
+              </div>
+              <div class='grid_6'>
+                <p class='demo'>grid_6</p>
+              </div>
+              <div class='grid_2 omega'>
+                <p class='demo'>grid_2</p>
+              </div>
+              <div class='grid_7'>
+                <p class='demo'>grid_7</p>
+              </div>
+              <div class='grid_1 omega'>
+                <p class='demo'>grid_1</p>
+              </div>
+              <div class='grid_8'>
+                <p class='demo'>grid_8</p>
+              </div>
+
+              <h3 class='rule gutterbottom'>Pushing &amp; Pulling Columns</h3>
+              <div class='push_1 grid_1 clear'>
+                <p class='demo'>push_1</p>
+              </div>
+              <div class='push_2 grid_1 clear'>
+                <p class='demo'>push_2</p>
+              </div>
+              <div class='push_3 grid_1 clear'>
+                <p class='demo'>push_3</p>
+              </div>
+              <div class='push_4 grid_1 clear'>
+                <p class='demo'>push_4</p>
+              </div>
+              <div class='push_5 grid_1 clear'>
+                <p class='demo'>push_5</p>
+              </div>
+              <div class='push_6 grid_1 clear'>
+                <p class='demo'>push_6</p>
+              </div>
+              <div class='push_7 grid_1 clear'>
+                <p class='demo'>push_7</p>
+              </div>
+              <div class='pull_1 grid_1 clear right'>
+                <p class='demo'>pull_1</p>
+              </div>
+              <div class='pull_2 grid_1 clear right'>
+                <p class='demo'>pull_2</p>
+              </div>
+              <div class='pull_3 grid_1 clear right'>
+                <p class='demo'>pull_3</p>
+              </div>
+              <div class='pull_4 grid_1 clear right'>
+                <p class='demo'>pull_4</p>
+              </div>
+              <div class='pull_5 grid_1 clear right'>
+                <p class='demo'>pull_5</p>
+              </div>
+              <div class='pull_6 grid_1 clear right'>
+                <p class='demo'>pull_6</p>
+              </div>
+              <div class='pull_7 grid_1 clear right'>
+                <p class='demo'>pull_7</p>
+              </div>
+              
+              <h3 class='rule gutterbottom clear'>Prefixes &amp; Suffixes</h3>
+              <div class='grid_6 prefix_1 suffix_1 box clear'>
+                <p class='demo'>grid_6 prefix_1 suffix_1</p>
+              </div>
+              <div class='grid_5 prefix_2 suffix_1 box clear'>
+                <p class='demo'>grid_5 prefix_2 suffix_1</p>
+              </div>
+              <div class='grid_4 prefix_3 suffix_1 box clear'>
+                <p class='demo'>grid_4 prefix_3 suffix_1</p>
+              </div>
+              <div class='grid_5 prefix_1 suffix_2 box clear'>
+                <p class='demo'>grid_5 prefix_1 suffix_2</p>
+              </div>
+              <div class='grid_4 prefix_1 suffix_3 box clear'>
+                <p class='demo'>grid_4 prefix_1 suffix_3</p>
+              </div>
+              <div class='grid_3 prefix_1 suffix_4 box clear'>
+                <p class='demo'>grid_3 prefix_1 suffix_4</p>
+              </div>
+            </article>
+            <!-- @end page-content -->
+
+          </div>
+        </section>
+      </section>
+    </div>
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <p class="copyright">Thecity-appkit maintained by <a href="https://github.com/thecity">thecity</a> | Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+    </footer>
+  </body>
+</html>

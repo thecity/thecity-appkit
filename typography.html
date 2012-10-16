@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Thecity-appkit : The City AppKit" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+    <link rel="stylesheet" href="http://dcascn3rg03ga.cloudfront.net/appkit/v1/city-utility.css" />
+    <link href="/javascripts/prettify/prettify.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/prettify/prettify.js" type="text/javascript"></script>
+
+    <title>TheCity AppKit</title>
+  </head>
+
+  <body onload='prettyPrint()'>
+    <div class='container'>
+      <section class='main'>
+        <aside class='sidebar'>
+          <header class='masthead'>
+            <h1>The City Utilities</h1>
+          </header>
+          <div class='sidebar-inner'>
+            <nav class='sidenav'>
+              <ul>
+                <li class=""><a href="/">Big Picture</a></li>
+                <li class="active"><a href="/typography.html">Typography</a></li>
+                <li class=""><a href="/forms.html">Forms</a></li>
+                <li class=""><a href="/tables.html">Tables</a></li>
+                <li class=""><a href="/grid.html">Grid</a></li>
+                <li class=""><a href="/buttons.html">Buttons</a></li>
+                <li class=""><a href="/center_stage.html">Center Stage</a></li>
+                <li class=""><a href="/news_feed_items.html">News Feed Items</a></li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+
+        <section class='content clearfix'>
+          <div class='content-inner'>
+
+            <!-- page-content -->
+            <header class='center_stage clearfix'>
+              <h1>Typography</h1>
+              <div class='context_bar'></div>
+            </header>
+            <article class='clearfix clear'>
+              <h2 class='rule'>Headings, copy and other typographic utilities</h2>
+              <div class='grid_3 gutterbottom'>
+                <h1>This is an H1.</h1>
+                <h2>This is an H2.</h2>
+                <h3>This is an H3.</h3>
+                <h4>This is an H4.</h4>
+                <h5>This is an H5.</h5>
+                <h6>This is an H6.</h6>
+              </div>
+
+              <div class='grid_5 omega'>
+                <h4>Paragraphs</h4>
+                <p>Helvetica lo-fi artisan thundercats fixie shoreditch. Hoodie put a bird on it retro, next level kogi mlkshk photo booth PBR master cleanse scenester american apparel. Williamsburg typewriter yr, beard helvetica shoreditch wayfarers occupy bushwick tattooed. Put a bird on it yr williamsburg, 3 wolf moon vinyl aesthetic tattooed pork belly. Terry richardson leggings echo park whatever, helvetica pickled gentrify.</p>
+              </div>
+
+              <h4 class='clear'>Horizontal rule</h4>
+              <div class='grid_3'>
+                <pre class='prettyprint'>&lt;h4 class=&quot;rule&quot;&gt;&#x000A;&lt;/h4&gt;</pre>
+              </div>
+
+              <div class='grid_5 omega'>
+                <h4 class='rule guttertop'>I'm a header with a rule</h4>
+              </div>
+
+              <h4 class='clear'>Strong &amp; Emphasis</h4>
+                <div class='grid_3'>
+                <pre class='prettyprint'>&lt;strong&gt;&lt;/strong&gt;</pre>
+              </div>
+
+              <div class='grid_5 omega guttertop'>
+                I'm <strong>strong</strong> and you shoud check me out.
+              </div>
+
+              <div class='grid_3 clear'>
+                <pre class='prettyprint'>&lt;em&gt;&lt;/em&gt;</pre>
+              </div>
+
+              <div class='grid_5 omega guttertop'>
+                I'm <em>emphasized</em> and you should have a look.
+              </div>
+            </article>
+
+            <article class='clearfix clear'>
+              <h3 class='rule'>Lists</h3>
+              <h4>Unordered Lists</h4>
+              <div class='grid_5'>
+                <pre class='prettyprint'>&lt;ul&gt;&#x000A;  &lt;li&gt;List items are fun&lt;/li&gt;&#x000A;  &lt;li&gt;But they need style&lt;/li&gt;&#x000A;  &lt;li&gt;Sometimes defaults are &lt;em&gt;just&lt;/em&gt; fine&lt;/li&gt;&#x000A;&lt;/ul&gt;</pre>
+              </div>
+
+              <div class='grid_3 omega'>
+                <ul class='guttertop'>
+                  <li>List items are fun</li>
+                  <li>But they need style</li>
+                  <li>Sometimes defaults are <em>just</em> fine</li>
+                </ul>
+              </div>
+
+              <h4 class='clear'>Ordered Lists</h4>
+              <div class='grid_5'>
+              <pre class='prettyprint'>&lt;ol&gt;&#x000A;  &lt;li&gt;List items are fun&lt;/li&gt;&#x000A;  &lt;li&gt;But they need style&lt;/li&gt;&#x000A;  &lt;li&gt;Sometimes defaults are &lt;em&gt;just&lt;/em&gt; fine&#x000A;&lt;/ol&gt;</pre>
+              </div>
+
+              <div class='grid_3 omega'>
+                <ol class='guttertop'>
+                  <li>List items are fun</li>
+                  <li>But they need style</li>
+                  <li>Sometimes defaults are <em>just</em> fine</li>
+                </ol>
+              </div>
+
+              <h4 class='clear'>Lists with no style</h4>
+              <div class='grid_5'>
+                <pre class='prettyprint'>&lt;ul class=&quot;nostyle&quot;&gt;&#x000A;  &lt;li&gt;List items are fun&lt;/li&gt;&#x000A;  &lt;li&gt;But they need style&lt;/li&gt;&#x000A;  &lt;li&gt;Sometimes defaults are &lt;em&gt;just&lt;/em&gt; fine&#x000A;&lt;/ul&gt;</pre>
+              </div>
+
+              <div class='grid_3 omega'>
+                <ul class='nostyle guttertop'>
+                  <li>List items are fun</li>
+                  <li>But they need style</li>
+                  <li>Sometimes defaults are <em>just</em> fine</li>
+                </ul>
+              </div>
+            </article>
+            <!-- @end page-content -->
+
+          </div>
+        </section>
+      </section>
+    </div>
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <p class="copyright">Thecity-appkit maintained by <a href="https://github.com/thecity">thecity</a> | Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+    </footer>
+  </body>
+</html>
