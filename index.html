@@ -6,69 +6,109 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Thecity-appkit : The City AppKit" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+    <link rel="stylesheet" href="http://dcascn3rg03ga.cloudfront.net/appkit/v1/city-utility.css" />
+    <link href="/javascripts/prettify/prettify.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/prettify/prettify.js" type="text/javascript"></script>
 
-    <title>Thecity-appkit</title>
+    <title>TheCity AppKit</title>
   </head>
 
-  <body>
+  <body onload='prettyPrint()'>
+    <div class='container'>
+      <section class='main'>
+        <aside class='sidebar'>
+          <header class='masthead'>
+            <h1>The City Utilities</h1>
+          </header>
+          <div class='sidebar-inner'>
+            <nav class='sidenav'>
+              <ul>
+                <li class="active"><a href="/">Big Picture</a></li>
+                <li class=""><a href="/typography.html">Typography</a></li>
+                <li class=""><a href="/forms.html">Forms</a></li>
+                <li class=""><a href="/tables.html">Tables</a></li>
+                <li class=""><a href="/grid.html">Grid</a></li>
+                <li class=""><a href="/buttons.html">Buttons</a></li>
+                <li class=""><a href="/center_stage.html">Center Stage</a></li>
+                <li class=""><a href="/news_feed_items.html">News Feed Items</a></li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/thecity/thecity-appkit">View on GitHub</a>
+        <section class='content clearfix'>
+          <div class='content-inner'>
 
-          <h1 id="project_title">Thecity-appkit</h1>
-          <h2 id="project_tagline">The City AppKit</h2>
+            <!-- page-content -->
+            <div class='container_12 clearfix'>
+              <header class='center_stage'>
+                <h1>So you've built an app for The City.</h1>
+                <div class='context_bar'></div>
+              </header>
+              <section>
+                <h2><strong>Awesome.</strong></h2>
+                <p class='intro grid_5 suffix_3'>We're happy about that. We have provided a few tools for you. We hope these tools will make it easier for you to make your app fit nicely within The City.</p>
+                <p class='grid_5 suffix_3'>We've put together and hosted a stylesheet for you to include in your app. This will provide you with the basic styles that we use in The City. To place it in your app, paste the following in the head of your document:</p>
+              
+                <h4>The City Default Styles</h4>
+                <pre class='clear prettyprint'>&lt;link rel=&quot;stylesheet&quot; href=&quot;http://dcascn3rg03ga.cloudfront.net/appkit/v1/city-utility.css&quot; /&gt;</pre>
+              
+                <h4>Javascript for HTML5 support for pre-IE 9 browsers</h4>
+                <p>This code makes new HTML5 elements block-level so that earlier versions of IE treat them correctly. Credit goes to @jon_neal and <a href="https://github.com/aFarkas/html5shiv">afarkas</a> for this.  Full original, uncompressed source available at <a href="https://github.com/aFarkas/html5shiv">https://github.com/aFarkas/html5shiv</a>.</p>
+                <pre class='clear prettyprint'>&lt;script type=&quot;text/javascript&quot; src=&quot;http://dcascn3rg03ga.cloudfront.net/appkit/v1/html5shiv.js&quot;&gt;       &lt;/script&gt;</pre>
+              
+                <h3>Hosting City Utilities</h3>
+                <p>If you'd rather host the City Utilities yourself, you can <a class="zip_download_link" href="https://github.com/thecity/thecity-appkit/zipball/master">download this project as a .zip file</a> or <a class="tar_download_link" href="https://github.com/thecity/thecity-appkit/tarball/master">download as a tar.gz file</a>. <a id="forkme_banner" href="https://github.com/thecity/thecity-appkit">View this project on GitHub</a>.</p>
+                <p>&nbsp;</p>
+  
+                <h3 class='gutterbottom'>What's included in The City Utilities?</h3>
+                <div class='grid_4'>
+                  <h4 class='rule'>The Big Picture</h4>
+                  <p>We've included a reset for default styles and leveling the playing field between browsers. We've also included a <a href="/utilities">list of utility classes</a> for use throughout your app.</p>
+                </div>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/thecity/thecity-appkit/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/thecity/thecity-appkit/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+                <div class='grid_4 omega'>
+                  <h4 class='rule'><a href="/typography">Typography</a></h4>
+                  <p>Here are The City's defaults for headings, paragraphs, list and all other typographic styles. There are also a few utility classes that you may need.</p>
+                </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+                <div class='grid_4'>
+                  <h4 class='rule'><a href="/forms">Forms</a></h4>
+                  <p>In The City, we've leveraged the 12-column form grid from the smart folks at <a href="http://formee.org">Formee</a>. We show you how to structure your forms so that everything lines up just right.</p>
+                </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+                <div class='grid_4 omega'>
+                  <h4 class='rule'><a href="/tables">Tables</a></h4>
+                  <p>You can put borders around your table cells, or you can zebra-stripe them. Or both.</p>
+                </div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+                <div class='grid_4 clear'>
+                  <h4 class='rule'><a href="/grid">Grid</a></h4>
+                  <p>8 columns. Fluid. It's based off of <a href="http://960.gs">960.gs</a>. We adapted it to fit the content area in The City. The City's content area is not fluid, but this will be future friendly.</p>
+                </div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+                <div class='grid_4 omega'>
+                  <h4 class='rule'><a href="/buttons">Buttons</a></h4>
+                  <p>We have 4 buttons colors with the basic style. We'll explain how to use the various classnames and make your buttons look like they belong in The City.</p>
+                </div>
 
-<h3>Designer Templates</h3>
+                <div class='grid_4'>
+                  <h4 class='rule'><a href="/center_stage">Center Stage</a></h4>
+                  <p>Every page in The City has Center Stage. It's where the page header lives. You can add tabs for page nav as well.</p>
+                </div>
+              </section>
+            </div>
+            <!-- @end page-content -->
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+          </div>
+        </section>
       </section>
     </div>
-
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Thecity-appkit maintained by <a href="https://github.com/thecity">thecity</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer class="footer">
+        <p class="copyright">Thecity-appkit maintained by <a href="https://github.com/thecity">thecity</a> | Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
-    </div>
-
-    
-
   </body>
 </html>
