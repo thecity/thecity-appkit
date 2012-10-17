@@ -353,7 +353,7 @@ form {
 .formee fieldset, form fieldset {
   @include round(3px);
   @include bg($gray_1, 1);
-  background-image: url(image_path('form-bg.png'));
+  background-image: url("http://developer.onthecity.org/thecity-appkit/cdn/1.0/form-bg.png");
   background-repeat: repeat;
   padding: 15px;
 }
@@ -545,7 +545,7 @@ strong {font-weight: bold;}
 /* BUTTONS */
 .btn {
   @include round(3px);
-  background: url(image_path("btn_angled_bg.png")) repeat 0 0;
+  background: url("http://developer.onthecity.org/thecity-appkit/cdn/1.0/btn_angled_bg.png") repeat 0 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $white;
   font-size: 12px;
