@@ -43,7 +43,7 @@ body {
   padding: 20px;
   border-bottom: 1px solid #cccccc; }
   .masthead h1 {
-    background-image: url(/images/sprite.png);
+    background-image: url(../images/sprite.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     text-indent: -5000em;
