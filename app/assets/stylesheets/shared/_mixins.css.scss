@@ -7,6 +7,25 @@
   zoom: 1;
 }
 
+@mixin btn($btn_color, $text_color) {
+  @include round(3px);
+  background: url("http://developer.onthecity.org/thecity-appkit/cdn/1.0/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $text_color;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  @include bg($btn_color, 1);
+  border: 1px solid darken($btn_color, 3%);
+  cursor: pointer;
+  &:hover {
+    color: $text_color;
+    text-decoration: none;
+    background-color: darken($btn_color, 5%);
+  }
+}
 @mixin clearfix {
   *display: inline-block;
   &:after {

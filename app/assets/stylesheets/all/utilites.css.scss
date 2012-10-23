@@ -1,5 +1,6 @@
 @import "shared/colors";
 @import "shared/mixins";
+@import "shared/bootstrap.min";
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -348,6 +349,9 @@ form {
     margin-bottom: 7px;
   }
   a.btn {margin-top: 2px;}
+  .rule {
+    border-color: $gray_2;
+  }
 }
 .formee, form {margin:0;padding:0;}
 .formee fieldset, form fieldset {
@@ -370,11 +374,14 @@ form {
   float:left;
   margin-left:0;
   margin-right:0;
-  padding: 0 0.5% 1%;
+  padding: 0 1% 0.5% 0;
 /*ie7*/
 *margin-left:.8%;
 *margin-right:.8%;
 *padding: 0.8% 0.25% 1%;
+}
+.form_footer {
+  padding: 0;
 }
 
 /* 12-column Grid (thanks for Fluid 960 Grid System) */
@@ -390,7 +397,14 @@ form {
 .grid-10-12 {width: 82.333%;}
 .grid-11-12 {width: 90.666%;}
 .grid-12-12, .form_footer {width: 99%;}
-.form_footer {margin-bottom: 0; padding-bottom: 0; clear: both;}
+.form_footer {
+  margin-bottom: 0; 
+  padding-bottom: 0; 
+  clear: both; 
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid $gray_2;
+}
 
 
 /* first item */ .formee .alpha {margin-left:0;}
@@ -526,7 +540,10 @@ h6 {
   font-weight: bold;
   color: $gray_3;
   text-transform: uppercase;
-  margin: 0 0 10px 0;
+  margin: 0;
+  &.rule {
+    margin-bottom: 0;
+  }
 }
 
 ul {
@@ -544,52 +561,28 @@ strong {font-weight: bold;}
 
 /* BUTTONS */
 .btn {
-  @include round(3px);
-  background: url("http://developer.onthecity.org/thecity-appkit/cdn/1.0/btn_angled_bg.png") repeat 0 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: $white;
-  font-size: 12px;
-  line-height: 12px;
-  display: inline-block;
-  padding: 6px 12px 5px 12px;
-  text-decoration: none;
-  @include bg($green, 1);
-  cursor: pointer;
-  border: 0;
-  &:hover {
-    color: $white;
-    text-decoration: none;
-  }
+  @include btn($green, $white)
+}
+a.btn {
+  padding-top: 8px !important;
+  padding-bottom: 7px !important;
 }
 .btn_mini {
   font-size: 11px;
   padding: 4px 10px;
 }
 .btn_go {
-  @include bg($green, 1);
-  &:hover {
-    background-color: darken($green, 5%);
-  }
+  @include btn($green, $white);
 }
 .btn_stop {
-  @include bg($red, 1);
-  &:hover {
-    background-color: darken($red, 5%);
-  }
+  @include btn($red, $white);
 }
 .btn_neutral {
-  @include bg($blue_med, 1);
-  &:hover {
-    background-color: darken($blue_med, 5%);
-  }
+  @include btn($blue_med, $white);
 }
 .btn_cancel {
-  @include bg($white, 1);
-  color: $gray_5;
-  &:hover {
-    color: $gray_5;
-    background-color: darken($white, 5%);
-  }
+  @include btn($gray_3, $gray_6);
+  color: $white !important;
 }
 
 /* BUTTONS */
@@ -597,7 +590,7 @@ strong {font-weight: bold;}
 
 /* UTILITY CLASSES */
 .clear{clear:both;}
-.rule {padding-bottom:3px; border-bottom:1px solid #dfdfdf;margin-bottom:15px;}
+.rule {padding-bottom:3px; border-bottom:1px solid $gray_3; margin-bottom:15px;}
 .nolead {margin:0;}
 .nostyle {list-style-type: none; margin-left: 0;}
 .guttertop {margin-top: 20px;}
@@ -616,10 +609,18 @@ table {
     vertical-align: bottom;
     padding: 3px 8px;
   }
+  td {
+    background-color: $white;
+  }
   th {
     @include bg($blue, .2);
     padding: 5px 8px;
     border-bottom: 1px solid $gray_2;
+  }
+  tfoot {
+    td {
+      background: transparent;
+    }
   }
   &.with_borders {
     border: 1px solid $gray_2;
@@ -630,10 +631,10 @@ table {
   }
   &.with_stripes {
     tbody {
-      tr:nth-child(odd) td, 
-      tr:nth-child(odd) th, 
-      tr.odd td, 
-      tr.odd th {
+      tr:nth-child(even) td, 
+      tr:nth-child(even) th, 
+      tr.even td, 
+      tr.even th {
         @include bg($gray_1, .5);
       }
     }
