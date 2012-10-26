@@ -1,0 +1,205 @@
+.step-tab {
+  margin-bottom: 10px;
+  a {
+    display: block;
+    @include round_top_left(5px);
+    @include round_bottom_left(5px);
+    position: relative;
+    padding: 12px 0 12px 46px;
+    height: 34px;
+  }
+  .digit {
+    background: url(image_path('giving-sprite.png')) no-repeat 0 0;
+    width: 27px;
+    height: 41px;
+    text-indent: -5000em;
+    overflow: hidden;
+    position: absolute;
+    left: 9px;
+    top: 12px;
+  }
+ .label {
+    line-height: 1.2;
+    font-size: 12px;
+    margin-top: 3px;
+    display: inline-block;
+    color: $gray_4;
+  }
+
+  &.active {
+    a {
+      background: url(image_path('white-to-trans-gradient.png')) repeat-y -640px 0;
+    }
+    .label {
+      color: $blue;
+    }
+  }
+
+  &.step-1 {
+    .digit {
+      left: 11px;
+    }
+    &.active {
+      .digit {
+        background-position: -35px 0;
+      }
+    }
+  }
+  &.step-2 {
+    .digit {
+      background-position: 0 -60px;
+    }
+    &.active {
+      .digit {
+        background-position: -35px -60px;   
+      }
+    }
+  }
+  &.step-3 {
+    .digit {
+      background-position: 0 -117px;
+      top: 9px;
+    }
+    &.active {
+      .digit {
+        background-position: -35px -117px;
+      }
+    }
+  }
+}
+
+.special-header {
+  padding: 8px;
+  font-size: 14px; 
+  line-height: 18px;
+  border: 1px solid $white;
+  @include bg($blue, .6);
+  color: $white;
+  @include serif_stack;
+  font-style: italic;
+  margin-bottom: 15px;
+  * {
+    margin: 0;
+  }
+}
+
+  .split-trigger {
+    padding: 4px 5px;
+    @include bg($gray_3, .4);
+    border: 1px dashed $white;
+    display: block;
+  }
+
+  .checkbox-in-a-box {
+    padding: 8px 8px 8px 30px;
+    border: 1px solid $white;
+    @include bg($gray_3, .6);
+    @include round(3px);
+    font-weight: bold;
+    position: relative;
+    color: $gray_8;
+    input {
+      position: absolute;
+      left: 8px;
+      top: 10px;
+    }
+  }
+
+  .big-money-display {
+    line-height: 1.2;
+    .dollar-sign {
+      font-size: 24px;
+      position: relative;
+      top: -5px;
+    }
+    .amount {
+      font-size: 36px;
+      font-weight: bold;
+      color: $green;
+      position: relative;
+    }
+  }
+  .payment-display {
+    margin-top: 10px;
+    width: 175px;
+    height: 100px;
+    @include gradient_y(rgb(118, 168, 204), rgb(35, 105, 142));
+    border: 2px solid rgba(37, 89, 118, .7);
+    border-bottom-color: rgba(37, 89, 118, 1);
+    @include round(3px);
+    box-shadow: $gray_4 3px 2px 5px;
+    .account-type {
+      color: rgba(255, 255, 255, .5);
+      letter-spacing: -0.025em;
+      display: block;
+      font-size: 22px;
+      text-align: center;
+      font-weight: bold;
+      padding: 0 10px;
+      position: relative;
+      top: 24px;
+    }
+    .account-number {
+      padding: 0 10px;
+      display: block;
+      text-align: right;
+      color: $white;
+      font-size: 26px;
+      line-height: 26px;
+      top: 20px;
+      position: relative;
+      text-shadow: $gray_7 2px 2px 5px;
+    }
+  }
+
+  .icon {
+    &.refresh-icon {
+      @include sprite('giving-sprite.png', -93px, -41px);
+      width: 16px;
+      height: 14px;
+      float: left;
+      margin: 2px 3px 0 0;
+    }
+    &.edit-transaction-icon {
+      @include sprite('giving-sprite.png', -69px, -40px);
+      width: 16px;
+      height: 16px;
+    }
+    &.big-error-icon {
+      @include sprite('giving-sprite.png', -70px, 0);
+      width: 32px;
+      height: 32px;
+    }
+    &.big-calendar-icon {
+      @include sprite('giving-sprite.png', -152px, 0);
+      width: 28px;
+      height: 32px;
+    }
+  }
+
+  .donations {
+    position: relative;
+    padding-left: 50px;
+    margin-top: 7px;
+    .big-error-icon,
+    .big-calendar-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  table.future-donations {
+    tbody {
+      tr.grayed-out:nth-child(even) td,  
+      tr.even.grayed-out td {
+        @include bg($gray_1, .2);
+      }
+      tr.grayed-out {
+        color: $gray_2;
+        .icon {
+          opacity: .5;
+        }
+      }
+    }
+  }

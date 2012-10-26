@@ -1,0 +1,58 @@
+/* NEWS FEED ITEM */
+.thumb {
+  img {
+    padding: 2px;
+    border: 1px solid $gray_2;
+  }
+}
+.feed_item {
+  @include gradient_x($white, $gray_1);
+  position: relative;
+  padding: 2px 15px 10px 64px;
+  border-right: 5px solid $gray_5;
+  margin-bottom: 15px;
+  clear: both;
+  .thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .updated_badge {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+    margin-top: 3px;
+    margin-right: 0; 
+    margin-bottom: 0;
+    float: right; 
+    width: 31.333%;
+  }
+  .meta {
+    font-size: 11px;
+    clear: both;
+    margin-bottom: 5px;
+  }
+  .title {
+    float: left;
+    width: 64.667%;
+    font-weight: bold; 
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .response {
+    padding: 10px 0 0 44px;
+    position: relative;
+    .thumb {
+      position: absolute;
+      left: 0; 
+      top: 10px;
+      img {
+        width: 32px; 
+        height: 32px;
+      }
+    }
+    .meta {
+      margin-bottom: 0;
+    }
+  }
+}

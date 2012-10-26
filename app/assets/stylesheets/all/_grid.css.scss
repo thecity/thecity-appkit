@@ -1,0 +1,60 @@
+.pull_1, .pull_2, .pull_3, .pull_4, .pull_5, .pull_6,
+.pull_7, .pull_8 {
+  @include grid_pull_base();
+}
+.push_1, .push_2, .push_3, .push_4, .push_5, .push_6,
+.push_7, .push_8 {
+  @include grid_push_base();
+}
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6,
+.grid_7, .grid_8 {
+  @include grid_column_base($fluid: true);
+}
+
+.grid_1 { @include grid_column_span(1, $fluid: true); }
+.grid_2 { @include grid_column_span(2, $fluid: true); }
+.grid_3 { @include grid_column_span(3, $fluid: true); }
+.grid_4 { @include grid_column_span(4, $fluid: true); }
+.grid_5 { @include grid_column_span(5, $fluid: true); }
+.grid_6 { @include grid_column_span(6, $fluid: true); }
+.grid_7 { @include grid_column_span(7, $fluid: true); }
+.grid_8 { @include grid_column_span(8, $fluid: true); margin-right: 0; }
+
+.suffix_1 { @include grid_append(1, $fluid: true); }
+.suffix_2 { @include grid_append(2, $fluid: true); }
+.suffix_3 { @include grid_append(3, $fluid: true); }
+.suffix_4 { @include grid_append(4, $fluid: true); }
+.suffix_5 { @include grid_append(5, $fluid: true); }
+.suffix_6 { @include grid_append(6, $fluid: true); }
+.suffix_7 { @include grid_append(7, $fluid: true); }
+
+.prefix_1 { @include grid_prepend(1, $fluid: true); }
+.prefix_2 { @include grid_prepend(2, $fluid: true); }
+.prefix_3 { @include grid_prepend(3, $fluid: true); }
+.prefix_4 { @include grid_prepend(4, $fluid: true); }
+.prefix_5 { @include grid_prepend(5, $fluid: true); }
+.prefix_6 { @include grid_prepend(6, $fluid: true); }
+.prefix_7 { @include grid_prepend(7, $fluid: true); }
+
+.pull_1 { @include  grid_pull_span(1, $fluid: true); }
+.pull_2 { @include  grid_pull_span(2, $fluid: true); }
+.pull_3 { @include  grid_pull_span(3, $fluid: true); }
+.pull_4 { @include  grid_pull_span(4, $fluid: true); }
+.pull_5 { @include  grid_pull_span(5, $fluid: true); }
+.pull_6 { @include  grid_pull_span(6, $fluid: true); }
+.pull_7 { @include  grid_pull_span(7, $fluid: true); }
+.pull_8 { @include  grid_pull_span(8, $fluid: true, $last: true); }
+
+.push_1 { @include  grid_push_span(1, $fluid: true); }
+.push_2 { @include  grid_push_span(2, $fluid: true); }
+.push_3 { @include  grid_push_span(3, $fluid: true); }
+.push_4 { @include  grid_push_span(4, $fluid: true); }
+.push_5 { @include  grid_push_span(5, $fluid: true); }
+.push_6 { @include  grid_push_span(6, $fluid: true); }
+.push_7 { @include  grid_push_span(7, $fluid: true); }
+.push_8 { @include  grid_push_span(8, $fluid: true, $last: true); }
+
+.omega, .last {
+  margin-right: 0;
+}

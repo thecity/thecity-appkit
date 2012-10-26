@@ -72,6 +72,30 @@
   border-bottom-right-radius: 0;
 }
 
+@mixin round_top_left($round: 3px) {
+  -webkit-border-top-left-radius: $round;
+          border-top-left-radius: $round;
+      -moz-border-radius-topleft: $round;
+}
+
+@mixin round_top_right($round: 3px) {
+  -webkit-border-top-right-radius: $round;
+          border-top-right-radius: $round;
+      -moz-border-radius-topright: $round;
+}
+
+@mixin round_bottom_left($round: 3px) {
+  -webkit-border-bottom-left-radius: $round;
+          border-bottom-left-radius: $round;
+      -moz-border-radius-bottomleft: $round;
+}
+
+@mixin round_bottom_right($round: 3px) {
+  -webkit-border-bottom-right-radius: $round;
+          border-bottom-right-radius: $round;
+      -moz-border-radius-bottomright: $round;
+}
+
 @mixin gradient_y($color_top, $color_bottom) {
   background-color: $color_bottom;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($color_top)}', endColorstr='#{ie-hex-str($color_bottom)}');";
@@ -90,8 +114,8 @@
   background: -moz-linear-gradient(left,  $color_left,  $color_right);
 }
 
-@mixin sprite($x, $y, $repeat: no-repeat) {
-  background-image: url(image_path("sprite.png"));
+@mixin sprite($file, $x, $y, $repeat: no-repeat) {
+  background-image: url(image_path($file));
   background-repeat: $repeat;
   background-position: $x $y;
   text-indent: -5000em;
@@ -99,8 +123,8 @@
   display: inline-block;
 }
 
-@mixin icon_with_text_sprite($width, $x, $y, $repeat: no-repeat) {
-  background-image: url(image_path("sprite.png"));
+@mixin icon_with_text_sprite($file, $width, $x, $y, $repeat: no-repeat) {
+  background-image: url(image_path($file));
   background-repeat: $repeat;
   background-position: $x $y;
   padding-left: ($width + 4);
@@ -119,4 +143,80 @@
   position: absolute;
   right: -23px;
   top: 0;
+}
+
+/* GRID */
+$static_grid_col: 74px;
+$static_grid_gutter: 22px;
+$fluid_grid_col: 9.919571%;
+$fluid_grid_gutter: 2.9490617%;
+
+
+@mixin grid_column_base($fluid: false, $last: false) {
+  float: left;
+  @if $last {
+    margin-right: 0;
+  }
+  @else {
+    @if $fluid {
+      margin-right: $fluid_grid_gutter;
+    }
+    @else {
+      margin-right: $static_grid_gutter;
+    }
+  }
+}
+@mixin grid_column_span ($n, $fluid: false) {
+  @if $fluid {
+    width: ($fluid_grid_col * $n) + ($fluid_grid_gutter * ($n - 1));
+  }
+  @else {
+    width: ($static_grid_col * $n) + ($static_grid_gutter * ($n - 1)); 
+  }
+}
+
+@mixin grid_append($n, $fluid: false) {
+  @if $fluid {
+    padding-right: ($n * $fluid_grid_col) + ($n * $fluid_grid_gutter);
+  }
+  @else {
+    padding-right: ($n * $static_grid_col) + ($n * $static_grid_gutter);
+  }
+}
+
+@mixin grid_prepend($n, $fluid: false) {
+  @if $fluid {
+    padding-left: ($n * $fluid_grid_col) + ($n * $fluid_grid_gutter);
+  }
+  @else {
+    padding-left: ($n * $static_grid_col) + ($n * $static_grid_gutter);
+  }
+}
+
+@mixin grid_pull_base() {
+  float:left;
+  position:relative;
+}
+
+@mixin grid_pull_span($n, $last: false, $fluid: false) {
+  @if $fluid {
+    $pull_value: ($n * $fluid_grid_col) + ($n * $fluid_grid_gutter) - $fluid_grid_gutter;
+    left: -$pull_value;
+  }
+  @else {
+    $pull_value: ($n * $static_grid_col) + ($n * $static_grid_gutter) - $static_grid_gutter;
+    left: -$pull_value;
+  }
+}
+
+@mixin grid_push_base() {
+  position:relative;
+}
+
+@mixin grid_push_span($n, $last: false, $fluid: false) {
+  left: ($n * $static_grid_col) + ($n * $static_grid_gutter);
+}
+
+@mixin serif_stack {
+  font-family: Cambria, Georgia, Times, serif;
 }

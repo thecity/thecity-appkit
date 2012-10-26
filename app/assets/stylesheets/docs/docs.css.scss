@@ -1,5 +1,5 @@
-@import "../shared/colors";
-@import "../shared/mixins";
+@import "../all/colors";
+@import "../all/mixins";
 
 body {
   @include gradient_y(#a52001, #cd5a13);
@@ -29,7 +29,7 @@ body {
   padding: 20px;
   border-bottom: 1px solid $gray_2;
   h1 {
-    @include sprite(0, 0);
+    @include sprite("sprite.png", 0, 0);
     height: 94px;
     width: 162px;
     margin: 0;
@@ -74,7 +74,7 @@ body {
   border-top: 0;
   border-bottom: 0;
   .content-inner {
-    padding: 20px;
+    padding: 19px;
   }
 }
 pre {

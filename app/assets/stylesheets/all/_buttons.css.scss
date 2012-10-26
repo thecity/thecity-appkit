@@ -1,0 +1,26 @@
+/* BUTTONS */
+.btn {
+  @include btn($green, $white)
+}
+a.btn {
+  padding-top: 8px !important;
+  padding-bottom: 7px !important;
+}
+.btn_mini {
+  font-size: 11px;
+  padding: 4px 10px;
+}
+.btn_go {
+  @include btn($green, $white);
+}
+.btn_stop {
+  @include btn($red, $white);
+}
+.btn_neutral {
+  @include btn($blue_med, $white);
+}
+.btn_cancel {
+  @include btn($gray_3, $gray_6);
+  border: 1px solid $gray_4 !important;
+  color: $white !important;
+}
