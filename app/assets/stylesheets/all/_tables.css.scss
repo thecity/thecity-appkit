@@ -50,5 +50,40 @@ table {
     td {
       color: $red;
     }
+    tr.edit-in-here {
+      td {
+        color: $gray_6;
+      }
+      .errorExplanation {
+        @include bg($gray_2, 1);
+        @include round(3px);
+        padding: 8px;
+        border: 1px solid $white;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  tr.grayed-out:nth-child(even) td,  
+  tr.even.grayed-out td {
+    @include bg($gray_1, .2);
+  }
+  tr.grayed-out {
+    color: $gray_2;
+    .icon {
+      opacity: .5;
+    }
+  }
+
+  tr.edit-in-here {
+    td {
+      padding: 0;
+      background: transparent;
+    }
+    form {
+      @include round(0);
+      border-top: 1px solid $gray_2;
+      border-bottom: 1px solid $gray_2;
+    }
   }
 }

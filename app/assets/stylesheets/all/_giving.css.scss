@@ -188,18 +188,3 @@
       left: 0;
     }
   }
-
-  table.future-donations {
-    tbody {
-      tr.grayed-out:nth-child(even) td,  
-      tr.even.grayed-out td {
-        @include bg($gray_1, .2);
-      }
-      tr.grayed-out {
-        color: $gray_2;
-        .icon {
-          opacity: .5;
-        }
-      }
-    }
-  }

@@ -168,6 +168,15 @@ form .formee-txt, form input[type="text"], form input[type="password"], .formee 
   vertical-align: top;
 }
 
+.errorExplanation {
+  p {
+    margin-bottom: 5px;
+  }
+}
+label.error {
+  color: $red;
+}
+
 /* lista de chk e rdo */
 .formee-list {
   list-style: none;
