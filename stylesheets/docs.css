@@ -111,6 +111,10 @@ pre {
   border: 1px solid #d48230 !important;
   color: #444444;
   margin-bottom: 30px; }
+pre.inline {
+  padding: 3px !important;
+  margin-bottom: 0;
+}
 
 table pre {
   padding: 3px; }
