@@ -3,12 +3,12 @@
   @include btn($green, $white)
 }
 a.btn {
-  padding-top: 8px !important;
-  padding-bottom: 7px !important;
+  padding-top: 8px;
+  padding-bottom: 7px;
 }
 .btn_mini {
-  font-size: 11px;
-  padding: 4px 10px;
+  font-size: 11px !important;
+  padding: 4px 10px !important;
 }
 .btn_go {
   @include btn($green, $white);
@@ -23,4 +23,9 @@ a.btn {
   @include btn($gray_3, $gray_6);
   border: 1px solid $gray_4 !important;
   color: $white !important;
+}
+.btn_animated {
+  background: url(image_path("btn-animated.gif")) repeat 0 0 !important;
+  border: 1px solid $gray_4 !important;
+  color: $gray_1 !important;
 }

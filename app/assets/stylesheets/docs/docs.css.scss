@@ -87,6 +87,10 @@ pre {
   border: 1px solid $orange !important;
   color: $gray_8;
   margin-bottom: 30px;
+  &.inline {
+    padding: 3px !important;
+    margin-bottom: 0;
+  }
 }
 table { 
   pre {

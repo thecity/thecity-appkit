@@ -22,30 +22,43 @@
 			%th 
 	%tbody
 		%tr
-			%td .btn_go
+			%td
+				%pre.inline .btn.btn_go
 			%td Use for positive actions (i.e. Submit, Go, Search, etc.)
 			%td 
 				%input{:type => 'submit', :value => 'Submit', :class => 'btn btn_go'}
 		%tr
-			%td .btn_stop
+			%td
+				%pre.inline .btn.btn_stop
 			%td Use for negative actions (i.e. Delete, destroy, etc.)
 			%td 
 				%input{:type => 'submit', :value => 'Delete', :class => 'btn btn_stop'}
 		%tr
-			%td .btn_neutral
+			%td
+				%pre.inline .btn.btn_neutral
 			%td Use for neutral actions (i.e. Save Draft, Agree to terms, etc.)
 			%td 
 				%input{:type => 'submit', :value => 'Save draft', :class => 'btn btn_neutral'}
 		%tr
-			%td .btn_cancel
+			%td
+				%pre.inline .btn.btn_cancel
 			%td Use to cancel actions on a form
 			%td 
 				= link_to '#', :class => 'btn btn_cancel' do
 					Cancel
+
 		%tr
-			%td .btn_mini
+			%td
+				%pre.inline .btn.btn_animated
+			%td Use for animating a button
+			%td 
+				= link_to '#', :class => 'btn btn_animated' do
+					Processing
+
+		%tr
+			%td
+				%pre.inline .btn.btn_go.btn_mini
 			%td Use for quick actions on content
 			%td 
 				= link_to '#', :class => 'btn btn_go btn_mini' do
 					Add a new item
-
