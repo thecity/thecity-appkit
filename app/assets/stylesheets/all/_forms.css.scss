@@ -36,12 +36,18 @@ form {
   }
 }
 .formee, form {margin:0;padding:0;}
-.formee fieldset, form fieldset {
+.formee fieldset, form fieldset, .form-wrapper {
   @include round(3px);
   @include bg($gray_1, 1);
   background-image: url(image_path("form-bg.png"));
   background-repeat: repeat;
   padding: 15px;
+}
+.form-wrapper {
+  .formee fieldset, form fieldset {
+    background: none !important;
+    padding: 0;
+  }
 }
 .formee legend, form legend {
   margin-left:1%;

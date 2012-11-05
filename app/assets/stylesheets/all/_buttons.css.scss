@@ -24,6 +24,12 @@ a.btn {
   border: 1px solid $gray_4 !important;
   color: $white !important;
 }
+.btn_disabled {
+  @include btn($gray_3, $gray_5);
+  border: 1px solid $gray_3 !important;
+  color: $gray_2 !important;
+  cursor: text;
+}
 .btn_animated {
   background: url(image_path("btn-animated.gif")) repeat 0 0 !important;
   border: 1px solid $gray_4 !important;

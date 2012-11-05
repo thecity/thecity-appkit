@@ -1,7 +1,14 @@
 /* TABLES */
+form, .form-wrapper {
+  table {
+    td {
+      background: transparent;
+    }
+  }
+}
 table {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-size: 12px;
   th, td {
     text-align: left;
@@ -10,6 +17,7 @@ table {
   }
   td {
     background-color: $white;
+    border-bottom: 1px solid $gray_2;
   }
   th {
     @include bg($blue, .2);
@@ -42,6 +50,9 @@ table {
       tr.even th {
         @include bg($gray_1, .5);
       }
+    }
+    td {
+      border: 0;
     }
   }
   tr td:last-child {border-right: 0;}
