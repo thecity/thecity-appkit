@@ -12,3 +12,4 @@ application-ie.js: application-ie-4ed99208b6c0199f726c11cd361eb5ec.js
 application-all.css: application-all-a87efd142efdb46bf4b5d223f7e7a468.css
 application-ie.css: application-ie-95bd4fe1de99c1cd91ec8e6f348a44bd.css
 docs.css: docs-267f9c416eb91916ea85cab4cd237e79.css
+legacy.css: legacy-1773a72e1cd47e09fd93cf0e56c2beba.css
