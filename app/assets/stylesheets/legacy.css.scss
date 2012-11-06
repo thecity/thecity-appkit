@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+*/
+
+@import "all/mixins";
+@import "all/colors";
+@import "legacy/giving_admin";
+
+h1 {
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+}
+h2, h3 {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.025em;
+}
+h2 {
+  padding: 10px 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid $gray_1;
+  small {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}
+h3.graph {
+  padding: 0;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  padding: 0 0 5px;
+  
+  small, em, .small-text {
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 12px;
+  }
+}
+h5 {
+  font-size: 14px;
+  line-height: 18px;
+  .small-text {
+    font-size: 11px;
+  }
+}
+h6 {
+  font-size: 12px;
+  font-weight: bold;
+}
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
