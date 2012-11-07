@@ -68,5 +68,5 @@ CityUtility::Application.configure do
   # give the full url of the app so that when the assets compile, they will properly link to the correct relative path
   config.action_controller.asset_host = "http://developer.onthecity.org/thecity-appkit"
   
-  config.assets.precompile += %w( application-all.css application-ie.css application-all.js application-ie.js docs.css admin.css)
+  config.assets.precompile += %w( application-all.css application-ie.css application-all.js application-ie.js docs.css admin-all.css)
 end
