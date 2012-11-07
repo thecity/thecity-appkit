@@ -13,7 +13,7 @@
 
 @import "all/mixins";
 @import "all/colors";
-@import "legacy/giving_admin";
+@import "admin/giving";
 
 h1 {
   font-size: 32px;
@@ -27,9 +27,8 @@ h2, h3 {
   letter-spacing: -0.025em;
 }
 h2 {
-  padding: 10px 0;
+  padding: 20px 0 10px 0;
   margin-bottom: 0;
-  border-bottom: 1px solid $gray_1;
   small {
     font-size: 12px;
     letter-spacing: 0;
@@ -64,4 +63,10 @@ h6 {
 }
 h1, h2, h3, h4, h5 {
   font-weight: normal;
+}
+
+form {
+  div[style]:first-child {
+    position: absolute;
+  }
 }
