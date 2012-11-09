@@ -26,6 +26,7 @@
     background-color: darken($btn_color, 5%);
   }
 }
+
 @mixin clearfix {
   *display: inline-block;
   &:after {
@@ -131,17 +132,16 @@
   display: inline-block;
 }
 
-@mixin chevron($color) {
-    font-size: 0;
+@mixin chevron($size, $color) {
+  font-size: 0;
   height: 0;
   line-height: 0;
   border-style: solid;
   border-color: transparent;
-  border-width: 23px 0 23px 23px;
-  border-left-color: red;
-  border-left-color: rgba(255, 0, 0, 0.5);
+  border-width: $size 0 $size $size;
+  border-left-color: $color;
   position: absolute;
-  right: -23px;
+  right: -$size;
   top: 0;
 }
 

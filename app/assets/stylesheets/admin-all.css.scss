@@ -21,7 +21,7 @@ h1 {
   line-height: 32px;
   letter-spacing: -0.05em;
 }
-h2, h3 {
+h2 {
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.025em;
@@ -33,6 +33,10 @@ h2 {
     font-size: 12px;
     letter-spacing: 0;
   }
+}
+h3 {
+  font-size: 20px;
+  line-height: 24px;
 }
 h3.graph {
   padding: 0;
@@ -68,5 +72,50 @@ h1, h2, h3, h4, h5 {
 form {
   div[style]:first-child {
     position: absolute;
+  }
+}
+
+.step-bar {
+  li {
+    position: relative;
+    width: 32%;
+    float: left;
+    background: $white;
+    @include gradient_x($transparent, $white);
+    height: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px $white;
+    font-size: 16px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+    color: $gray_2;
+    div {
+      padding: 7px 10px 8px 30px;
+    }
+    .chevron {
+      @include chevron(18px, $white);
+    }
+    &.step-2 {
+      z-index: 998;
+    }
+    &.step-3 {
+      z-index: 997;
+    }
+    &:first-child {
+      div {
+        padding-left: 20px;
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    &.current-step {
+      background: $orange;
+      color: $white;
+      text-shadow: 1px 1px darken($orange, 7);
+      .chevron {
+        @include chevron(18px, $orange);
+      }
+    }
   }
 }
