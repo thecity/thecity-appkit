@@ -80,20 +80,18 @@ form {
     position: relative;
     width: 32%;
     float: left;
-    background: $white;
-    @include gradient_x($transparent, $white);
+    background: #eee;
     height: 36px;
     font-weight: bold;
     text-shadow: 1px 1px $white;
     font-size: 16px;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.05);
     z-index: 999;
     color: $gray_2;
     div {
       padding: 7px 10px 8px 30px;
     }
     .chevron {
-      @include chevron(18px, $white);
+      @include chevron(18px, #eee);
     }
     &.step-2 {
       z-index: 998;
@@ -110,11 +108,11 @@ form {
       margin-right: 0;
     }
     &.current-step {
-      background: $orange;
+      background: $blue_med;
       color: $white;
-      text-shadow: 1px 1px darken($orange, 7);
+      text-shadow: 1px 1px darken($blue_med, 7);
       .chevron {
-        @include chevron(18px, $orange);
+        @include chevron(18px, $blue_med);
       }
     }
   }
