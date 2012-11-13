@@ -36,14 +36,14 @@ form {
   }
 }
 .formee, form {margin:0;padding:0;}
-.formee fieldset, form fieldset, .form-wrapper {
+.formee fieldset, form fieldset, .form-wrapper, #AcsPayments_vancoForm {
   @include round(3px);
   @include bg($gray_1, 1);
   background-image: url(image_path("form-bg.png"));
   background-repeat: repeat;
   padding: 15px;
 }
-.form-wrapper {
+.form-wrapper, #AcsPayments_vancoForm {
   .formee fieldset, form fieldset {
     background: none !important;
     padding: 0;
@@ -125,8 +125,20 @@ form .right {
   height: auto;
   margin: 0 0 0 1px;
 }
-.formee .formee-txt, .formee input[type="text"], .formee input[type="password"], .formee input[type="file"], .formee textarea, .formee select,
-form .formee-txt, form input[type="text"], form input[type="password"], .formee input[type="number"], form input[type="number"], form input[type="file"], form textarea, form select{
+.formee .formee-txt, 
+.formee input[type="text"], 
+.formee input[type="password"], 
+.formee input[type="file"], 
+.formee input[type="number"],
+.formee textarea, 
+.formee select,
+form .formee-txt, 
+form input[type="text"], 
+form input[type="password"],  
+form input[type="number"], 
+form input[type="file"], 
+form textarea, 
+form select{
   vertical-align: middle;
   line-height: 1.1em;
   padding:5px;
@@ -215,4 +227,37 @@ label.error {
   display:inline;
 /*ie7*/
 *width: 45% !important;
+}
+
+
+/* ACS VANCO STYLES */
+#AcsPayments_vancoForm {
+  margin-bottom: 10px;
+}
+#AcsPayments_ccSection,
+#AcsPayments_achSection {
+  clear: none !important;
+  position: relative;
+}
+.AcsPayments-hover {
+  margin-left: -20px !important;
+  position: relative;
+  z-index: 9999;
+}
+#AcsPayments_vanco_routingnumber {
+  width: 100% !important;
+}
+#AcsPayments_accountType {
+  width: 49%;
+  padding-bottom: 0.5%;
+}
+
+.AcsPayments-inline.error {
+  color: $red; 
+}
+input.error, select.error {
+  border: 1px solid $red !important;
+}
+#AcsPayments_cancelPaymentMethodSection {
+  color: transparent;
 }
