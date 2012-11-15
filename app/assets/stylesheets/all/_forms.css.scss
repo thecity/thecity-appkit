@@ -36,7 +36,7 @@ form {
   }
 }
 .formee, form {margin:0;padding:0;}
-.formee fieldset, form fieldset, .form-wrapper, #AcsPayments_vancoForm {
+.formee fieldset, form fieldset, .form-wrapper {
   @include round(3px);
   @include bg($gray_1, 1);
   background-image: url(image_path("form-bg.png"));
@@ -260,4 +260,56 @@ input.error, select.error {
 }
 #AcsPayments_cancelPaymentMethodSection {
   color: transparent;
+}
+a#remove_split {
+  float: left;
+  clear: both;
+  margin: -10px 0 10px 3px;
+}
+#AcsPayments_frequencyDetailsSection {
+ display:inline-block;
+  position:relative;
+  float:left;
+  margin-left:0;
+  margin-right:0;
+  padding: 0 1% 0.5% 0;
+  margin-bottom: 10px; 
+  width: 32.333%;
+}
+#AcsPayments_frequencyEndingSection {
+  display:inline-block;
+  position:relative;
+  float:left;
+  margin-left:0;
+  margin-right:0;
+  padding: 0 1% 0.5% 0;
+  margin-bottom: 10px; 
+  width: 32.333%;
+  margin-top: 18px;
+  label {
+    float: left;
+    margin-right: 8px;
+    margin-top: 6px;
+  }
+}
+
+input#AcsPayments_vanco_savepaymentmethod {
+  float: left;
+  margin-right: 6px;
+  & + label {
+    float: left; 
+    margin-top: 2px;
+  }
+}
+#AcsPayments_nickname {
+  clear: none !important;
+}
+#AcsPayments_frequency {
+  span.inline-help {
+    margin: 6px 5px;
+    float: left;
+  }
+  [class*="grid"] {
+    margin-bottom: 0 !important;
+  }
 }
