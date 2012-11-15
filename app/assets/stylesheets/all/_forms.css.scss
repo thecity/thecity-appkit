@@ -313,3 +313,32 @@ input#AcsPayments_vanco_savepaymentmethod {
     margin-bottom: 0 !important;
   }
 }
+
+.fund_payment, .fund_payment_split {
+  clear: both;
+}
+.fund_select {
+  width: 40.4%;
+  float: left;
+  margin-right: 1.334%;
+  margin-bottom: 10px;
+}
+input.fund_amount {
+  width: 40.4% !important;
+  margin-right: 1.334%;
+  margin-bottom: 10px;
+  float: left; 
+}
+.remove_split {
+  width: 13%;
+  font-size: 11px !important;
+  padding: 4px 6px !important;
+  margin-top: 4px;
+  @include btn($red, $white);
+}
+#AcsPayments_creditCardLogos {
+  margin-top: 3px;
+  img {
+    max-width: 28px;
+  }
+}
