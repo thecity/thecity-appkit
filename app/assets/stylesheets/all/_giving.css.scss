@@ -188,3 +188,121 @@
       left: 0;
     }
   }
+
+/* ACS/VANCO GIVING APP STYLES */
+#AcsPayments_vancoForm {
+  margin-bottom: 10px;
+}
+#AcsPayments_ccSection,
+#AcsPayments_achSection {
+  clear: none !important;
+}
+.AcsPayments-hover {
+  margin-left: -20px !important;
+  position: relative;
+  z-index: 9999;
+}
+#AcsPayments_vanco_routingnumber {
+  width: 100% !important;
+}
+#AcsPayments_accountType {
+  width: 49%;
+  padding-bottom: 0.5%;
+  margin-bottom: 10px;
+}
+
+.AcsPayments-inline.error {
+  color: $red; 
+}
+input.error, select.error {
+  border: 1px solid $red !important;
+}
+#AcsPayments_cancelPaymentMethodSection {
+  color: transparent;
+}
+a#remove_split {
+  float: left;
+  clear: both;
+  margin: -10px 0 10px 3px;
+}
+#AcsPayments_frequencyDetailsSection {
+ display:inline-block;
+  position:relative;
+  float:left;
+  margin-left:0;
+  margin-right:0;
+  padding: 0 1% 0.5% 0;
+  margin-bottom: 10px; 
+  width: 32.333%;
+}
+#AcsPayments_frequencyEndingSection {
+  display:inline-block;
+  position:relative;
+  float:left;
+  margin-left:0;
+  margin-right:0;
+  padding: 0 1% 0.5% 0;
+  margin-bottom: 10px; 
+  width: 32.333%;
+  margin-top: 18px;
+  label {
+    float: left;
+    margin-right: 8px;
+    margin-top: 6px;
+  }
+}
+
+input#AcsPayments_vanco_savepaymentmethod {
+  float: left;
+  margin-right: 6px;
+  & + label {
+    float: left; 
+    margin-top: 2px;
+  }
+}
+#AcsPayments_nickname {
+  clear: none !important;
+}
+#AcsPayments_frequency {
+  span.inline-help {
+    margin: 6px 5px;
+    float: left;
+  }
+  [class*="grid"] {
+    margin-bottom: 0 !important;
+  }
+}
+
+.fund_payment, .fund_payment_split {
+  clear: both;
+}
+.fund_select {
+  width: 40.4%;
+  float: left;
+  margin-right: 1.334%;
+  margin-bottom: 10px;
+}
+input.fund_amount {
+  width: 40.4% !important;
+  margin-right: 1.334%;
+  margin-bottom: 10px;
+  float: left; 
+}
+.remove_split {
+  width: 13%;
+  font-size: 11px !important;
+  padding: 4px 6px !important;
+  margin-top: 4px;
+  @include btn($red, $white);
+}
+#AcsPayments_creditCardLogos {
+  margin-top: 3px;
+  img {
+    max-width: 28px;
+  }
+}
+
+.giving-thank-you-message {
+  padding-left: 32px;
+  background: url(image_path('big_check.png')) no-repeat 0 6px;
+}
