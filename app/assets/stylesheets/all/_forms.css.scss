@@ -171,6 +171,10 @@ form select{
 }
 .formee textarea, form textarea {height: 10em;}
 .formee select, form select {margin-top: 3px; padding:5px; height: 25px;}
+@-moz-document url-prefix() {
+  .formee select, 
+  form select {height: auto; margin-top: 0;padding: 4px;}
+}
 .formee-list .formee-lbl, .formee-list label {
   display: inline;
   height: auto;
