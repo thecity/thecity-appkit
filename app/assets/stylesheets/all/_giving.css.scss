@@ -225,32 +225,6 @@ a#remove_split {
   clear: both;
   margin: -10px 0 10px 3px;
 }
-#AcsPayments_frequencyDetailsSection {
- display:inline-block;
-  position:relative;
-  float:left;
-  margin-left:0;
-  margin-right:0;
-  padding: 0 1% 0.5% 0;
-  margin-bottom: 10px; 
-  width: 32.333%;
-}
-#AcsPayments_frequencyEndingSection {
-  display:inline-block;
-  position:relative;
-  float:left;
-  margin-left:0;
-  margin-right:0;
-  padding: 0 1% 0.5% 0;
-  margin-bottom: 10px; 
-  width: 32.333%;
-  margin-top: 18px;
-  label {
-    float: left;
-    margin-right: 8px;
-    margin-top: 6px;
-  }
-}
 
 input#AcsPayments_vanco_savepaymentmethod {
   float: left;
@@ -272,7 +246,47 @@ input#AcsPayments_vanco_savepaymentmethod {
     margin-bottom: 0 !important;
   }
 }
-
+#AcsPayments_frequencySection,
+#AcsPayments_frequencyDetailsSection { display: inline; }
+#AcsPayments_frequencyGroup,
+#AcsPayments_frequencyEndingSection,
+#AcsPayments_frequencyDetail_weeklyGroup,
+#AcsPayments_startDateGroup,
+#AcsPayments_untilGroup {
+  @include form_grid_field;
+} 
+#AcsPayments_frequencyGroup {
+  margin-bottom: 10px;
+}
+#AcsPayments_frequencyGroup,
+#AcsPayments_startDateGroup { width: 30%; }
+#AcsPayments_untilGroup { width: 36%; }
+#AcsPayments_frequencyEndingSection { 
+  width: 66%;
+}
+#AcsPayments_until { width: 100%; }
+#AcsPayments_frequencyDetail_twiceAMonthGroup,
+#AcsPayments_frequencyDetail_weeklyGroup,
+#AcsPayments_frequencyDetail_everyTwoWeeksGroup,
+#AcsPayments_frequencyDetail_monthlyGroup,
+#AcsPayments_frequencyDetail_twiceAMonthGroup {
+  label {
+    display: inline;
+  }
+}
+#AcsPayments_frequencyDetail_weeklyGroup,
+#AcsPayments_frequencyDetail_everyTwoWeeksGroup,
+#AcsPayments_frequencyDetail_monthlyGroup,
+#AcsPayments_frequencyDetail_twiceAMonthGroup {
+  margin-top: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#AcsPayments_frequencyValidationGroup {
+  clear: both;
+  width: 99%;
+  font-style: italic;
+}
 .fund_payment, .fund_payment_split {
   clear: both;
 }
