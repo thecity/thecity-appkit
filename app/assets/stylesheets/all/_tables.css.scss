@@ -98,3 +98,31 @@ table {
     }
   }
 }
+.ui-datepicker {
+  .ui-datepicker-next {
+    top: 5px;
+  }
+  .ui-datepicker-next-hover {
+    right: 2px;
+    top: 5px;
+  }
+  .ui-datepicker-prev {
+    left: 5px;
+    top: 5px;
+  }
+  .ui-datepicker-prev-hover {
+    left: 5px;
+    top: 5px;
+  }
+}
+.ui-datepicker-next,
+.ui-datepicker-prev {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(image_path('giving-sprite.png')) no-repeat -105px -111px;
+  cursor: pointer;
+}
+.ui-datepicker-prev {
+  background-position: -71px -111px;
+}

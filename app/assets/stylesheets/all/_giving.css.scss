@@ -89,6 +89,12 @@
     border: 1px dashed $white;
     display: block;
   }
+  a.split-trigger {
+    background-image: url(image_path('giving-sprite.png'));
+    background-position: -65px -71px;
+    background-repeat: no-repeat;
+    padding: 4px 5px 4px 27px;
+  }
 
   .checkbox-in-a-box {
     padding: 8px 8px 8px 30px;
@@ -259,10 +265,15 @@ input#AcsPayments_vanco_savepaymentmethod {
   margin-bottom: 10px;
 }
 #AcsPayments_frequencyGroup,
-#AcsPayments_startDateGroup { width: 30%; }
+#AcsPayments_startDateGroup { 
+  width: 30%; 
+}
 #AcsPayments_untilGroup { width: 36%; }
 #AcsPayments_frequencyEndingSection { 
   width: 66%;
+}
+#AcsPayments_frequencyEndingSection {
+  margin-bottom: 0;
 }
 #AcsPayments_until { width: 100%; }
 #AcsPayments_frequencyDetail_twiceAMonthGroup,

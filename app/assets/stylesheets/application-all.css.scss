@@ -10,6 +10,7 @@
  *
  *= require_self
 */
+@import url('all/jquery-ui-1.9.1.custom.min.css');
 @import "all/mixins";
 @import "all/colors";
 @import "all/reset";
@@ -21,6 +22,7 @@
 @import "all/center_stage";
 @import "all/news_feed_items";
 @import "all/giving";
+@import "all/alerts";
 
 body {margin: 20px;}
 

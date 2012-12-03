@@ -1,0 +1,21 @@
+.alert-message {
+  @include bg($blue_light, .7);
+  color: $blue_med;
+  padding: 7px 10px;
+  border: 1px solid lighten($blue_med, 40);
+  @include round(4px);
+  font-weight: bold;
+  p {
+    margin: 0;
+  }
+  &.error {
+    @include bg($red, .4);
+    color: $red;
+    border: 1px solid lighten($red, 30);
+  }
+  &.success {
+    @include bg($green, .4);
+    color: $green;
+    border: 1px solid lighten($green, 15);
+  }
+}
