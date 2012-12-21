@@ -14,7 +14,6 @@ Structure
 /* Little CSS Reset to preserv form structure */
 
 /* fix  ff bugs */
-.formee:after, .formee div:after, .formee ol:after, .formee ul:after, .formee li:after, .formee dl:after,
 form:after, form div:after, form ol:after, form ul:after, form li:after, form dl:after {
   content:".";
   display:block;
@@ -25,7 +24,7 @@ form:after, form div:after, form ol:after, form ul:after, form li:after, form dl
 }
 
 /* Form Structure */
-.formee ul, form ul {list-style-type: none; margin: 0;}
+form ul {list-style-type: none; margin: 0;}
 form {
   h1, h2, h3, h4, h5, h6 {
     margin-bottom: 7px;
@@ -35,8 +34,8 @@ form {
     border-color: $gray_2;
   }
 }
-.formee, form {margin:0;padding:0;}
-.formee fieldset, form fieldset, .form-wrapper {
+form {margin:0;padding:0;}
+form fieldset, .form-wrapper {
   @include round(3px);
   @include bg($gray_1, 1);
   background-image: url(image_path("form-bg.png"));
@@ -49,7 +48,7 @@ form {
     padding: 0;
   }
 }
-.formee legend, form legend {
+form legend {
   margin-left:1%;
   margin-right:1%;
   padding: 0.5% 0 0.8%;
@@ -115,13 +114,11 @@ form {
 /* input without label */ .formee-no-lbl input,  .formee-no-lbl label,  .formee-no-lbl span,  .formee-no-lbl ul,  .formee-no-lbl p {position:absolute;bottom:0;}
 
 /* multiple containers inside field-grid */
-.formee .left,
 form .left {
   clear:none;
   float:left !important;
   margin-right:0.3em !important;
 }
-.formee .right,
 form .right {
   clear:none;
   float:right !important;
@@ -129,26 +126,17 @@ form .right {
 }
 
 /* form elements  */
-.formee-lbl, .formee label, form label {
+form label {
   display: block;
   height: auto;
   margin: 0 0 0 1px;
 }
-.formee .formee-txt, 
-.formee input[type="text"], 
-.formee input[type="password"], 
-.formee input[type="file"], 
-.formee input[type="number"],
-.formee textarea, 
-.formee select,
-form .formee-txt, 
 form input[type="text"], 
 form input[type="password"],  
 form input[type="number"], 
 form input[type="file"], 
 form textarea, 
-form select{
-  vertical-align: middle;
+form select {
   line-height: 1.1em;
   padding: 7px 5px 6px 5px;
   border-style: solid;
@@ -162,6 +150,7 @@ form select{
   font-size: 12px;
   color: $gray_7;
   width: 100%;
+  margin: 0;
 /*ie7*/
 *width: 99%;
  &:focus {
@@ -169,15 +158,23 @@ form select{
   outline: none;
  }
 }
-::-webkit-input-placeholder { padding-top: 1px; }
+form select {
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
 
-.formee textarea, form textarea {height: 10em;}
-.formee select, form select {margin-top: 3px; height: 30px; line-height: 30px; padding: 4px 5px;}
+/*form select {margin-top: 1px;}
 @-moz-document url-prefix() {
   .formee select, 
-  form select {height: auto; margin-top: 0;padding: 4px;}
-}
-.formee-list .formee-lbl, .formee-list label {
+  form select {margin-top: 0;}
+}*/
+::-webkit-input-placeholder { padding-top: 1px; }
+
+form textarea {height: 10em;}
+
+.formee-list label {
   display: inline;
   height: auto;
   margin: 0.5em 0 0.8em 2px;
