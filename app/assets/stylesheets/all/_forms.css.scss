@@ -240,3 +240,27 @@ label.error {
 /*ie7*/
 *width: 45% !important;
 }
+
+/* DIALOG */
+.ui-dialog {
+  background: $white;
+  @include round(3px);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
+  border: 1px solid #999;
+  padding: 15px 15px 10px;
+  .ui-dialog-titlebar {
+    font-size: 16px;
+    font-weight: bold; 
+    padding: 0 15px 10px 15px;
+    margin: 0 -15px 10px -15px;
+    border-bottom: 1px solid #dfdfdf;
+  }
+  .ui-dialog-buttonpane {
+    padding: 10px 15px;
+    margin: 0 -15px -10px -15px;
+    border-top: 1px solid #dfdfdf;
+  }
+}
+.ui-widget-overlay {
+  @include bg($gray_10, .4);
+}
