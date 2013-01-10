@@ -1,0 +1,21 @@
+table {
+  font-size: 11px;
+  th {
+    @include bg($gray_6, 1);
+    color: $white;
+    font-weight: normal;
+    padding: 4px;
+  }
+  td {
+    padding: 2px 4px;
+    vertical-align: middle;
+  }
+  .date-row {
+    @include bg($gray_2, .8);
+  }
+  &.errors {
+    td {
+      border-bottom: 1px solid $gray_1;
+    }
+  }
+}

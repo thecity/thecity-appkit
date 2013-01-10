@@ -1,0 +1,22 @@
+.clear { clear: both; }
+.clearfix { @include clearfix; }
+.right { float: right; }
+.left{ float: left; }
+
+.ui-datepicker-next,
+.ui-datepicker-prev {
+  @include replace;
+  float: left;
+}
+.ui-datepicker-next { float: right;}
+.ui-datepicker-header {
+  padding: 5px 4px;
+}
+.ui-datepicker-title {
+  text-align: center;
+  font-weight: bold;
+}
+.hide_by_default { display: none; }
+.gutterbottom {
+  margin-bottom: 10px;
+}

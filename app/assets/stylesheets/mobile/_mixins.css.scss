@@ -1,0 +1,234 @@
+@mixin bg($color, $alpha) {
+  $rgba: rgba($color, $alpha);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($rgba)}', endColorstr='#{ie-hex-str($rgba)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($rgba)}', endColorstr='#{ie-hex-str($rgba)}');
+  background-color: transparent;
+  background-color: $rgba;
+  zoom: 1;
+}
+@mixin bottom_divider {
+  padding-bottom: 20px; 
+  margin-bottom: 20px; 
+  border-bottom: 1px solid $gray_1;
+}
+@mixin section_divider {
+  @include bottom_divider;
+}
+
+@mixin clearfix {
+  *display: inline-block;
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+@mixin round($round: 3px) {
+  -webkit-border-radius: $round;
+  -moz-border-radius: $round;
+  border-radius: $round;
+}
+@mixin round_bottom($round: 3px) {
+  -moz-border-radius-bottomright: $round;
+  -moz-border-radius-bottomleft: $round;
+  -webkit-border-bottom-right-radius: $round;
+  -webkit-border-bottom-left-radius: $round;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  border-bottom-right-radius: $round;
+  border-bottom-left-radius: $round;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@mixin round_top($round: 3px) {
+  -moz-border-radius-topright: $round;
+  -moz-border-radius-topleft: $round;
+  -webkit-border-top-right-radius: $round;
+  -webkit-border-top-left-radius: $round;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-bottomright: 0;
+  border-top-right-radius: $round;
+  border-top-left-radius: $round;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+@mixin round_top_left($round: 3px) {
+  -webkit-border-top-left-radius: $round;
+          border-top-left-radius: $round;
+      -moz-border-radius-topleft: $round;
+}
+
+@mixin round_top_right($round: 3px) {
+  -webkit-border-top-right-radius: $round;
+          border-top-right-radius: $round;
+      -moz-border-radius-topright: $round;
+}
+
+@mixin round_bottom_left($round: 3px) {
+  -webkit-border-bottom-left-radius: $round;
+          border-bottom-left-radius: $round;
+      -moz-border-radius-bottomleft: $round;
+}
+
+@mixin round_bottom_right($round: 3px) {
+  -webkit-border-bottom-right-radius: $round;
+          border-bottom-right-radius: $round;
+      -moz-border-radius-bottomright: $round;
+}
+
+@mixin gradient_y($color_top, $color_bottom) {
+  background-color: $color_bottom;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($color_top)}', endColorstr='#{ie-hex-str($color_bottom)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#{ie-hex-str($color_top)}', endColorstr='#{ie-hex-str($color_bottom)}');;
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from($color_top), to($color_bottom));
+  background: -moz-linear-gradient(top,  $color_top,  $color_bottom);
+}
+
+@mixin gradient_x($color_left, $color_right) {
+  background-color: $color_right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#{ie-hex-str($color_left)}', endColorstr='#{ie-hex-str($color_right)}');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#{ie-hex-str($color_left)}', endColorstr='#{ie-hex-str($color_right)}');;
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, right top, from($color_left), to($color_right));
+  background: -moz-linear-gradient(left,  $color_left,  $color_right);
+}
+
+@mixin sprite($x, $y, $repeat: no-repeat) {
+  background-image: url(image_path("sprite.png"));
+  background-repeat: $repeat;
+  background-position: $x $y;
+  text-indent: -5000em;
+  overflow: hidden;
+  display: inline-block;
+}
+
+@mixin icon_with_text_sprite($width, $x, $y, $repeat: no-repeat) {
+  background-image: url(image_path("sprite.png"));
+  background-repeat: $repeat;
+  background-position: $x $y;
+  padding-left: ($width + 4);
+  display: inline-block;
+}
+
+@mixin headline-stack {
+  font-family: 'Oswald', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+@mixin base_stack {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+@mixin chevron($color) {
+    font-size: 0;
+  height: 0;
+  line-height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 23px 0 23px 23px;
+  border-left-color: red;
+  border-left-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  right: -23px;
+  top: 0;
+}
+@mixin gutter_top_large {
+  margin-top: 30px;
+}
+@mixin gutter-top {
+  margin-top: 15px;
+}
+@mixin gutter_top_small {
+  margin-top: 5px;
+}
+@mixin gutter_bottom_large {
+  margin-bottom: 30px;
+}
+@mixin gutter_bottom {
+  margin-bottom: 15px;
+}
+@mixin gutter_bottom_small {
+  margin-bottom: 5px;
+}
+
+@mixin form_field {
+  border: 1px solid #e9e6df;
+  color: $gray_7;
+  padding: 6px;
+  @include round(3px);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  @include form_type(13px);
+}
+
+@mixin form_type($font_size: 12px) {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: $font_size
+}
+
+@mixin form_field_focus {
+  outline: 0;
+  box-shadow: 0 0 4px rgba($blue, 0.75);
+}
+$bookend: 0;
+@media (min-width: 600px) and (max-width: 767px)   { $bookend: 10px; }
+@media (min-width: 768px)   { $bookend: 20px; }
+@media (min-width: 1040px)  { $bookend: 20px; }
+@mixin pull-bookends {
+  margin-left: -$bookend;
+  margin-right: -$bookend;
+}
+@mixin pad-bookends {
+  padding-left: $bookend;
+  padding-right: $bookend;
+}
+@mixin letter-circle-icon($background-color) {
+  height: 24px;
+  width: 14px;
+  display: inline-block;
+  text-align: center;
+  padding: 3px 8px;
+  @include round(100%);
+  @include bg($background-color, 1);
+  color: $white;
+  font-weight: bold;
+  font-size: 140%;
+}
+
+@mixin replace {
+  text-indent: -5000em;
+  overflow: hidden;
+}
+
+@mixin serif_stack {
+  font-family: Lora, Georgia, Times, serif;
+}
+@mixin icon_sprite($bgpos-x, $bgpos-y) {
+  background-attachment: scroll;
+  background-image: url(image_path("mobile/giving-sprite.png"));
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: #{$bgpos-x}px #{$bgpos-y}px;
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+    background-image: url(image_path('mobile/giving-sprite-retina.png'));
+    background-position: #{$bgpos-x*2}px #{$bgpos-y*2}px;
+  }
+}

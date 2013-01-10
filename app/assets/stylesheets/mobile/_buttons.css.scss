@@ -1,0 +1,62 @@
+@mixin button($top_color: $gray_1, $bottom_color: $gray_2) {
+  @include gradient_y($top_color, $bottom_color);
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  padding: 4px 8px 5px 8px;
+  @include round(3px);
+  @include form_type(12px);
+  color: $white;
+  border: 1px solid;
+  border-color: lighten($bottom_color, .1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  margin-top: 0;
+  margin-left: 7px;
+  &:hover {
+    @include gradient_y($bottom_color, $bottom_color);
+  }
+  &:first-child {
+    margin-right: 0 !important;
+  }
+}
+[class*="btn"]:last-child {
+  margin-right: 0;
+}
+.btn_small {
+  font-size: 11px !important;
+  padding: 3px 8px 4px 8px !important;
+}
+.btn_large {
+  font-size: 16px !important;
+  padding: 7px 16px 8px 16px !important; 
+}
+.btn, .btn_cancel {
+  @include button;
+  color: $gray_6;
+}
+.btn_go {
+  @include button($green, $green_dark);
+}
+.btn_stop {
+  @include button($red, $red_dark);
+}
+.btn_neutral {
+  @include button($blue, $blue_dark);
+}
+.btn_orange {
+  @include button($orange, $orange_dark);
+}
+.btn_yellow {
+  @include button($yellow, $yellow_dark);
+}
+.btn_magenta {
+  @include button($magenta, $magenta_dark);
+}
+.btn_light_blue {
+  @include button($blue_light, $blue_med); 
+}
+.btn_disabled {}
+.btn_animated {}

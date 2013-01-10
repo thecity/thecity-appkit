@@ -69,5 +69,5 @@ CityUtility::Application.configure do
   config.action_controller.asset_host = "http://developer.onthecity.org/thecity-appkit" #Github
   #config.action_controller.asset_host = "https://s3.amazonaws.com/thecity/appkit" #S3
   
-  config.assets.precompile += %w( application-all.css application-ie.css application-all.js application-ie.js docs.css admin-all.css)
+  config.assets.precompile += %w( application-all.css application-mobile.css application-ie.css application-all.js application-ie.js docs.css admin-all.css)
 end

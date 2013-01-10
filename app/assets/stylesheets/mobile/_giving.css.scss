@@ -1,0 +1,275 @@
+select.error,
+input.error {
+  border: 1px solid $red;
+}
+span.error {
+  color: $red;
+}
+.special-header {
+  margin-bottom: 10px;
+}
+
+.step_selector {
+  margin: -10px 0 20px 0;
+  .step-tab {
+    z-index: 2;
+    position: relative;
+    float: left !important;
+    width: 31.3%;
+    border-right: 1px solid white;
+    margin-right: 2%;
+    padding-top: 4px;
+    &.last {
+      margin-right: 0;
+      border-right: 0;
+    }
+    .label {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 13px;
+      padding-top: 4px;
+      padding-left: 3px;
+      float: left;
+    }
+    .digit {
+      font-size: 32px;
+      line-height: 1;
+      float: left;
+    }
+    &.step-3 {
+      .label {
+        padding-top: 17px;
+      }
+    }
+    a {
+      color: $gray_2;
+    }
+    &.active {
+      a {
+        color: $link_blue;
+      }
+    }
+  }
+}
+
+.fund_payment {
+  .grid-6-12 {
+    width: 45%;
+    margin-right: 2%;
+  }
+}
+.fund_payment_split {
+  clear: both;
+  .grid-4-12 {
+    width: 40.666%;
+    margin-right: 1%;
+    &:first-child {
+      width: 45%;
+      margin-right: 2%;
+    }
+  }
+}
+a.split-trigger {
+  @include button($blue, $blue_dark);
+  font-size: 11px !important;
+  padding: 3px 8px 4px 8px !important;
+}
+.remove_split {
+  @include replace;
+  width: 16px;
+  height: 16px;
+  @include icon_sprite(0, -80); 
+  padding-bottom: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+#AcsPayments_container {
+  clear: both;
+}
+
+#InjectFrequency,
+#new-account {
+  padding: 10px 12px 10px 10px;
+  margin: 0 -12px 10px -10px;
+  @include bg($gray_2, .3);
+}
+#new-account {
+  @include clearfix;
+  margin-top: 10px;
+  border-bottom: 1px solid $gray_3;
+}
+#AcsPayments_vancoForm {
+  .form_footer {
+    margin-top: 0;
+    .btn_cancel {
+      margin-left: 0;
+    }
+  }
+}
+#AcsPayments_frequencyGroup {
+  margin-bottom: 10px;
+}
+#AcsPayments_frequencyDetail_twiceAMonthGroup,
+#AcsPayments_frequencyDetail_weeklyGroup,
+#AcsPayments_frequencyDetail_everyTwoWeeksGroup,
+#AcsPayments_frequencyDetail_monthlyGroup {
+  margin: 7px 0;
+  label {
+    display: inline-block;
+  }
+  select {
+    display: inline-block;
+    margin-right: 2%;
+  }
+}
+#AcsPayments_frequencyEndingSection {
+  #AcsPayments_startDateGroup {
+    width: 30%; 
+    float: left;
+    margin-right: 2%;
+    input {
+      width: 100% !important;
+    }
+  }
+  #AcsPayments_untilGroup {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 3%;
+    select {
+      width: 100% !important;
+    }
+  }
+  #AcsPayments_endDateGroup {
+    width: 30%;
+    float: left;
+  }
+  #AcsPayments_numberOfTimesGroup {
+    width: 30%;
+    float: left;
+  }
+}
+#AcsPayments_frequencyValidationGroup {
+  clear: both; 
+  @include clearfix;
+}
+#AcsPayments_paymentMemo {
+  margin: 10px 0;
+  @include clearfix;
+}
+#donation_total_area {
+  @include clearfix;
+  border-top: 1px solid $gray_2;
+  padding-top: 5px;
+  .grid-4-12 {
+    width: 40.666%;
+    &:first-child {
+      width: 45%;
+      margin-right: 2%;
+    }
+  }
+}
+#ui-datepicker-div {
+  table {
+    width: 100%;
+  }
+}
+#new-account {  
+  #AcsPayments_accountNumber,
+  #AcsPayments_routingNumber,
+  #AcsPayments_nickname,
+  #AcsPayments_nameOnCard,
+  #AcsPayments_ccExpiration,
+  #AcsPayments_billingCity,
+  #AcsPayments_achSection {
+    width: 99% !important;
+  }
+  #AcsPayments_billingState {
+    width: 57.333%;
+  }
+  #AcsPayments_billingZip {
+    width: 40.666%;
+  }
+}
+#AcsPayments_cancelPaymentMethodSection {
+  color: $gray_1;
+}
+#AcsPayments_creditCardLogos {
+  margin-top: 5px;
+}
+#AcsPayments_CheckingAccountNumberInfoHover,
+#AcsPayments_CheckingRoutingNumberInfoHoverImage {
+  display: none !important;
+}
+#AcsPayments_accountSection {
+  @include clearfix;
+  margin-bottom: 10px;
+}
+#AcsPayments_confirmationPage {
+  h6 {
+    font-size: 11px;
+    font-weight: normal;
+    padding-bottom: 4px; 
+    margin-bottom: 7px;
+    border-bottom: 1px solid $gray_2;
+  }
+  .big-money-display {
+    .amount {
+      font-size: 28px;
+      line-height: 29px; 
+      font-weight: bold;
+    }
+    .dollar-sign {
+      font-size: 20px;
+      line-height: 24px;
+      top: 6px; 
+      float: left;
+    }
+  }
+  #sentence {
+    margin-top: 20px;
+  }
+}
+#previous_button {
+  @include button($gray_3, $gray_4);
+  &.hide_by_default {
+    display: none;
+  }
+}
+#AcsPayments_paymentMethodSelectionFields {
+  h4 {
+    margin-bottom: 5px;
+  }
+  li { 
+    margin-bottom: 0;
+  }
+}
+.reporting-period {
+  .btn {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
+
+.payment-method { 
+  margin-bottom: 10px;
+  @include clearfix;
+  h4 {
+    border-bottom: 1px solid $gray_2;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+  }
+  .delete-payment-method {
+    .btn {
+      float: right;
+    }
+  }
+}
+.future-donations {
+  margin-top: 5px;
+}
+
+#acspayments_email {
+  clear: both;
+}
