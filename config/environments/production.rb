@@ -66,8 +66,8 @@ CityUtility::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   # give the full url of the app so that when the assets compile, they will properly link to the correct relative path
-  config.action_controller.asset_host = "http://developer.onthecity.org/thecity-appkit" #Github
-  #config.action_controller.asset_host = "https://s3.amazonaws.com/thecity/appkit" #S3
+  #config.action_controller.asset_host = "http://developer.onthecity.org/thecity-appkit" #Github
+  config.action_controller.asset_host = "https://s3.amazonaws.com/thecity/appkit" #S3
   
   config.assets.precompile += %w( application-all.css application-mobile.css application-ie.css application-all.js application-ie.js docs.css admin-all.css)
 end

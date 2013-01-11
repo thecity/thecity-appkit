@@ -62,8 +62,8 @@ module CityUtility
     config.assets.version = '1.0'
 
     # currrent version of assets
-    config.assets.prefix = '/cdn/1.0' #Github
-    #config.assets.prefix = '/v1' #S3
+    #config.assets.prefix = '/cdn/1.0' #Github
+    config.assets.prefix = '/v1.2' #S3
     
   end
 end
