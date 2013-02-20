@@ -227,8 +227,8 @@ $bookend: 0;
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: #{$bgpos-x}px #{$bgpos-y}px;
+  background-size: 68px 100px;
   @media screen and (-webkit-min-device-pixel-ratio: 2) {
     background-image: url(image_path('mobile/giving-sprite-retina.png'));
-    background-position: #{$bgpos-x*2}px #{$bgpos-y*2}px;
   }
 }

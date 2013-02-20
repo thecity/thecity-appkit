@@ -126,13 +126,11 @@ a.split-trigger {
   }
 }
 #AcsPayments_frequencyEndingSection {
-  #AcsPayments_startDateGroup {
-    width: 30%; 
+  margin-bottom: 15px;
+  /*#AcsPayments_startDateGroup {
+    width: 50%; 
     float: left;
     margin-right: 2%;
-    input {
-      width: 100% !important;
-    }
   }
   #AcsPayments_untilGroup {
     width: 30%;
@@ -144,12 +142,19 @@ a.split-trigger {
     }
   }
   #AcsPayments_endDateGroup {
-    width: 30%;
+    width: 50%;
     float: left;
+    clear: both;
   }
   #AcsPayments_numberOfTimesGroup {
     width: 30%;
     float: left;
+  }*/
+  &>div {
+    border-bottom: 1px dotted $gray_3;
+    padding-bottom: 7px;
+    input, select {width: 100% !important;}
+    @include clearfix;
   }
 }
 #AcsPayments_frequencyValidationGroup {

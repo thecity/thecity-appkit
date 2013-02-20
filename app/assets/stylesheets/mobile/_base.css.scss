@@ -25,8 +25,9 @@ a {
   .toggle-stage-tabs {
     display: block; 
     @include replace;
-    width: 40px; 
-    height: 42px; 
+    width: 16px; 
+    height: 16px; 
+    padding: 13px 10px;
     border-left: 2px solid $white;
     position: absolute;
     top: 0; 
