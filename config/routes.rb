@@ -58,24 +58,24 @@ CityUtility::Application.routes.draw do
 
   root :to => "utility#index"
   
-  match "typography" => "utility#typography"
+  match "typography/" => "utility#typography", :as => :typography
   match "typography/index.html" => "utility#typography"
   
-  match "forms" => "utility#forms"
+  match "forms/" => "utility#forms", :as => :forms
   match "forms/index.html" => "utility#forms"
 
-  match "grid" => "utility#grid"
+  match "grid/" => "utility#grid", :as => :grid
   match "grid/index.html" => "utility#grid"
 
-  match "buttons" => "utility#buttons"
+  match "buttons/" => "utility#buttons", :as => :buttons
   match "buttons/index.html" => "utility#buttons"
 
-  match "center_stage" => "utility#center_stage"
+  match "center_stage/" => "utility#center_stage", :as => :center_stage
   match "center_stage/index.html" => "utility#center_stage"
 
-  match "tables" => "utility#tables"
+  match "tables/" => "utility#tables", :as => :tables
   match "tables/index.html" => "utility#tables"
 
-  match "news_feed_items" => "utility#news_feed_items"
+  match "news_feed_items/" => "utility#news_feed_items", :as => :news_feed_items
   match "news_feed_items/index.html" => "utility#news_feed_items"
 end
