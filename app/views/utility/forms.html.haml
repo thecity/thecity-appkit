@@ -1,179 +1,172 @@
 %header.center_stage
-	%h1 Forms
-	%div.context_bar
-
+  %h1 Forms
+  .context_bar
 %h3.rule The 12-column form grid
-%p.grid_4 The grid for forms comes from the smart folks at <a href="http://formee.org">Formee</a>. You can see the full <a href="">documentation</a> at their website. Simply wrap your label and input in an element(preferably an li) with the intended grid classes and Formee does the rest.
-%p.grid_4.omega The classes work like this: &#8220;grid-(the number of columns you want out of 12)-12&#8221;  So, &#8220;grid-6-12&#8221; will always span exactly half of it's parent container. And &#8220;grid-4-12&#8221; will always span a third of it's container, and so on.
-
+%p.grid_4
+  The grid for forms comes from the smart folks at
+  = succeed "." do
+    %a{:href => "http://formee.org"} Formee
+  You can see the full
+  %a{:href => ""} documentation
+  at their website. Simply wrap your label and input in an element(preferably an li) with the intended grid classes and Formee does the rest.
+%p.grid_4.omega The classes work like this: “grid-(the number of columns you want out of 12)-12”  So, “grid-6-12” will always span exactly half of it's parent container. And “grid-4-12” will always span a third of it's container, and so on.
 %pre.prettyprint.clear
-	= preserve do
-		:escaped
-			<li class="grid-6-12">
-			  <label for="first_name">First name</label>
-			  <input type="text" name="first_name" value="" />
-			</li>
-
-%p The form styles used here assume a certain structure and order: Form, fieldset, and groups of elements. In The City we typically use unordered lists and list items to wrap our elements. Additionally, to ensure that submit buttons are placed properly, wrap them in an element with a class of &#8220;form_footer&#8221; and we'll handle the rest. Here's an example and the markup:
-
-%h4.rule Example form 
+  = preserve do
+    :escaped
+      <li class="grid-6-12">
+        <label for="first_name">First name</label>
+        <input type="text" name="first_name" value="" />
+      </li>
+%p The form styles used here assume a certain structure and order: Form, fieldset, and groups of elements. In The City we typically use unordered lists and list items to wrap our elements. Additionally, to ensure that submit buttons are placed properly, wrap them in an element with a class of “form_footer” and we'll handle the rest. Here's an example and the markup:
+%h4.rule Example form
 %form
-	%fieldset
-		%ul
-			%li.grid-5-12
-				%label{:for => 'first_name'} First name
-				%input{:type => 'text', :name => 'first_name', :value => ''}
-			%li.grid-5-12
-				%label{:for => 'last_name'} Last name
-				%input{:type => 'text', :name => 'last_name', :value => ''}
-			%li.grid-2-12
-				%label{:for => 'age'} Age
-				%input{:type => 'text', :name => 'age', :value => ''}
-			%li.grid-12-12
-				%label{:for => 'mj_song'} Favorite Michale Jackson song
-				%input{:type => 'text', :name => 'mj_song', :value => ''}
-			%li.grid-6-12
-				%label It makes me want to:
-				%ul.formee-list
-					%li.grid-6-12
-						%input{:type => 'checkbox', :name => 'jump', :value => ''}
-						%label{:for => 'jump'} Jump
-					%li.grid-6-12
-						%input{:type => 'checkbox', :name => 'groove', :value => ''}
-						%label{:for => 'groove'} Groove
-					%li.grid-6-12
-						%input{:type => 'checkbox', :name => 'cry', :value => ''}
-						%label{:for => 'cry'} Cry
-					%li.grid-6-12
-						%input{:type => 'checkbox', :name => 'neverland', :value => ''}
-						%label{:for => 'neverland'} Go to Neverland
-			%li.form_footer
-				%input{:type => 'submit', :value => 'Submit', :class => 'btn btn_go right'}
-				= link_to '#', :class => 'btn btn_cancel right' do
-					Cancel
-
-
+  %fieldset
+    %ul
+      %li.grid-5-12
+        %label{:for => "first_name"} First name
+        %input{:name => "first_name", :type => "text", :value => ""}/
+      %li.grid-5-12
+        %label{:for => "last_name"} Last name
+        %input{:name => "last_name", :type => "text", :value => ""}/
+      %li.grid-2-12
+        %label{:for => "age"} Age
+        %input{:name => "age", :type => "text", :value => ""}/
+      %li.grid-12-12
+        %label{:for => "mj_song"} Favorite Michale Jackson song
+        %input{:name => "mj_song", :type => "text", :value => ""}/
+      %li.grid-6-12
+        %label It makes me want to:
+        %ul.formee-list
+          %li.grid-6-12
+            %input{:name => "jump", :type => "checkbox", :value => ""}/
+            %label{:for => "jump"} Jump
+          %li.grid-6-12
+            %input{:name => "groove", :type => "checkbox", :value => ""}/
+            %label{:for => "groove"} Groove
+          %li.grid-6-12
+            %input{:name => "cry", :type => "checkbox", :value => ""}/
+            %label{:for => "cry"} Cry
+          %li.grid-6-12
+            %input{:name => "neverland", :type => "checkbox", :value => ""}/
+            %label{:for => "neverland"} Go to Neverland
+      %li.form_footer
+        %input.btn.btn_go.right{:type => "submit", :value => "Submit"}/
+        %a.btn.btn_cancel.right{:href => "#"} Cancel
 %pre.prettyprint
-	= preserve do
-		:escaped
-			<form action="" name="" id="">
-			  <fieldset>
-			    <ul>
-			      <li class="grid-5-12">
-			        <label form="first_name">First name</label>
-			        <input type="text" name="first_name" value=""/>
-			      </li>
-
-			      <li class="grid-5-12">
-			        <label form="last_name">Last name</label>
-			        <input type="text" name="last_name" value=""/>
-			      </li>
-			      <li class="grid-2-12">
-			        <label form="age">Age</label>
-			        <input type="text" name="age" value=""/>
-			      </li>
-
-			      
-			      <li class="grid-12-12">
-			        <label form="mj_song">Favorite Michale Jackson song</label>
-			        <input type="text" name="mj_song" value=""/>
-			      </li>
-			      
-			      <li class="grid-12-12">
-			      	<h5>It makes you want to:</h5>
-			        <ul class="formee-list">
-			          <li class="grid-12-12">
-			            <input type="checkbox" name="jump" value=""/>
-			            <label form="first_name">Jump</label>
-			          </li>
-			          <li class="grid-12-12">
-			            <input type="checkbox" name="groove" value=""/>
-			            <label form="groove">Groove</label>
-			          </li>
-			          <li class="grid-12-12">
-			            <input type="checkbox" name="cry" value=""/>
-			            <label form="cry">Cry</label>
-			          </li>
-			          <li class="grid-12-12">
-			            <input type="checkbox" name="neverland" value=""/>
-			            <label form="neverland">Wanna go to Neverland</label>
-			          </li>
-			        </ul>
-			      </li>
-
-			      <li class="form_footer">
-			      	<input type="submit" value="Submit" class="right btn btn_go"/>
-			        <a href="#" class="btn btn_cancel right">Cancel</a>
-			      </li>
-			    </ul>
-			  </fieldset>
-			</form>
-
+  = preserve do
+    :escaped
+      <form action="" name="" id="">
+        <fieldset>
+          <ul>
+            <li class="grid-5-12">
+              <label form="first_name">First name</label>
+              <input type="text" name="first_name" value=""/>
+            </li>
+      
+            <li class="grid-5-12">
+              <label form="last_name">Last name</label>
+              <input type="text" name="last_name" value=""/>
+            </li>
+            <li class="grid-2-12">
+              <label form="age">Age</label>
+              <input type="text" name="age" value=""/>
+            </li>
+      
+            
+            <li class="grid-12-12">
+              <label form="mj_song">Favorite Michale Jackson song</label>
+              <input type="text" name="mj_song" value=""/>
+            </li>
+            
+            <li class="grid-12-12">
+              <h5>It makes you want to:</h5>
+              <ul class="formee-list">
+                <li class="grid-12-12">
+                  <input type="checkbox" name="jump" value=""/>
+                  <label form="first_name">Jump</label>
+                </li>
+                <li class="grid-12-12">
+                  <input type="checkbox" name="groove" value=""/>
+                  <label form="groove">Groove</label>
+                </li>
+                <li class="grid-12-12">
+                  <input type="checkbox" name="cry" value=""/>
+                  <label form="cry">Cry</label>
+                </li>
+                <li class="grid-12-12">
+                  <input type="checkbox" name="neverland" value=""/>
+                  <label form="neverland">Wanna go to Neverland</label>
+                </li>
+              </ul>
+            </li>
+      
+            <li class="form_footer">
+              <input type="submit" value="Submit" class="right btn btn_go"/>
+              <a href="#" class="btn btn_cancel right">Cancel</a>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
 %h4.rule Form Grid Samples
 %form.formee.clear
-	%fieldset
-		%ul
-			%li.grid-6-12
-				%label grid-6-12
-				%input{:type => 'text', :value => ""}
-			%li.grid-6-12
-				%label grid-6-12
-				%input{:type => 'text', :value => ""}
-
-			%li.grid-4-12
-				%label grid-4-12
-				%input{:type => 'text', :value => ""}
-			%li.grid-4-12
-				%label grid-4-12
-				%input{:type => 'text', :value => ""}
-			%li.grid-4-12
-				%label grid-4-12
-				%input{:type => 'text', :value => ""}
-
-			%li.grid-3-12
-				%label grid-3-12
-				%input{:type => 'text', :value => ""}
-			%li.grid-3-12
-				%label grid-3-12
-				%input{:type => 'text', :value => ""}
-			%li.grid-3-12
-				%label grid-3-12
-				%input{:type => 'text', :value => ""}
-			%li.grid-3-12
-				%label grid-3-12
-				%input{:type => 'text', :value => ""}
-
-			%li.grid-2-12
-				%label grid-2-12
-				%input{:type => 'text', :value => ""}
-			%li.grid-10-12
-				%label grid-10-12
-				%input{:type => 'text', :value => ""}
-
-		%ul
-			%li
-				%ul.formee-list
-					%li.grid-3-12
-						%input{:type => 'checkbox', :name => 'foo'}
-						%label{:for => 'foo'} Chicken 
-					%li.grid-3-12
-						%input{:type => 'checkbox', :name => 'bar'}
-						%label{:for => 'bar'} Pulled Pork
-					%li.grid-3-12
-						%input{:type => 'checkbox', :name => 'foo'}
-						%label{:for => 'foo'} Chicken 
-					%li.grid-3-12
-						%input{:type => 'checkbox', :name => 'bar'}
-						%label{:for => 'bar'} Pulled Pork
-			%li.grid-6-12
-				%h5 Choose your main dish
-				%ul.formee-list
-					%li.grid-6-12
-						%input{:type => 'radio', :name => 'food'}
-						%label{:for => 'foo'} Chicken 
-					%li.grid-6-12
-						%input{:type => 'radio', :name => 'food'}
-						%label{:for => 'bar'} Pulled Pork
-
-			%li.form_footer
-				%input{:type => 'submit', :value => 'Submit', :class => 'btn btn_go right'}
+  %fieldset
+    %ul
+      %li.grid-6-12
+        %label grid-6-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-6-12
+        %label grid-6-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-4-12
+        %label grid-4-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-4-12
+        %label grid-4-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-4-12
+        %label grid-4-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-3-12
+        %label grid-3-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-3-12
+        %label grid-3-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-3-12
+        %label grid-3-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-3-12
+        %label grid-3-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-2-12
+        %label grid-2-12
+        %input{:type => "text", :value => ""}/
+      %li.grid-10-12
+        %label grid-10-12
+        %input{:type => "text", :value => ""}/
+    %ul
+      %li
+        %ul.formee-list
+          %li.grid-3-12
+            %input{:name => "foo", :type => "checkbox"}/
+            %label{:for => "foo"} Chicken
+          %li.grid-3-12
+            %input{:name => "bar", :type => "checkbox"}/
+            %label{:for => "bar"} Pulled Pork
+          %li.grid-3-12
+            %input{:name => "foo", :type => "checkbox"}/
+            %label{:for => "foo"} Chicken
+          %li.grid-3-12
+            %input{:name => "bar", :type => "checkbox"}/
+            %label{:for => "bar"} Pulled Pork
+      %li.grid-6-12
+        %h5 Choose your main dish
+        %ul.formee-list
+          %li.grid-6-12
+            %input{:name => "food", :type => "radio"}/
+            %label{:for => "foo"} Chicken
+          %li.grid-6-12
+            %input{:name => "food", :type => "radio"}/
+            %label{:for => "bar"} Pulled Pork
+      %li.form_footer
+        %input.btn.btn_go.right{:type => "submit", :value => "Submit"}/

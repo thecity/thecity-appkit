@@ -1,50 +1,56 @@
 %header.center_stage
-	%h1 This is Center Stage
-	=render :partial => 'stage_nav'
-	%div.context_bar
-
+  %h1 This is Center Stage
+  %nav.stage-tabs
+    %ul
+      %li
+        %a{:href => "#"} Foo
+      %li
+        %a{:href => "#"} Bar
+      %li
+        %a{:href => "#"} These
+      %li
+        %a{:href => "#"} Are
+      %li
+        %a{:href => "#"} Tabs
+  .context_bar
 %h2.rule Center Stage is on every view in The City
 %p Use it for the page title. Here's the basic usage:
-
 %pre.prettyprint
-	=preserve do
-		:escaped
-			<header class="center_stage">
-			  <h1>This is your title</h1>
-			  <div class="context_bar"></div>
-			</header>
+  = preserve do
+    :escaped
+      <header class="center_stage">
+        <h1>This is your title</h1>
+        <div class="context_bar"></div>
+      </header>
 %p There's an empty div there for the context bar. You need it in your markup. It'll show when you need it and not when you have tabs.
-
 %h4 Add tabs for free.
 %p If your content needs tabs, Center Stage is the place to put them. Place the following markup before the context bar div:
 %pre.prettyprint
-	=preserve do
-		:escaped
-			<nav class="stage-tabs">
-			  <ul>
-			    <li><a href="#">Foo</a></li>
-			    <li><a href="#">Bar</a></li>
-			    <li><a href="#">These</a></li>
-			    <li><a href="#">Are</a></li>
-			    <li><a href="#">Tabs</a></li>
-			  </ul>
-			</nav>
-
-
+  = preserve do
+    :escaped
+      <nav class="stage-tabs">
+        <ul>
+          <li><a href="#">Foo</a></li>
+          <li><a href="#">Bar</a></li>
+          <li><a href="#">These</a></li>
+          <li><a href="#">Are</a></li>
+          <li><a href="#">Tabs</a></li>
+        </ul>
+      </nav>
 %h4.rule Full example
 %pre.prettyprint
-	=preserve do
-		:escaped
-			<header class="center_stage">
-			  <h1>This is your title</h1>
-			  <nav class="stage-tabs">
-			    <ul>
-			      <li><a href="#">Foo</a></li>
-			      <li><a href="#">Bar</a></li>
-			      <li><a href="#">These</a></li>
-			      <li><a href="#">Are</a></li>
-			      <li><a href="#">Tabs</a></li>
-			    </ul>
-			  </nav>
-			  <div class="context_bar"></div>
-			</header>
+  = preserve do
+    :escaped
+      <header class="center_stage">
+        <h1>This is your title</h1>
+        <nav class="stage-tabs">
+          <ul>
+            <li><a href="#">Foo</a></li>
+            <li><a href="#">Bar</a></li>
+            <li><a href="#">These</a></li>
+            <li><a href="#">Are</a></li>
+            <li><a href="#">Tabs</a></li>
+          </ul>
+        </nav>
+        <div class="context_bar"></div>
+      </header>

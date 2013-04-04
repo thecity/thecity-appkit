@@ -1,3 +1,21 @@
 The City Utilities provides basic styles for building an app in The City. 
 
 Documentation at http://developer.onthecity.org/thecity-appkit.
+
+DEPLOYING TO THE INTERNETZ
+
+From the command line, do the following:
+
+Remove old assets: rake assets:clean
+Generate new assets: rake assets:precompile
+Start the server: rails s
+
+In a new terminal window, grab the documentation pages for the documentation site. cd to an empty directory anywhere: 
+	wget -m localhost:3000 
+
+In thecity-appkit project, change to the github branch that has the docs (gh-pages).
+
+Replace everything in this branch with the files you grabbed with wget.
+Commit and Push.
+
+Upload the assets you grabbed with wget, to S3.

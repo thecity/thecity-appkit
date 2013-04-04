@@ -1,108 +1,99 @@
 %header.center_stage.clearfix
-	%h1 Typography
-	%div.context_bar
-
+  %h1 Typography
+  .context_bar
 %article.clearfix.clear
-	%h2.rule Headings, copy and other typographic utilities
-
-	%div.grid_3.gutterbottom
-		%h1 This is an H1.
-		%h2 This is an H2.
-		%h3 This is an H3.
-		%h4 This is an H4.
-		%h5 This is an H5.
-		%h6 This is an H6.
-	%div.grid_5.omega
-		%h4 Paragraphs
-		%p Helvetica lo-fi artisan thundercats fixie shoreditch. Hoodie put a bird on it retro, next level kogi mlkshk photo booth PBR master cleanse scenester american apparel. Williamsburg typewriter yr, beard helvetica shoreditch wayfarers occupy bushwick tattooed. Put a bird on it yr williamsburg, 3 wolf moon vinyl aesthetic tattooed pork belly. Terry richardson leggings echo park whatever, helvetica pickled gentrify.
-
-	%h4.clear Horizontal rule
-	%div.grid_3
-		%pre.prettyprint
-			=preserve do
-				:escaped
-					<h4 class="rule">
-					</h4>
-	%div.grid_5.omega
-		%h4.rule.guttertop I'm a header with a rule
-
-	%h4.clear Strong &amp; Emphasis
-	%div.grid_3
-		%pre.prettyprint
-			=preserve do
-				:escaped
-					<strong></strong>
-	%div.grid_5.omega.guttertop
-		I'm 
-		%strong strong
-		and you shoud check me out.
-
-	%div.grid_3.clear
-		%pre.prettyprint
-			=preserve do
-				:escaped
-					<em></em>
-	%div.grid_5.omega.guttertop
-		I'm 
-		%em emphasized
-		and you should have a look.
-
+  %h2.rule Headings, copy and other typographic utilities
+  .grid_3.gutterbottom
+    %h1 This is an H1.
+    %h2 This is an H2.
+    %h3 This is an H3.
+    %h4 This is an H4.
+    %h5 This is an H5.
+    %h6 This is an H6.
+  .grid_5.omega
+    %h4 Paragraphs
+    %p Helvetica lo-fi artisan thundercats fixie shoreditch. Hoodie put a bird on it retro, next level kogi mlkshk photo booth PBR master cleanse scenester american apparel. Williamsburg typewriter yr, beard helvetica shoreditch wayfarers occupy bushwick tattooed. Put a bird on it yr williamsburg, 3 wolf moon vinyl aesthetic tattooed pork belly. Terry richardson leggings echo park whatever, helvetica pickled gentrify.
+  %h4.clear Horizontal rule
+  .grid_3
+    %pre.prettyprint
+      = preserve do
+        :escaped
+          <h4 class="rule">
+          </h4>  
+  .grid_5.omega
+    %h4.rule.guttertop I'm a header with a rule
+  %h4.clear Strong & Emphasis
+  .grid_3
+    %pre.prettyprint 
+      = preserve do
+        :escaped
+          <strong></strong>
+  .grid_5.omega.guttertop
+    I'm
+    %strong strong
+    and you shoud check me out.
+  .grid_3.clear
+    %pre.prettyprint
+      = preserve do
+        :escaped
+          <em></em>
+  .grid_5.omega.guttertop
+    I'm
+    %em emphasized
+    and you should have a look.
 %article.clearfix.clear
-	%h3.rule
-		Lists
-	%h4 Unordered Lists
-	%div.grid_5
-		%pre.prettyprint
-			=preserve do
-				:escaped
-					<ul>
-					  <li>List items are fun</li>
-					  <li>But they need style</li>
-					  <li>Sometimes defaults are <em>just</em> fine</li>
-					</ul>
-	%div.grid_3.omega
-		%ul.guttertop
-			%li List items are fun
-			%li But they need style
-			%li 
-				Sometimes defaults are 
-				%em just
-				fine
-
-	%h4.clear Ordered Lists
-	%div.grid_5
-		%pre.prettyprint
-			=preserve do
-				:escaped
-					<ol>
-					  <li>List items are fun</li>
-					  <li>But they need style</li>
-					  <li>Sometimes defaults are <em>just</em> fine
-					</ol>
-	%div.grid_3.omega	
-		%ol.guttertop
-			%li List items are fun
-			%li But they need style
-			%li 
-				Sometimes defaults are 
-				%em just
-				fine
-
-	%h4.clear Lists with no style
-	%div.grid_5
-		%pre.prettyprint
-			=preserve do
-				:escaped
-					<ul class="nostyle">
-					  <li>List items are fun</li>
-					  <li>But they need style</li>
-					  <li>Sometimes defaults are <em>just</em> fine
-					</ul>
-	%div.grid_3.omega	
-		%ul.nostyle.guttertop
-			%li List items are fun
-			%li But they need style
-			%li 
-				Sometimes defaults are 
-				%em just
-				fine
+  %h3.rule Lists
+  %h4 Unordered Lists
+  .grid_5
+    %pre.prettyprint
+      =preserve do
+        :escaped
+          <ul>
+            <li>List items are fun</li>
+            <li>But they need style</li>
+            <li>Sometimes defaults are <em>just</em> fine</li>
+          </ul>  
+  .grid_3.omega
+    %ul.guttertop
+      %li List items are fun
+      %li But they need style
+      %li
+        Sometimes defaults are
+        %em just
+        fine
+  %h4.clear Ordered Lists
+  .grid_5
+    %pre.prettyprint
+      = preserve do
+        :escaped
+          <ol>
+            <li>List items are fun</li>
+            <li>But they need style</li>
+            <li>Sometimes defaults are <em>just</em> fine
+          </ol> 
+  .grid_3.omega
+    %ol.guttertop
+      %li List items are fun
+      %li But they need style
+      %li
+        Sometimes defaults are
+        %em just
+        fine
+  %h4.clear Lists with no style
+  .grid_5
+    %pre.prettyprint
+      = preserve do
+        :escaped
+          <ul class="nostyle">
+            <li>List items are fun</li>
+            <li>But they need style</li>
+            <li>Sometimes defaults are <em>just</em> fine
+          </ul>
+  .grid_3.omega
+    %ul.nostyle.guttertop
+      %li List items are fun
+      %li But they need style
+      %li
+        Sometimes defaults are
+        %em just
+        fine

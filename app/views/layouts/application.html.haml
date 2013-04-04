@@ -1,14 +1,14 @@
 %html
 	%head
 		%title The City Utilities
-		= stylesheet_link_tag    "application-all", :media => "all"
+		= stylesheet_link_tag    "appkit", :media => "all"
 		= stylesheet_link_tag    "docs", :media => "all"
-		= javascript_include_tag "application-all"
+		= javascript_include_tag "appkit"
 		= stylesheet_link_tag    "/prettify.css", :media => "all"
 		= javascript_include_tag "/prettify/prettify.js"
 		/[if IE]
-			= stylesheet_link_tag    "application-ie", :media => "all"
-			= javascript_include_tag "application-ie"
+			= stylesheet_link_tag    "appkit-ie", :media => "all"
+			= javascript_include_tag "appkit-ie"
 		= csrf_meta_tags
 	%body{:onload => 'prettyPrint()'}
 		%div.container
@@ -19,7 +19,7 @@
 					%div.sidebar-inner
 						%nav.sidenav
 							%ul
-								= link_with_active_class('Big Picture', root_path)
+								= link_with_active_class('Big Picture', '/')
 								= link_with_active_class('Typography', typography_path)
 								= link_with_active_class('Forms', forms_path)
 								= link_with_active_class('Tables', tables_path)

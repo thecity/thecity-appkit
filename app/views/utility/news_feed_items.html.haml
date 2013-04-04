@@ -1,68 +1,64 @@
 %header.center_stage.clearfix
-	%h1 News Feed Items
-	%div.context_bar
-
+  %h1 News Feed Items
+  .context_bar
 %article.clearfix.clear
-	%p.grid_4 The News Feed Item is a common thing in The City. News Feed Items hold lots of small bits of content, and typically link off to pages.
-	%p.grid_4.omega As a result of the prominence of the News Feed Item in The City, there are several typographic styles that apply to it specifically.
-
-	%h4.rule Example of a News Feed Item
-	%article.feed_item.clearfix.gutterbottom
-		%div.thumb
-			=link_to image_tag('50x50_thumb.jpg'), '#'
-		%p.updated_badge Last updated at 9:51am
-		%h1.title I'm the title of this news feed item
-		%div.meta
-			=link_to 'Tom Waits', '#'
-			in
-			=link_to "Tommy's Neighborhood Group", '#'
-		%div.feed_body
-			Hey guys. I just wanted to demonstrate some copy in a News Feed Item. It's pretty rad. If I go on for days and days, it won't show here. Just a blurb. That's all. And that's all folks need to see. 
-
-		%article.clearfix.response
-			%div.thumb
-				=link_to image_tag('50x50_thumb.jpg'), '#'
-			%div.meta 
-				=link_to 'Jimbo Sneed', '#'
-				in
-				=link_to "Tommy's Neighborhood Group", '#'
-			%div.response_body
-				This is a simple response body. Your items may have no responses, but that's ok. Just in case.
-
-	%pre.prettyprint
-		=preserve do
-			:escaped
-				<article class="feed_item clearfix">
-				    <div class="thumb">
-				      <a href="#">
-				        <img src="images/50x50_thumb.jpg" alt="" />
-				      </a>
-				    </div>
-				    <p class="updated_badge">
-				      Last updated at 9:51am
-				    </p>
-				    <h1 class="title">I'm the title of this news feed item</h1>
-				    <div class="meta"><a href="#">Tom Waits</a> in <a href="3">Tommy's Neighborhood Group</a></div>
-				    <div class="feed_body">
-				      Hey guys. I just wanted to demonstrate some copy in a News Feed Item. It's pretty rad. If
-				      I go on for days and days, it won't show here. Just a blurb. That's all. And that's all 
-				      folks need to see. 
-				    </div>
-
-				    <!-- News Feed Responses -->
-
-				    <article class="clearfix response">
-				      <div class="thumb">
-				        <a href="#">
-				          <img src="images/50x50_thumb.jpg" alt="" />
-				        </a>
-				      </div>
-				      <div class="meta"><a href="#">Jimbo Sneed</a> responded on March 27</div>
-				      <div class="response_body">
-				        This is a simple response body. Your items may have no responses, but that's ok. Just 
-				        in case.
-				      </div>
-				    </article>
-				</article>
-
-	
+  %p.grid_4 The News Feed Item is a common thing in The City. News Feed Items hold lots of small bits of content, and typically link off to pages.
+  %p.grid_4.omega As a result of the prominence of the News Feed Item in The City, there are several typographic styles that apply to it specifically.
+  %h4.rule Example of a News Feed Item
+  %article.feed_item.clearfix.gutterbottom
+    .thumb
+      %a{:href => "#"}
+        %img{:alt => "50x50_thumb", :src => "http://placehold.it/50x50"}/
+    %p.updated_badge Last updated at 9:51am
+    %h1.title I'm the title of this news feed item
+    .meta
+      %a{:href => "#"} Tom Waits
+      in
+      %a{:href => "#"} Tommy's Neighborhood Group
+    .feed_body
+      Hey guys. I just wanted to demonstrate some copy in a News Feed Item. It's pretty rad. If I go on for days and days, it won't show here. Just a blurb. That's all. And that's all folks need to see.
+    %article.clearfix.response
+      .thumb
+        %a{:href => "#"}
+          %img{:alt => "50x50_thumb", :src => "http://placehold.it/50x50"}/
+      .meta
+        %a{:href => "#"} Jimbo Sneed
+        in
+        %a{:href => "#"} Tommy's Neighborhood Group
+      .response_body
+        This is a simple response body. Your items may have no responses, but that's ok. Just in case.
+  %pre.prettyprint
+    = preserve do
+      :escaped
+        <article class="feed_item clearfix">
+            <div class="thumb">
+              <a href="#">
+                <img src="images/50x50_thumb.jpg" alt="" />
+              </a>
+            </div>
+            <p class="updated_badge">
+              Last updated at 9:51am
+            </p>
+            <h1 class="title">I'm the title of this news feed item</h1>
+            <div class="meta"><a href="#">Tom Waits</a> in <a href="3">Tommy's Neighborhood Group</a></div>
+            <div class="feed_body">
+              Hey guys. I just wanted to demonstrate some copy in a News Feed Item. It's pretty rad. If
+              I go on for days and days, it won't show here. Just a blurb. That's all. And that's all 
+              folks need to see. 
+            </div>
+        
+            <!-- News Feed Responses -->
+        
+            <article class="clearfix response">
+              <div class="thumb">
+                <a href="#">
+                  <img src="images/50x50_thumb.jpg" alt="" />
+                </a>
+              </div>
+              <div class="meta"><a href="#">Jimbo Sneed</a> responded on March 27</div>
+              <div class="response_body">
+                This is a simple response body. Your items may have no responses, but that's ok. Just 
+                in case.
+              </div>
+            </article>
+        </article>

@@ -1,64 +1,61 @@
 %header.center_stage
-	%h1 Buttons
-	%div.context_bar
-
+  %h1 Buttons
+  .context_bar
 %h2.rule Go ahead, push our buttons
-%p.grid_4
-	We've provided a few basic styles and guidelines for using them. In most cases, you'll need to append multiple CSS classnames to your buttons (or links that you want to look like buttons).
-%p.grid_4.omega
-	There are 2 sizes of buttons. The default size works in most cases, and for forms in the context of major user interactions. The small buttons, or mini, as we'll refer to them, work for quick actions on content.
-
-%h4 The &#8220;btn&#8221; base class
-%p 
-	Every button (input or href elements) gets a base class of 
-	%strong &#8220;btn&#8221;.
-	This provides the base style that will apply to all buttons. From there, you can append additional classes, depending the action of the button.
-
+%p.grid_4 We've provided a few basic styles and guidelines for using them. In most cases, you'll need to append multiple CSS classnames to your buttons (or links that you want to look like buttons).
+%p.grid_4.omega There are 2 sizes of buttons. The default size works in most cases, and for forms in the context of major user interactions. The small buttons, or mini, as we'll refer to them, work for quick actions on content.
+%h4 The “btn” base class
+%p
+  Every button (input or href elements) gets a base class of
+  = succeed "This" do
+    %strong “btn”.
+  provides the base style that will apply to all buttons. From there, you can append additional classes, depending the action of the button.
 %table.gutterbottom.with_borders.with_stripes
-	%thead
-		%tr
-			%th Class name
-			%th Use case
-			%th 
-	%tbody
-		%tr
-			%td
-				%pre.inline .btn.btn_go
-			%td Use for positive actions (i.e. Submit, Go, Search, etc.)
-			%td 
-				%input{:type => 'submit', :value => 'Submit', :class => 'btn btn_go'}
-		%tr
-			%td
-				%pre.inline .btn.btn_stop
-			%td Use for negative actions (i.e. Delete, destroy, etc.)
-			%td 
-				%input{:type => 'submit', :value => 'Delete', :class => 'btn btn_stop'}
-		%tr
-			%td
-				%pre.inline .btn.btn_neutral
-			%td Use for neutral actions (i.e. Save Draft, Agree to terms, etc.)
-			%td 
-				%input{:type => 'submit', :value => 'Save draft', :class => 'btn btn_neutral'}
-		%tr
-			%td
-				%pre.inline .btn.btn_cancel
-			%td Use to cancel actions on a form
-			%td 
-				= link_to '#', :class => 'btn btn_cancel' do
-					Cancel
-
-		%tr
-			%td
-				%pre.inline .btn.btn_animated
-			%td Use for animating a button
-			%td 
-				= link_to '#', :class => 'btn btn_animated' do
-					Processing
-
-		%tr
-			%td
-				%pre.inline .btn.btn_go.btn_mini
-			%td Use for quick actions on content
-			%td 
-				= link_to '#', :class => 'btn btn_go btn_mini' do
-					Add a new item
+  %thead
+    %tr
+      %th Class name
+      %th Use case
+      %th
+  %tbody
+    %tr
+      %td
+        %pre.inline .btn.btn_go
+      %td Use for positive actions (i.e. Submit, Go, Search, etc.)
+      %td
+        %input.btn.btn_go{:type => "submit", :value => "Submit"}/
+    %tr
+      %td
+        %pre.inline .btn.btn_stop
+      %td Use for negative actions (i.e. Delete, destroy, etc.)
+      %td
+        %input.btn.btn_stop{:type => "submit", :value => "Delete"}/
+    %tr
+      %td
+        %pre.inline .btn.btn_neutral
+      %td Use for neutral actions (i.e. Save Draft, Agree to terms, etc.)
+      %td
+        %input.btn.btn_neutral{:type => "submit", :value => "Save draft"}/
+    %tr
+      %td
+        %pre.inline .btn.btn_cancel
+      %td Use to cancel actions on a form
+      %td
+        %a.btn.btn_cancel{:href => "#"} Cancel
+    %tr
+      %td
+        %pre.inline .btn.btn_animated
+      %td Use to animated a button
+      %td
+        %a.btn.btn_animated{:href => "#"} Processing
+    %tr
+      %td
+        %pre.inline .btn.btn_disabled
+      %td Use for disabled buttons
+      %td
+        %a.btn.btn_disabled{:href => "#"} Submit
+    %tr
+      %td
+        %pre.inline .btn.btn_go.btn_mini
+      %td Use for quick actions on content
+      %td
+        %a.btn.btn_go.btn_mini{:href => "#"} Add a new item

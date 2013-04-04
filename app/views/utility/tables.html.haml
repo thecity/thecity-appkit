@@ -1,54 +1,46 @@
 %header.center_stage
-	%h1 Tables are for data!
-	%div.context_bar
-%p
-	We've provided 2 basic ways to display your data within tables: Bordered and striped. Simply use the class names, &#8220;with_stripes&#8221; and/or &#8220;with_borders&#8221;
-
+  %h1 Tables are for data!
+  .context_bar
+%p We've provided 2 basic ways to display your data within tables: Bordered and striped. Simply use the class names, “with_stripes” and/or “with_borders”
 %h4.rule Tables with borders
-
 %pre.prettyprint
-	=preserve do
-		:escaped
-			<table class="with_borders">
-			</table>
-			
+  = preserve do
+    :escaped
+      <table class="with_borders">
+      </table>
 %table.with_borders
-	%thead
-		%tr
-			%th User
-			%th Age
-			%th MJ song that makes you move
-	%tbody
-		%tr
-			%td Dustin
-			%td 31
-			%td Pretty Young Thing (PYT)
-		%tr
-			%td Jimbo
-			%td 47
-			%td The Girl is Mine
-
-
+  %thead
+    %tr
+      %th User
+      %th Age
+      %th MJ song that makes you move
+  %tbody
+    %tr
+      %td Dustin
+      %td 31
+      %td Pretty Young Thing (PYT)
+    %tr
+      %td Jimbo
+      %td 47
+      %td The Girl is Mine
 %h4.rule Tables with stripes
-
 %pre.prettyprint
-	=preserve do
-		:escaped
-			<table class="with_stripes">
-			</table>
-
+  = preserve do
+    :escaped
+      <table class="with_stripes">
+      </table>
 %table.with_stripes
-	%thead
-		%tr
-			%th User
-			%th Age
-			%th MJ song that makes you move
-	%tbody
-		%tr
-			%td Dustin
-			%td 31
-			%td Pretty Young Thing (PYT)
-		%tr
-			%td Jimbo
-			%td 47
-			%td The Girl is Mine
+  %thead
+    %tr
+      %th User
+      %th Age
+      %th MJ song that makes you move
+  %tbody
+    %tr
+      %td Dustin
+      %td 31
+      %td Pretty Young Thing (PYT)
+    %tr
+      %td Jimbo
+      %td 47
+      %td The Girl is Mine
