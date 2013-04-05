@@ -62,8 +62,11 @@ module CityUtility
     config.assets.version = '1.0'
 
     # currrent version of assets
-    config.assets.prefix = '/thecity-appkit/v1.2' #Github
-    #config.assets.prefix = '/v1.2' #S3
+    config.assets.prefix = '/thecity-appkit/v1.3' #Github
+    #config.assets.prefix = '/v1.3' #S3
+
+    #for generating urls with trailing slash:
+    config.action_controller.default_url_options = { :trailing_slash => true }
     
   end
 end
