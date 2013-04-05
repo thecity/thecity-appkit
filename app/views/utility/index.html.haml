@@ -34,40 +34,38 @@
     %p  
     %h3.gutterbottom What's included in The City Utilities?
     .grid_4
-      %h4.rule The Big Picture
-      %p
-        We've included a reset for default styles and leveling the playing field between browsers. We've also included a
-        %a{:href => "/utilities"} list of utility classes
-        for use throughout your app.
+      %h4.rule
+        = link_to "Typography", typography_path
+      %p Here are The City's defaults for headings, paragraphs, list and all other typographic styles. There are also a few utility classes that you may need.
     .grid_4.omega
       %h4.rule
-        %a{:href => "typography.html"} Typography
-      %p Here are The City's defaults for headings, paragraphs, list and all other typographic styles. There are also a few utility classes that you may need.
-    .grid_4
-      %h4.rule
-        %a{:href => "forms.html"} Forms
+        = link_to "Forms", forms_path
       %p
         In The City, we've leveraged the 12-column form grid from the smart folks at
         = succeed "." do
           %a{:href => "http://formee.org"} Formee
         We show you how to structure your forms so that everything lines up just right.
+    .grid_4
+      %h4.rule
+        = link_to "Tables", tables_path
+      %p You can put borders around your table cells, or you can zebra-stripe them. Or both.
     .grid_4.omega
       %h4.rule
-        %a{:href => "tables.html"} Tables
-      %p You can put borders around your table cells, or you can zebra-stripe them. Or both.
-    .grid_4.clear
-      %h4.rule
-        %a{:href => "grid.html"} Grid
+        = link_to "Grid", grid_path
       %p
         8 columns. Fluid. It's based off of
         = succeed "." do
           %a{:href => "http://960.gs"} 960.gs
         We adapted it to fit the content area in The City. The City's content area is not fluid, but this will be future friendly.
-    .grid_4.omega
-      %h4.rule
-        %a{:href => "buttons.html"} Buttons
-      %p We have 4 buttons colors with the basic style. We'll explain how to use the various classnames and make your buttons look like they belong in The City.
     .grid_4
       %h4.rule
-        %a{:href => "center_stage.html"} Center Stage
+        = link_to "Buttons", buttons_path
+      %p We have 4 buttons colors with the basic style. We'll explain how to use the various classnames and make your buttons look like they belong in The City.
+    .grid_4.omega
+      %h4.rule
+        = link_to "Center Stage", center_stage_path
       %p Every page in The City has Center Stage. It's where the page header lives. You can add tabs for page nav as well.
+    .grid_4
+      %h4.rule
+        = link_to "News Feed Items", news_feed_items_path
+      %p The News Feed Item is the container in which the majority of all content is delivered in The City.

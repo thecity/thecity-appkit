@@ -18,6 +18,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'active_link_to'
 gem 'jquery-rails'
 gem 'haml'
 

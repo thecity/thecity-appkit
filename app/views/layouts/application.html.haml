@@ -19,14 +19,14 @@
 					%div.sidebar-inner
 						%nav.sidenav
 							%ul
-								= link_with_active_class('Big Picture', '/')
-								= link_with_active_class('Typography', typography_path)
-								= link_with_active_class('Forms', forms_path)
-								= link_with_active_class('Tables', tables_path)
-								= link_with_active_class('Grid', grid_path)
-								= link_with_active_class('Buttons', buttons_path)
-								= link_with_active_class('Center Stage', center_stage_path)
-								= link_with_active_class('News Feed Items', news_feed_items_path)
+								= active_link_to 'Big Picture', '/', :wrap_tag => :li
+								= active_link_to 'Typography', '/thecity-appkit/typography', :wrap_tag => :li
+								= active_link_to 'Forms', '/thecity-appkit/forms', :wrap_tag => :li
+								= active_link_to 'Tables', '/thecity-appkit/tables', :wrap_tag => :li
+								= active_link_to 'Grid', '/thecity-appkit/grid', :wrap_tag => :li
+								= active_link_to 'Buttons', '/thecity-appkit/buttons', :wrap_tag => :li
+								= active_link_to 'Center Stage', '/thecity-appkit/center_stage', :wrap_tag => :li
+								= active_link_to 'News Feed Items', '/thecity-appkit/news_feed_items', :wrap_tag => :li
 				%section.content.clearfix
 					%div.content-inner
 						= yield
