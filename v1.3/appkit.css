@@ -1,1 +1,2577 @@
-.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{position:absolute !important;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px)}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{zoom:1}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-state-disabled{cursor:default !important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:absolute;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:0.2em 0.2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:0.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month-year{width:100%}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 0.4em}.ui-datepicker th{padding:0.7em 0.3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:0.7em 0 0 0;padding:0 0.2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:0.5em 0.2em 0.4em;cursor:pointer;padding:0.2em 0.6em 0.3em 0.6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto 0.4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0em}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current{float:right}.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header{border-right-width:0;border-left-width:1px}.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}.ui-datepicker-cover{position:absolute;z-index:-1;filter:mask();top:-4px;left:-4px;width:200px;height:200px}.ui-dialog{position:absolute;top:0;left:0;padding:.2em;width:300px;overflow:hidden}.ui-dialog .ui-dialog-titlebar{padding:0.4em 1em;position:relative}.ui-dialog .ui-dialog-title{float:left;margin:0.1em 16px 0.1em 0}.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:19px;margin:-10px 0 0 0;padding:1px;height:18px}.ui-dialog .ui-dialog-titlebar-close span{display:block;margin:1px}.ui-dialog .ui-dialog-titlebar-close:hover,.ui-dialog .ui-dialog-titlebar-close:focus{padding:0}.ui-dialog .ui-dialog-content{position:relative;border:0;padding:0.5em 1em;background:none;overflow:auto;zoom:1}.ui-dialog .ui-dialog-buttonpane{text-align:left;border-width:1px 0 0 0;background-image:none;margin:0.5em 0 0 0;padding:0.3em 1em 0.5em 0.4em}.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{float:right}.ui-dialog .ui-dialog-buttonpane button{margin:0.5em 0.4em 0.5em 0;cursor:pointer}.ui-dialog .ui-resizable-se{width:14px;height:14px;right:3px;bottom:3px}.ui-draggable .ui-dialog-titlebar{cursor:move}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}address{font-style:normal}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:1.4;color:#666}a{color:#266989;text-decoration:none}a:hover{color:#164961}h1,h2,h3,h4,h5,h6{letter-spacing:-0.025em;color:#444;font-weight:bold;line-height:1.3;margin-bottom:3px}h1{font-size:32px}h2{font-size:24px}h3{font-size:20px}h4{font-size:16px}h5{font-size:13px}p{margin-bottom:15px}small{font-size:90%}.intro{font-size:18px;line-height:1.3;margin-bottom:30px}h6{font-size:9px;font-weight:bold;color:#999;text-transform:uppercase;margin:0}h6.rule{margin-bottom:0}ul{margin-left:15px;list-style-type:disc;margin-bottom:3px}ol{list-style-type:decimal;margin-left:15px}em{font-style:italic}strong{font-weight:bold}.btn{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;font-size:12px;line-height:12px;display:inline-block;padding:8px 12px 7px 12px;text-decoration:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');background-color:transparent;background-color:#7c8d09;zoom:1;border:1px solid #6f7f08;cursor:pointer}.btn:hover{color:#fff;text-decoration:none;background-color:#677507}a.btn{padding-top:8px;padding-bottom:7px}.btn_mini{font-size:11px !important;padding:4px 10px !important}.btn_go{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;font-size:12px;line-height:12px;display:inline-block;padding:8px 12px 7px 12px;text-decoration:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');background-color:transparent;background-color:#7c8d09;zoom:1;border:1px solid #6f7f08;cursor:pointer}.btn_go:hover{color:#fff;text-decoration:none;background-color:#677507}.btn_stop{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;font-size:12px;line-height:12px;display:inline-block;padding:8px 12px 7px 12px;text-decoration:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');background-color:transparent;background-color:#bf311a;zoom:1;border:1px solid #b22e18;cursor:pointer}.btn_stop:hover{color:#fff;text-decoration:none;background-color:#a92b17}.btn_neutral{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;font-size:12px;line-height:12px;display:inline-block;padding:8px 12px 7px 12px;text-decoration:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF5D87A1', endColorstr='#FF5D87A1');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF5D87A1', endColorstr='#FF5D87A1');background-color:transparent;background-color:#5d87a1;zoom:1;border:1px solid #577f97;cursor:pointer}.btn_neutral:hover{color:#fff;text-decoration:none;background-color:#547991}.btn_cancel{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#666;font-size:12px;line-height:12px;display:inline-block;padding:8px 12px 7px 12px;text-decoration:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');background-color:transparent;background-color:#999;zoom:1;border:1px solid #919191;cursor:pointer;border:1px solid #888 !important;color:#fff !important}.btn_cancel:hover{color:#666;text-decoration:none;background-color:#8c8c8c}.btn_disabled{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#777;font-size:12px;line-height:12px;display:inline-block;padding:8px 12px 7px 12px;text-decoration:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');background-color:transparent;background-color:#999;zoom:1;border:1px solid #919191;cursor:pointer;border:1px solid #999 !important;color:#ccc !important;cursor:text}.btn_disabled:hover{color:#777;text-decoration:none;background-color:#8c8c8c}.btn_animated{background:url("/thecity-appkit/v1.3/btn-animated.gif") repeat 0 0 !important;border:1px solid #888 !important;color:#e2e2e2 !important}form:after,form div:after,form ol:after,form ul:after,form li:after,form dl:after{content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden}form ul{list-style-type:none;margin:0}form h1,form h2,form h3,form h4,form h5,form h6{margin-bottom:7px}form a.btn{margin-top:2px}form .rule{border-color:#ccc}form{margin:0;padding:0}form fieldset,.form-wrapper{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');background-color:transparent;background-color:#e2e2e2;zoom:1;background-image:url("/thecity-appkit/v1.3/form-bg.png");background-repeat:repeat;padding:15px}.form-wrapper .formee fieldset,.form-wrapper form fieldset,#AcsPayments_vancoForm .formee fieldset,#AcsPayments_vancoForm form fieldset{background:none !important;padding:0}form legend{margin-left:1%;margin-right:1%;padding:0.5% 0 0.8%}.grid-1-12,.grid-2-12,.grid-3-12,.grid-4-12,.grid-5-12,.grid-6-12,.grid-7-12,.grid-8-12,.grid-9-12,.grid-10-12,.grid-11-12,.grid-12-12,.form_footer{display:inline-block;position:relative;float:left;margin-left:0;margin-right:0;padding:0 1% 0.5% 0;margin-bottom:10px;*margin-left:.8%;*margin-right:.8%;*padding:0.8% 0.25% 1%}.grid-1-12.bottom-field,.grid-2-12.bottom-field,.grid-3-12.bottom-field,.grid-4-12.bottom-field,.grid-5-12.bottom-field,.grid-6-12.bottom-field,.grid-7-12.bottom-field,.grid-8-12.bottom-field,.grid-9-12.bottom-field,.grid-10-12.bottom-field,.grid-11-12.bottom-field,.grid-12-12.bottom-field,.form_footer.bottom-field{margin-bottom:0}.form_footer{padding:0}.grid-1-12{width:7.333%}.grid-2-12{width:15.666%}.grid-3-12{width:24%}.grid-4-12{width:32.333%}.grid-5-12{width:40.666%}.grid-6-12{width:49%}.grid-7-12{width:57.333%}.grid-8-12{width:65.666%}.grid-9-12{width:74%}.grid-10-12{width:82.333%}.grid-11-12{width:90.666%}.grid-12-12,.form_footer{width:99%}.form_footer{margin-bottom:0;padding-bottom:0;clear:both;margin-top:10px;padding-top:10px;border-top:1px solid #ccc}.formee .alpha{margin-left:0}.formee .omega{margin-right:0}.formee .clear{clear:both}.formee-no-lbl{position:relative;padding-bottom:0}.formee-no-lbl input,.formee-no-lbl label,.formee-no-lbl span,.formee-no-lbl ul,.formee-no-lbl p{position:absolute;bottom:0}form .left{clear:none;float:left !important;margin-right:0.3em !important}form .right{clear:none;float:right !important;margin-left:0.3em !important}form label{display:block;height:auto;margin:0 0 0 1px}form input[type="text"],form input[type="password"],form input[type="number"],form input[type="file"],form input[type="email"],form input[type="tel"],form textarea,form select{line-height:1.1em;padding:7px 5px 6px 5px;border-style:solid;border-width:1px;box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-webkit-box-sizing:border-box;border-color:#ccc;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;color:#555;width:100%;margin:0;*width:99%}form input[type="text"]:focus,form input[type="password"]:focus,form input[type="number"]:focus,form input[type="file"]:focus,form input[type="email"]:focus,form input[type="tel"]:focus,form textarea:focus,form select:focus{border-color:#266989;outline:none}form select{height:30px;line-height:30px;display:inline-block;vertical-align:middle}::-webkit-input-placeholder{padding-top:1px}form textarea{height:10em}.formee-list label{display:inline;height:auto;margin:0.5em 0 0.8em 2px}.formee-req{position:relative;top:3px}.formee-msg-info,.formee-msg-warning,.formee-msg-error,.formee-msg-success{padding:20px 20px 15px 38px;border:1px solid #ccc;display:block;height:auto;margin:0 1.5% 0.8em;clear:both}.formee-msg-info li,.formee-msg-warning li,.formee-msg-error li,.formee-msg-success li{list-style:none;padding:0;margin-bottom:.4%;font-size:1.4em;line-height:1.1em;vertical-align:top}.errorExplanation p{margin-bottom:5px}label.error{color:#bf311a}.formee-list{list-style:none;padding:0;margin:0}.formee-list li,.formee-list li{float:left;display:inline-block;list-style:none}.formee-small{width:30% !important;float:left;margin-right:10px;display:inline;*width:25% !important}.formee-medium{width:50% !important;float:left;margin-right:10px;display:inline;*width:45% !important}.ui-dialog{background:#fff;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;box-shadow:0 0 7px rgba(0,0,0,0.35);border:1px solid #999;padding:15px 15px 10px}.ui-dialog .ui-dialog-titlebar{font-size:16px;font-weight:bold;padding:0 15px 10px 15px;margin:0 -15px 10px -15px;border-bottom:1px solid #dfdfdf}.ui-dialog .ui-dialog-buttonpane{padding:10px 15px;margin:0 -15px -10px -15px;border-top:1px solid #dfdfdf}.ui-widget-overlay{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66222222', endColorstr='#66222222');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66222222', endColorstr='#66222222');background-color:transparent;background-color:rgba(34,34,34,0.4);zoom:1}form table td,.form-wrapper table td{background:transparent}table{width:100%;margin-bottom:15px;font-size:12px}table th,table td{text-align:left;vertical-align:bottom;padding:4px 8px}table td{background-color:#fff;border-bottom:1px solid #ccc}table th{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33266989', endColorstr='#33266989');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33266989', endColorstr='#33266989');background-color:transparent;background-color:rgba(38,105,137,0.2);zoom:1;padding:5px 8px;border-bottom:1px solid #ccc;font-size:11px}table tr:last-child td{border-bottom:1px solid #ccc}table tfoot td{background:transparent}table.with_borders{border:1px solid #ccc}table.with_borders th,table.with_borders td{border-bottom:1px solid #ccc;border-right:1px solid #ccc}table.with_stripes tbody tr:nth-child(even) td,table.with_stripes tbody tr:nth-child(even) th,table.with_stripes tbody tr.even td,table.with_stripes tbody tr.even th{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#80E2E2E2', endColorstr='#80E2E2E2');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#80E2E2E2', endColorstr='#80E2E2E2');background-color:transparent;background-color:rgba(226,226,226,0.5);zoom:1}table.with_stripes td{border:0}table tr td:last-child{border-right:0}table.errors td{color:#bf311a}table.errors tr.edit-in-here td{color:#666}table.errors tr.edit-in-here .errorExplanation{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FFCCCCCC');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FFCCCCCC');background-color:transparent;background-color:#ccc;zoom:1;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:8px;border:1px solid #fff;margin-bottom:15px}table tr.grayed-out:nth-child(even) td,table tr.even.grayed-out td{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33E2E2E2', endColorstr='#33E2E2E2');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33E2E2E2', endColorstr='#33E2E2E2');background-color:transparent;background-color:rgba(226,226,226,0.2);zoom:1}table tr.grayed-out{color:#ccc}table tr.grayed-out .icon{opacity:.5}table tr.edit-in-here td{padding:0;background:transparent}table tr.edit-in-here form{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc}.ui-datepicker .ui-datepicker-next{top:5px}.ui-datepicker .ui-datepicker-next-hover{right:2px;top:5px}.ui-datepicker .ui-datepicker-prev{left:5px;top:5px}.ui-datepicker .ui-datepicker-prev-hover{left:5px;top:5px}.ui-datepicker-next,.ui-datepicker-prev{display:block;width:18px;height:18px;background:url("/thecity-appkit/v1.3/giving-sprite.png") no-repeat -105px -111px;cursor:pointer}.ui-datepicker-prev{background-position:-71px -111px}.pull_1,.pull_2,.pull_3,.pull_4,.pull_5,.pull_6,.pull_7,.pull_8{float:left;position:relative}.push_1,.push_2,.push_3,.push_4,.push_5,.push_6,.push_7,.push_8{position:relative}.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8{float:left;margin-right:2.94906%}.grid_1{width:9.91957%}.grid_2{width:22.7882%}.grid_3{width:35.65684%}.grid_4{width:48.52547%}.grid_5{width:61.3941%}.grid_6{width:74.26273%}.grid_7{width:87.13137%}.grid_8{width:100.0%;margin-right:0}.suffix_1{padding-right:12.86863%}.suffix_2{padding-right:25.73727%}.suffix_3{padding-right:38.6059%}.suffix_4{padding-right:51.47453%}.suffix_5{padding-right:64.34316%}.suffix_6{padding-right:77.2118%}.suffix_7{padding-right:90.08043%}.prefix_1{padding-left:12.86863%}.prefix_2{padding-left:25.73727%}.prefix_3{padding-left:38.6059%}.prefix_4{padding-left:51.47453%}.prefix_5{padding-left:64.34316%}.prefix_6{padding-left:77.2118%}.prefix_7{padding-left:90.08043%}.pull_1{left:-9.91957%}.pull_2{left:-22.7882%}.pull_3{left:-35.65684%}.pull_4{left:-48.52547%}.pull_5{left:-61.3941%}.pull_6{left:-74.26273%}.pull_7{left:-87.13137%}.pull_8{left:-100.0%}.push_1{left:96px}.push_2{left:192px}.push_3{left:288px}.push_4{left:384px}.push_5{left:480px}.push_6{left:576px}.push_7{left:672px}.push_8{left:768px}.omega,.last{margin-right:0}.center_stage{background-color:#555;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF666666', endColorstr='#FF555555');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF666666', endColorstr='#FF555555');zoom:1;background:-webkit-gradient(linear, left top, left bottom, from(#666), to(#555));background:-moz-linear-gradient(top, #666, #555);margin:-20px -20px 20px -20px;padding:16px 20px 0 20px;*display:inline-block}.center_stage:after{content:".";display:block;height:0;clear:both;visibility:hidden}.center_stage .context_bar{height:5px;border-top:1px solid #fff;margin-top:-5px;margin-right:-20px;margin-left:-20px;display:block;clear:both;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF888888', endColorstr='#FF888888');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF888888', endColorstr='#FF888888');background-color:transparent;background-color:#888;zoom:1}.center_stage h1{font-size:24px;font-weight:normal;color:#fff;padding-bottom:12px}.center_stage .stage-tabs ul{list-style-type:none;margin-left:0}.center_stage .stage-tabs ul li{display:inline-block;float:left;font-size:11px;line-height:17px;margin-right:3px}.center_stage .stage-tabs ul li a{padding:3px 9px 2px 9px;display:block;background-color:#999;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FF999999');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FF999999');zoom:1;background:-webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));background:-moz-linear-gradient(top, #ccc, #999);color:#555;text-decoration:none}.center_stage .stage-tabs ul li a:hover{text-decoration:underline;color:#266989}.center_stage .stage-tabs ul li.active a{background-color:#fff;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFFFFFFF');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFFFFFFF');zoom:1;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));background:-moz-linear-gradient(top, #fff, #fff)}.center_stage .stage-tabs+.context_bar{display:none}.thumb img{padding:2px;border:1px solid #ccc}.feed_item{background-color:#e2e2e2;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFFFFFF', endColorstr='#FFE2E2E2');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFFFFFF', endColorstr='#FFE2E2E2');zoom:1;background:-webkit-gradient(linear, left top, right top, from(#fff), to(#e2e2e2));background:-moz-linear-gradient(left, #fff, #e2e2e2);position:relative;padding:2px 15px 10px 64px;border-right:5px solid #777;margin-bottom:15px;clear:both}.feed_item .thumb{position:absolute;left:0;top:0}.feed_item .updated_badge{font-size:10px;font-style:italic;text-align:right;margin-top:3px;margin-right:0;margin-bottom:0;float:right;width:31.333%}.feed_item .meta{font-size:11px;clear:both;margin-bottom:5px}.feed_item .title{float:left;width:64.667%;font-weight:bold;font-size:16px;margin-bottom:0}.feed_item .response{padding:10px 0 0 44px;position:relative}.feed_item .response .thumb{position:absolute;left:0;top:10px}.feed_item .response .thumb img{width:32px;height:32px}.feed_item .response .meta{margin-bottom:0}.run_report_btn{margin:28px 0px 0px 20px}.step-tab{margin-bottom:10px}.step-tab a{display:block;-webkit-border-top-left-radius:5px;border-top-left-radius:5px;-moz-border-radius-topleft:5px;-webkit-border-bottom-left-radius:5px;border-bottom-left-radius:5px;-moz-border-radius-bottomleft:5px;position:relative;padding:12px 0 12px 46px;height:34px}.step-tab .digit{background:url("/thecity-appkit/v1.3/giving-sprite.png") no-repeat 0 0;width:27px;height:41px;text-indent:-5000em;overflow:hidden;position:absolute;left:9px;top:12px}.step-tab .label{line-height:1.2;font-size:12px;display:inline-block;color:#888}.step-tab.active a{background:url("/thecity-appkit/v1.3/white-to-trans-gradient.png") repeat-y -640px 0}.step-tab.active .label{color:#266989}.step-tab.step-1 .digit{left:11px}.step-tab.step-1.active .digit{background-position:-35px 0}.step-tab.step-2 .digit{background-position:0 -60px}.step-tab.step-2.active .digit{background-position:-35px -60px}.step-tab.step-3 .digit{background-position:0 -117px;top:9px}.step-tab.step-3.active .digit{background-position:-35px -117px}.special-header{padding:8px;font-size:14px;line-height:18px;border:1px solid #fff;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99266989', endColorstr='#99266989');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99266989', endColorstr='#99266989');background-color:transparent;background-color:rgba(38,105,137,0.6);zoom:1;color:#fff;font-family:Cambria,Georgia,Times,serif;font-style:italic;margin-bottom:15px}.special-header *{margin:0}.split-trigger{padding:4px 5px;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66999999', endColorstr='#66999999');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66999999', endColorstr='#66999999');background-color:transparent;background-color:rgba(153,153,153,0.4);zoom:1;border:1px dashed #fff;display:block}a.split-trigger{background-image:url("/thecity-appkit/v1.3/giving-sprite.png");background-position:-65px -71px;background-repeat:no-repeat;padding:4px 5px 4px 27px}.checkbox-in-a-box{padding:8px 8px 8px 30px;border:1px solid #fff;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99999999', endColorstr='#99999999');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99999999', endColorstr='#99999999');background-color:transparent;background-color:rgba(153,153,153,0.6);zoom:1;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;font-weight:bold;position:relative;color:#444}.checkbox-in-a-box input{position:absolute;left:8px;top:10px}.big-money-display{line-height:1.2}.big-money-display .dollar-sign{font-size:24px;position:relative;top:-5px}.big-money-display .amount{font-size:36px;font-weight:bold;color:#7c8d09;position:relative}.payment-display{margin-top:10px;width:175px;height:100px;background-color:#23698e;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF76A8CC', endColorstr='#FF23698E');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF76A8CC', endColorstr='#FF23698E');zoom:1;background:-webkit-gradient(linear, left top, left bottom, from(#76a8cc), to(#23698e));background:-moz-linear-gradient(top, #76a8cc, #23698e);border:2px solid rgba(37,89,118,0.7);border-bottom-color:#255976;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;box-shadow:#888 3px 2px 5px}.payment-display .account-type{color:rgba(255,255,255,0.5);letter-spacing:-0.025em;display:block;font-size:22px;text-align:center;font-weight:bold;padding:0 10px;position:relative;top:24px}.payment-display .account-number{padding:0 10px;display:block;text-align:right;color:#fff;font-size:26px;line-height:26px;top:20px;position:relative;text-shadow:#555 2px 2px 5px}.icon.refresh-icon{background-image:url("/thecity-appkit/v1.3/giving-sprite.png");background-repeat:no-repeat;background-position:-93px -41px;text-indent:-5000em;overflow:hidden;display:inline-block;width:16px;height:14px;float:left;margin:2px 3px 0 0}.icon.edit-transaction-icon{background-image:url("/thecity-appkit/v1.3/giving-sprite.png");background-repeat:no-repeat;background-position:-69px -40px;text-indent:-5000em;overflow:hidden;display:inline-block;width:16px;height:16px}.icon.big-error-icon{background-image:url("/thecity-appkit/v1.3/giving-sprite.png");background-repeat:no-repeat;background-position:-70px 0;text-indent:-5000em;overflow:hidden;display:inline-block;width:32px;height:32px}.icon.big-calendar-icon{background-image:url("/thecity-appkit/v1.3/giving-sprite.png");background-repeat:no-repeat;background-position:-152px 0;text-indent:-5000em;overflow:hidden;display:inline-block;width:28px;height:32px}.donations{position:relative;padding-left:50px;margin-top:7px}.donations .big-error-icon,.donations .big-calendar-icon{position:absolute;top:0;left:0}#AcsPayments_vancoForm{margin-bottom:10px}#AcsPayments_ccSection,#AcsPayments_achSection{clear:none !important}.AcsPayments-hover{margin-left:-20px !important;position:relative;z-index:9999}#AcsPayments_vanco_routingnumber{width:100% !important}#AcsPayments_accountType{width:49%;padding-bottom:0.5%;margin-bottom:10px}.AcsPayments-inline.error{color:#bf311a}input.error,select.error{border:1px solid #bf311a !important}#AcsPayments_cancelPaymentMethodSection{color:transparent}a#remove_split{float:left;clear:both;margin:-10px 0 10px 3px}input#AcsPayments_vanco_savepaymentmethod{float:left;margin-right:6px}input#AcsPayments_vanco_savepaymentmethod+label{float:left;margin-top:2px}#AcsPayments_nickname{clear:none !important}#AcsPayments_frequency span.inline-help{margin:6px 5px;float:left}#AcsPayments_frequency [class*="grid"]{margin-bottom:0 !important}#AcsPayments_frequencySection,#AcsPayments_frequencyDetailsSection{display:inline}#AcsPayments_frequencyGroup,#AcsPayments_frequencyEndingSection,#AcsPayments_frequencyDetail_weeklyGroup,#AcsPayments_startDateGroup,#AcsPayments_untilGroup{display:inline-block;position:relative;float:left;margin-left:0;margin-right:0;padding:0 1% 0.5% 0;margin-bottom:10px}#AcsPayments_frequencyGroup{margin-bottom:10px}#AcsPayments_frequencyGroup,#AcsPayments_startDateGroup{width:30%}#AcsPayments_untilGroup{width:36%}#AcsPayments_frequencyEndingSection{width:66%}#AcsPayments_frequencyEndingSection{margin-bottom:0}#AcsPayments_until{width:100%}#AcsPayments_frequencyDetail_twiceAMonthGroup label,#AcsPayments_frequencyDetail_weeklyGroup label,#AcsPayments_frequencyDetail_everyTwoWeeksGroup label,#AcsPayments_frequencyDetail_monthlyGroup label,#AcsPayments_frequencyDetail_twiceAMonthGroup label{display:inline}#AcsPayments_frequencyDetail_weeklyGroup,#AcsPayments_frequencyDetail_everyTwoWeeksGroup,#AcsPayments_frequencyDetail_monthlyGroup,#AcsPayments_frequencyDetail_twiceAMonthGroup{margin-top:18px;display:inline-block;margin-bottom:10px}#AcsPayments_frequencyValidationGroup{clear:both;width:99%;font-style:italic}.fund_payment,.fund_payment_split{clear:both}.remove_split{width:13%;font-size:11px !important;padding:4px 6px !important;margin-top:4px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;font-size:12px;line-height:12px;display:inline-block;padding:8px 12px 7px 12px;text-decoration:none;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');background-color:transparent;background-color:#bf311a;zoom:1;border:1px solid #b22e18;cursor:pointer}.remove_split:hover{color:#fff;text-decoration:none;background-color:#a92b17}#AcsPayments_creditCardLogos{margin-top:3px}#AcsPayments_creditCardLogos img{max-width:28px}.giving-thank-you-message{padding-left:32px;background:url("/thecity-appkit/v1.3/big_check.png") no-repeat 0 6px}.giving-error-message{padding-left:32px;background:url("/thecity-appkit/v1.3/big_error.png") no-repeat 0 6px}.alert-message{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#B3B5D6D9', endColorstr='#B3B5D6D9');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#B3B5D6D9', endColorstr='#B3B5D6D9');background-color:transparent;background-color:rgba(181,214,217,0.7);zoom:1;color:#5d87a1;padding:7px 10px;border:1px solid #dee7ec;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font-weight:bold}.alert-message p{margin:0}.alert-message.error{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66BF311A', endColorstr='#66BF311A');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66BF311A', endColorstr='#66BF311A');background-color:transparent;background-color:rgba(191,49,26,0.4);zoom:1;color:#bf311a;border:1px solid #ee9384}.alert-message.success{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');background-color:transparent;background-color:rgba(124,141,9,0.4);zoom:1;color:#7c8d09;border:1px solid #bbd50e}.pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print, projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}body{margin:20px}.demo{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');background-color:transparent;background-color:rgba(124,141,9,0.4);zoom:1;padding-top:10px;padding-bottom:10px;height:20px;text-align:center;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin-bottom:20px}.box{-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');background-color:transparent;background-color:rgba(124,141,9,0.4);zoom:1;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin-bottom:20px}.box .demo{margin-bottom:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}.clear{clear:both}.rule{padding-bottom:3px;border-bottom:1px solid #ccc;margin-bottom:15px}.nolead{margin:0}.nostyle{list-style-type:none;margin-left:0}.guttertop{margin-top:20px}.gutterbottom{margin-bottom:20px}.smallgutterbottom{margin-bottom:10px}.smallguttertop{margin-top:10px}.bottomout{margin-bottom:0;padding-bottom:0}.right{float:right !important}.left{float:left !important}.hide{display:none}.section-end{border-bottom:1px solid #ccc;padding-bottom:10px;margin-bottom:10px}.section-begin{border-top:1px solid #ccc;padding-top:10px;margin-top:10px}.item{padding:10px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');";filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');background-color:transparent;background-color:#e2e2e2;zoom:1;margin-bottom:15px}.item p{margin-bottom:0}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+*/
+/* jQuery UI - v1.9.1 - 2012-11-14
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.datepicker.css
+* Copyright (c) 2012 jQuery Foundation and other contributors Licensed MIT */
+/* Layout helpers
+----------------------------------*/
+/* line 8, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-helper-hidden {
+  display: none;
+}
+
+/* line 9, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-helper-hidden-accessible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* line 10, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+
+/* line 11, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 12, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-helper-clearfix:after {
+  clear: both;
+}
+
+/* line 13, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-helper-clearfix {
+  zoom: 1;
+}
+
+/* line 14, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+}
+
+/* Interaction Cues
+----------------------------------*/
+/* line 19, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-state-disabled {
+  cursor: default !important;
+}
+
+/* Icons
+----------------------------------*/
+/* states and images */
+/* line 26, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+/* line 33, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-widget-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 34, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker {
+  width: 17em;
+  padding: 0.2em 0.2em 0;
+  display: none;
+}
+
+/* line 35, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-header {
+  position: relative;
+  padding: 0.2em 0;
+}
+
+/* line 36, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+/* line 37, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
+  top: 1px;
+}
+
+/* line 38, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px;
+}
+
+/* line 39, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-next {
+  right: 2px;
+}
+
+/* line 40, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 1px;
+}
+
+/* line 41, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 1px;
+}
+
+/* line 42, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+/* line 43, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+/* line 44, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0;
+}
+
+/* line 45, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker select.ui-datepicker-month-year {
+  width: 100%;
+}
+
+/* line 47, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 49%;
+}
+
+/* line 48, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 0.4em;
+}
+
+/* line 49, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker th {
+  padding: 0.7em 0.3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+
+/* line 50, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker td {
+  border: 0;
+  padding: 1px;
+}
+
+/* line 51, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker td span, .ui-datepicker td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* line 52, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: 0.7em 0 0 0;
+  padding: 0 0.2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+/* line 53, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-buttonpane button {
+  float: right;
+  margin: 0.5em 0.2em 0.4em;
+  cursor: pointer;
+  padding: 0.2em 0.6em 0.3em 0.6em;
+  width: auto;
+  overflow: visible;
+}
+
+/* line 54, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left;
+}
+
+/* with multiple calendars */
+/* line 57, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker.ui-datepicker-multi {
+  width: auto;
+}
+
+/* line 58, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi .ui-datepicker-group {
+  float: left;
+}
+
+/* line 59, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi .ui-datepicker-group table {
+  width: 95%;
+  margin: 0 auto 0.4em;
+}
+
+/* line 60, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi-2 .ui-datepicker-group {
+  width: 50%;
+}
+
+/* line 61, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi-3 .ui-datepicker-group {
+  width: 33.3%;
+}
+
+/* line 62, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi-4 .ui-datepicker-group {
+  width: 25%;
+}
+
+/* line 63, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header {
+  border-left-width: 0;
+}
+
+/* line 64, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+  border-left-width: 0;
+}
+
+/* line 65, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+  clear: left;
+}
+
+/* line 66, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-row-break {
+  clear: both;
+  width: 100%;
+  font-size: 0em;
+}
+
+/* RTL support */
+/* line 69, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl {
+  direction: rtl;
+}
+
+/* line 70, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-prev {
+  right: 2px;
+  left: auto;
+}
+
+/* line 71, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-next {
+  left: 2px;
+  right: auto;
+}
+
+/* line 72, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+  right: 1px;
+  left: auto;
+}
+
+/* line 73, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+  left: 1px;
+  right: auto;
+}
+
+/* line 74, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+  clear: right;
+}
+
+/* line 75, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+  float: left;
+}
+
+/* line 76, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: right;
+}
+
+/* line 77, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-group {
+  float: right;
+}
+
+/* line 78, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+
+/* line 79, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+/* line 82, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-datepicker-cover {
+  position: absolute;
+  /*must have*/
+  z-index: -1;
+  /*must have*/
+  filter: mask();
+  /*must have*/
+  top: -4px;
+  /*must have*/
+  left: -4px;
+  /*must have*/
+  width: 200px;
+  /*must have*/
+  height: 200px;
+  /*must have*/
+}
+
+/* line 92, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .2em;
+  width: 300px;
+  overflow: hidden;
+}
+
+/* line 93, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-titlebar {
+  padding: 0.4em 1em;
+  position: relative;
+}
+
+/* line 94, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-title {
+  float: left;
+  margin: 0.1em 16px 0.1em 0;
+}
+
+/* line 95, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-titlebar-close {
+  position: absolute;
+  right: .3em;
+  top: 50%;
+  width: 19px;
+  margin: -10px 0 0 0;
+  padding: 1px;
+  height: 18px;
+}
+
+/* line 96, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-titlebar-close span {
+  display: block;
+  margin: 1px;
+}
+
+/* line 97, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus {
+  padding: 0;
+}
+
+/* line 98, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-content {
+  position: relative;
+  border: 0;
+  padding: 0.5em 1em;
+  background: none;
+  overflow: auto;
+  zoom: 1;
+}
+
+/* line 99, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-buttonpane {
+  text-align: left;
+  border-width: 1px 0 0 0;
+  background-image: none;
+  margin: 0.5em 0 0 0;
+  padding: 0.3em 1em 0.5em 0.4em;
+}
+
+/* line 100, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: right;
+}
+
+/* line 101, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-dialog-buttonpane button {
+  margin: 0.5em 0.4em 0.5em 0;
+  cursor: pointer;
+}
+
+/* line 102, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-dialog .ui-resizable-se {
+  width: 14px;
+  height: 14px;
+  right: 3px;
+  bottom: 3px;
+}
+
+/* line 103, ../../../app/assets/stylesheets/all/_jquery-ui-1.9.1.custom.css.scss */
+.ui-draggable .ui-dialog-titlebar {
+  cursor: move;
+}
+
+/* GRID */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, ../../../app/assets/stylesheets/all/_reset.css.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../../app/assets/stylesheets/all/_reset.css.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 30, ../../../app/assets/stylesheets/all/_reset.css.scss */
+address {
+  font-style: normal;
+}
+
+/* line 33, ../../../app/assets/stylesheets/all/_reset.css.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, ../../../app/assets/stylesheets/all/_reset.css.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 39, ../../../app/assets/stylesheets/all/_reset.css.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../../../app/assets/stylesheets/all/_reset.css.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../../../app/assets/stylesheets/all/_reset.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* TYPOGRAPHY */
+/* line 2, ../../../app/assets/stylesheets/all/_type.css.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #666666;
+}
+
+/* line 8, ../../../app/assets/stylesheets/all/_type.css.scss */
+a {
+  color: #266989;
+  text-decoration: none;
+}
+
+/* line 9, ../../../app/assets/stylesheets/all/_type.css.scss */
+a:hover {
+  color: #164961;
+}
+
+/* line 11, ../../../app/assets/stylesheets/all/_type.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.025em;
+  color: #444444;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 3px;
+}
+
+/* line 12, ../../../app/assets/stylesheets/all/_type.css.scss */
+h1 {
+  font-size: 32px;
+}
+
+/* line 13, ../../../app/assets/stylesheets/all/_type.css.scss */
+h2 {
+  font-size: 24px;
+}
+
+/* line 14, ../../../app/assets/stylesheets/all/_type.css.scss */
+h3 {
+  font-size: 20px;
+}
+
+/* line 15, ../../../app/assets/stylesheets/all/_type.css.scss */
+h4 {
+  font-size: 16px;
+}
+
+/* line 16, ../../../app/assets/stylesheets/all/_type.css.scss */
+h5 {
+  font-size: 13px;
+}
+
+/* line 17, ../../../app/assets/stylesheets/all/_type.css.scss */
+p {
+  margin-bottom: 15px;
+}
+
+/* line 18, ../../../app/assets/stylesheets/all/_type.css.scss */
+small {
+  font-size: 90%;
+}
+
+/* line 19, ../../../app/assets/stylesheets/all/_type.css.scss */
+.intro {
+  font-size: 18px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+/* line 20, ../../../app/assets/stylesheets/all/_type.css.scss */
+h6 {
+  font-size: 9px;
+  font-weight: bold;
+  color: #999999;
+  text-transform: uppercase;
+  margin: 0;
+}
+/* line 26, ../../../app/assets/stylesheets/all/_type.css.scss */
+h6.rule {
+  margin-bottom: 0;
+}
+
+/* line 31, ../../../app/assets/stylesheets/all/_type.css.scss */
+ul {
+  margin-left: 15px;
+  list-style-type: disc;
+  margin-bottom: 3px;
+}
+
+/* line 36, ../../../app/assets/stylesheets/all/_type.css.scss */
+ol {
+  list-style-type: decimal;
+  margin-left: 15px;
+}
+
+/* line 40, ../../../app/assets/stylesheets/all/_type.css.scss */
+em {
+  font-style: italic;
+}
+
+/* line 41, ../../../app/assets/stylesheets/all/_type.css.scss */
+strong {
+  font-weight: bold;
+}
+
+/* BUTTONS */
+/* line 2, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');
+  background-color: transparent;
+  background-color: #7c8d09;
+  zoom: 1;
+  border: 1px solid #6f7f08;
+  cursor: pointer;
+}
+/* line 23, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.btn:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #677507;
+}
+
+/* line 5, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+a.btn {
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+/* line 9, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn_mini {
+  font-size: 11px !important;
+  padding: 4px 10px !important;
+}
+
+/* line 13, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn_go {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF7C8D09', endColorstr='#FF7C8D09');
+  background-color: transparent;
+  background-color: #7c8d09;
+  zoom: 1;
+  border: 1px solid #6f7f08;
+  cursor: pointer;
+}
+/* line 23, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.btn_go:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #677507;
+}
+
+/* line 16, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn_stop {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');
+  background-color: transparent;
+  background-color: #bf311a;
+  zoom: 1;
+  border: 1px solid #b22e18;
+  cursor: pointer;
+}
+/* line 23, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.btn_stop:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #a92b17;
+}
+
+/* line 19, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn_neutral {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF5D87A1', endColorstr='#FF5D87A1');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF5D87A1', endColorstr='#FF5D87A1');
+  background-color: transparent;
+  background-color: #5d87a1;
+  zoom: 1;
+  border: 1px solid #577f97;
+  cursor: pointer;
+}
+/* line 23, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.btn_neutral:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #547991;
+}
+
+/* line 22, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn_cancel {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666666;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');
+  background-color: transparent;
+  background-color: #999999;
+  zoom: 1;
+  border: 1px solid #919191;
+  cursor: pointer;
+  border: 1px solid #888888 !important;
+  color: white !important;
+}
+/* line 23, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.btn_cancel:hover {
+  color: #666666;
+  text-decoration: none;
+  background-color: #8c8c8c;
+}
+
+/* line 27, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn_disabled {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777777;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF999999', endColorstr='#FF999999');
+  background-color: transparent;
+  background-color: #999999;
+  zoom: 1;
+  border: 1px solid #919191;
+  cursor: pointer;
+  border: 1px solid #999999 !important;
+  color: #cccccc !important;
+  cursor: text;
+}
+/* line 23, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.btn_disabled:hover {
+  color: #777777;
+  text-decoration: none;
+  background-color: #8c8c8c;
+}
+
+/* line 33, ../../../app/assets/stylesheets/all/_buttons.css.scss */
+.btn_animated {
+  background: url("/thecity-appkit/v1.3/btn-animated.gif") repeat 0 0 !important;
+  border: 1px solid #888888 !important;
+  color: #e2e2e2 !important;
+}
+
+/********************************************************************
+
+Project: Formee - http://www.formeeee.org
+Launched: 
+Version: 3.1
+Authors: Bernard De Luna - http://www.bernarddeluna.com
+         Daniel Araujo - http://www.dnlaraujo.com.br
+     Marcello Manso - http://www.marcellomanso.com.br
+
+********************************************************************
+Structure
+********************************************************************/
+/* Little CSS Reset to preserv form structure */
+/* fix  ff bugs */
+/* line 17, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form:after, form div:after, form ol:after, form ul:after, form li:after, form dl:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Form Structure */
+/* line 27, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+/* line 29, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form h1, form h2, form h3, form h4, form h5, form h6 {
+  margin-bottom: 7px;
+}
+/* line 32, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form a.btn {
+  margin-top: 2px;
+}
+/* line 33, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form .rule {
+  border-color: #cccccc;
+}
+
+/* line 37, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 38, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form fieldset, .form-wrapper {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');
+  background-color: transparent;
+  background-color: #e2e2e2;
+  zoom: 1;
+  background-image: url("/thecity-appkit/v1.3/form-bg.png");
+  background-repeat: repeat;
+  padding: 15px;
+}
+
+/* line 46, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.form-wrapper .formee fieldset, .form-wrapper form fieldset, #AcsPayments_vancoForm .formee fieldset, #AcsPayments_vancoForm form fieldset {
+  background: none !important;
+  padding: 0;
+}
+
+/* line 51, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form legend {
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 0.5% 0 0.8%;
+}
+
+/* Field Grid */
+/* line 58, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-1-12, .grid-2-12, .grid-3-12, .grid-4-12, .grid-5-12, .grid-6-12, .grid-7-12, .grid-8-12, .grid-9-12, .grid-10-12, .grid-11-12, .grid-12-12, .form_footer {
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 1% 0.5% 0;
+  margin-bottom: 10px;
+  /*ie7*/
+  *margin-left: .8%;
+  *margin-right: .8%;
+  *padding: 0.8% 0.25% 1%;
+}
+/* line 66, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-1-12.bottom-field, .grid-2-12.bottom-field, .grid-3-12.bottom-field, .grid-4-12.bottom-field, .grid-5-12.bottom-field, .grid-6-12.bottom-field, .grid-7-12.bottom-field, .grid-8-12.bottom-field, .grid-9-12.bottom-field, .grid-10-12.bottom-field, .grid-11-12.bottom-field, .grid-12-12.bottom-field, .form_footer.bottom-field {
+  margin-bottom: 0;
+}
+
+/* line 74, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.form_footer {
+  padding: 0;
+}
+
+/* 12-column Grid (thanks for Fluid 960 Grid System) */
+/* line 88, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-1-12 {
+  width: 7.333%;
+}
+
+/* line 89, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-2-12 {
+  width: 15.666%;
+}
+
+/* line 90, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-3-12 {
+  width: 24%;
+}
+
+/* line 91, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-4-12 {
+  width: 32.333%;
+}
+
+/* line 92, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-5-12 {
+  width: 40.666%;
+}
+
+/* line 93, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-6-12 {
+  width: 49%;
+}
+
+/* line 94, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-7-12 {
+  width: 57.333%;
+}
+
+/* line 95, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-8-12 {
+  width: 65.666%;
+}
+
+/* line 96, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-9-12 {
+  width: 74%;
+}
+
+/* line 97, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-10-12 {
+  width: 82.333%;
+}
+
+/* line 98, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-11-12 {
+  width: 90.666%;
+}
+
+/* line 99, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.grid-12-12, .form_footer {
+  width: 99%;
+}
+
+/* line 100, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.form_footer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  clear: both;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+}
+
+/* first item */
+/* line 110, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee .alpha {
+  margin-left: 0;
+}
+
+/* last item */
+/* line 111, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee .omega {
+  margin-right: 0;
+}
+
+/* clear */
+/* line 112, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee .clear {
+  clear: both;
+}
+
+/* input without label */
+/* line 113, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-no-lbl {
+  position: relative;
+  padding-bottom: 0;
+}
+
+/* input without label */
+/* line 114, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-no-lbl input, .formee-no-lbl label, .formee-no-lbl span, .formee-no-lbl ul, .formee-no-lbl p {
+  position: absolute;
+  bottom: 0;
+}
+
+/* multiple containers inside field-grid */
+/* line 117, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form .left {
+  clear: none;
+  float: left !important;
+  margin-right: 0.3em !important;
+}
+
+/* line 122, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form .right {
+  clear: none;
+  float: right !important;
+  margin-left: 0.3em !important;
+}
+
+/* form elements  */
+/* line 129, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form label {
+  display: block;
+  height: auto;
+  margin: 0 0 0 1px;
+}
+
+/* line 141, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="file"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+  line-height: 1.1em;
+  padding: 7px 5px 6px 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-color: #cccccc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #555555;
+  width: 100%;
+  margin: 0;
+  /*ie7*/
+  *width: 99%;
+}
+/* line 158, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="number"]:focus,
+form input[type="file"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #266989;
+  outline: none;
+}
+
+/* line 163, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form select {
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*form select {margin-top: 1px;}
+@-moz-document url-prefix() {
+  .formee select, 
+  form select {margin-top: 0;}
+}*/
+/* line 175, ../../../app/assets/stylesheets/all/_forms.css.scss */
+::-webkit-input-placeholder {
+  padding-top: 1px;
+}
+
+/* line 177, ../../../app/assets/stylesheets/all/_forms.css.scss */
+form textarea {
+  height: 10em;
+}
+
+/* line 179, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-list label {
+  display: inline;
+  height: auto;
+  margin: 0.5em 0 0.8em 2px;
+}
+
+/* line 184, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-req {
+  position: relative;
+  top: 3px;
+}
+
+/* line 189, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-msg-info, .formee-msg-warning, .formee-msg-error, .formee-msg-success {
+  padding: 20px 20px 15px 38px;
+  border: 1px solid #cccccc;
+  display: block;
+  height: auto;
+  margin: 0 1.5% 0.8em;
+  clear: both;
+}
+
+/* line 197, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-msg-info li, .formee-msg-warning li, .formee-msg-error li, .formee-msg-success li {
+  list-style: none;
+  padding: 0;
+  margin-bottom: .4%;
+  font-size: 1.4em;
+  line-height: 1.1em;
+  vertical-align: top;
+}
+
+/* line 207, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.errorExplanation p {
+  margin-bottom: 5px;
+}
+
+/* line 211, ../../../app/assets/stylesheets/all/_forms.css.scss */
+label.error {
+  color: #bf311a;
+}
+
+/* lista de chk e rdo */
+/* line 216, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 221, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-list li, .formee-list li {
+  float: left;
+  display: inline-block;
+  list-style: none;
+}
+
+/* input size */
+/* line 228, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-small {
+  width: 30% !important;
+  float: left;
+  margin-right: 10px;
+  display: inline;
+  /*ie7*/
+  *width: 25% !important;
+}
+
+/* line 237, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.formee-medium {
+  width: 50% !important;
+  float: left;
+  margin-right: 10px;
+  display: inline;
+  /*ie7*/
+  *width: 45% !important;
+}
+
+/* DIALOG */
+/* line 247, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.ui-dialog {
+  background: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
+  border: 1px solid #999999;
+  padding: 15px 15px 10px;
+}
+/* line 253, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.ui-dialog .ui-dialog-titlebar {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 15px 10px 15px;
+  margin: 0 -15px 10px -15px;
+  border-bottom: 1px solid #dfdfdf;
+}
+/* line 260, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.ui-dialog .ui-dialog-buttonpane {
+  padding: 10px 15px;
+  margin: 0 -15px -10px -15px;
+  border-top: 1px solid #dfdfdf;
+}
+
+/* line 266, ../../../app/assets/stylesheets/all/_forms.css.scss */
+.ui-widget-overlay {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66222222', endColorstr='#66222222');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66222222', endColorstr='#66222222');
+  background-color: transparent;
+  background-color: rgba(34, 34, 34, 0.4);
+  zoom: 1;
+}
+
+/* TABLES */
+/* line 4, ../../../app/assets/stylesheets/all/_tables.css.scss */
+form table td, .form-wrapper table td {
+  background: transparent;
+}
+
+/* line 9, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+/* line 13, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table th, table td {
+  text-align: left;
+  vertical-align: bottom;
+  padding: 4px 8px;
+}
+/* line 18, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table td {
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 22, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table th {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33266989', endColorstr='#33266989');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33266989', endColorstr='#33266989');
+  background-color: transparent;
+  background-color: rgba(38, 105, 137, 0.2);
+  zoom: 1;
+  padding: 5px 8px;
+  border-bottom: 1px solid #cccccc;
+  font-size: 11px;
+}
+/* line 29, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tr:last-child td {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 34, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tfoot td {
+  background: transparent;
+}
+/* line 38, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table.with_borders {
+  border: 1px solid #cccccc;
+}
+/* line 40, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table.with_borders th, table.with_borders td {
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+/* line 50, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table.with_stripes tbody tr:nth-child(even) td,
+table.with_stripes tbody tr:nth-child(even) th,
+table.with_stripes tbody tr.even td,
+table.with_stripes tbody tr.even th {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#80E2E2E2', endColorstr='#80E2E2E2');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#80E2E2E2', endColorstr='#80E2E2E2');
+  background-color: transparent;
+  background-color: rgba(226, 226, 226, 0.5);
+  zoom: 1;
+}
+/* line 54, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table.with_stripes td {
+  border: 0;
+}
+/* line 58, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tr td:last-child {
+  border-right: 0;
+}
+/* line 61, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table.errors td {
+  color: #bf311a;
+}
+/* line 65, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table.errors tr.edit-in-here td {
+  color: #666666;
+}
+/* line 68, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table.errors tr.edit-in-here .errorExplanation {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FFCCCCCC');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FFCCCCCC');
+  background-color: transparent;
+  background-color: #cccccc;
+  zoom: 1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 8px;
+  border: 1px solid white;
+  margin-bottom: 15px;
+}
+/* line 79, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tr.grayed-out:nth-child(even) td,
+table tr.even.grayed-out td {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33E2E2E2', endColorstr='#33E2E2E2');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#33E2E2E2', endColorstr='#33E2E2E2');
+  background-color: transparent;
+  background-color: rgba(226, 226, 226, 0.2);
+  zoom: 1;
+}
+/* line 82, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tr.grayed-out {
+  color: #cccccc;
+}
+/* line 84, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tr.grayed-out .icon {
+  opacity: .5;
+}
+/* line 90, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tr.edit-in-here td {
+  padding: 0;
+  background: transparent;
+}
+/* line 94, ../../../app/assets/stylesheets/all/_tables.css.scss */
+table tr.edit-in-here form {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 102, ../../../app/assets/stylesheets/all/_tables.css.scss */
+.ui-datepicker .ui-datepicker-next {
+  top: 5px;
+}
+/* line 105, ../../../app/assets/stylesheets/all/_tables.css.scss */
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 2px;
+  top: 5px;
+}
+/* line 109, ../../../app/assets/stylesheets/all/_tables.css.scss */
+.ui-datepicker .ui-datepicker-prev {
+  left: 5px;
+  top: 5px;
+}
+/* line 113, ../../../app/assets/stylesheets/all/_tables.css.scss */
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 5px;
+  top: 5px;
+}
+
+/* line 119, ../../../app/assets/stylesheets/all/_tables.css.scss */
+.ui-datepicker-next,
+.ui-datepicker-prev {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url("/thecity-appkit/v1.3/giving-sprite.png") no-repeat -105px -111px;
+  cursor: pointer;
+}
+
+/* line 126, ../../../app/assets/stylesheets/all/_tables.css.scss */
+.ui-datepicker-prev {
+  background-position: -71px -111px;
+}
+
+/* line 2, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_1, .pull_2, .pull_3, .pull_4, .pull_5, .pull_6,
+.pull_7, .pull_8 {
+  float: left;
+  position: relative;
+}
+
+/* line 6, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_1, .push_2, .push_3, .push_4, .push_5, .push_6,
+.push_7, .push_8 {
+  position: relative;
+}
+
+/* line 11, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6,
+.grid_7, .grid_8 {
+  float: left;
+  margin-right: 2.94906%;
+}
+
+/* line 15, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_1 {
+  width: 9.91957%;
+}
+
+/* line 16, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_2 {
+  width: 22.7882%;
+}
+
+/* line 17, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_3 {
+  width: 35.65684%;
+}
+
+/* line 18, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_4 {
+  width: 48.52547%;
+}
+
+/* line 19, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_5 {
+  width: 61.3941%;
+}
+
+/* line 20, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_6 {
+  width: 74.26273%;
+}
+
+/* line 21, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_7 {
+  width: 87.13137%;
+}
+
+/* line 22, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.grid_8 {
+  width: 100.0%;
+  margin-right: 0;
+}
+
+/* line 24, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.suffix_1 {
+  padding-right: 12.86863%;
+}
+
+/* line 25, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.suffix_2 {
+  padding-right: 25.73727%;
+}
+
+/* line 26, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.suffix_3 {
+  padding-right: 38.6059%;
+}
+
+/* line 27, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.suffix_4 {
+  padding-right: 51.47453%;
+}
+
+/* line 28, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.suffix_5 {
+  padding-right: 64.34316%;
+}
+
+/* line 29, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.suffix_6 {
+  padding-right: 77.2118%;
+}
+
+/* line 30, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.suffix_7 {
+  padding-right: 90.08043%;
+}
+
+/* line 32, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.prefix_1 {
+  padding-left: 12.86863%;
+}
+
+/* line 33, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.prefix_2 {
+  padding-left: 25.73727%;
+}
+
+/* line 34, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.prefix_3 {
+  padding-left: 38.6059%;
+}
+
+/* line 35, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.prefix_4 {
+  padding-left: 51.47453%;
+}
+
+/* line 36, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.prefix_5 {
+  padding-left: 64.34316%;
+}
+
+/* line 37, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.prefix_6 {
+  padding-left: 77.2118%;
+}
+
+/* line 38, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.prefix_7 {
+  padding-left: 90.08043%;
+}
+
+/* line 40, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_1 {
+  left: -9.91957%;
+}
+
+/* line 41, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_2 {
+  left: -22.7882%;
+}
+
+/* line 42, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_3 {
+  left: -35.65684%;
+}
+
+/* line 43, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_4 {
+  left: -48.52547%;
+}
+
+/* line 44, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_5 {
+  left: -61.3941%;
+}
+
+/* line 45, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_6 {
+  left: -74.26273%;
+}
+
+/* line 46, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_7 {
+  left: -87.13137%;
+}
+
+/* line 47, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.pull_8 {
+  left: -100.0%;
+}
+
+/* line 49, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_1 {
+  left: 96px;
+}
+
+/* line 50, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_2 {
+  left: 192px;
+}
+
+/* line 51, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_3 {
+  left: 288px;
+}
+
+/* line 52, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_4 {
+  left: 384px;
+}
+
+/* line 53, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_5 {
+  left: 480px;
+}
+
+/* line 54, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_6 {
+  left: 576px;
+}
+
+/* line 55, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_7 {
+  left: 672px;
+}
+
+/* line 56, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.push_8 {
+  left: 768px;
+}
+
+/* line 58, ../../../app/assets/stylesheets/all/_grid.css.scss */
+.omega, .last {
+  margin-right: 0;
+}
+
+/* CENTER STAGE */
+/* line 2, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage {
+  background-color: #555555;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF666666', endColorstr='#FF555555');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF666666', endColorstr='#FF555555');
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#555555));
+  background: -moz-linear-gradient(top, #666666, #555555);
+  margin: -20px -20px 20px -20px;
+  padding: 16px 20px 0 20px;
+  *display: inline-block;
+  /* ON-STAGE TABS */
+}
+/* line 32, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.center_stage:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 7, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage .context_bar {
+  height: 5px;
+  border-top: 1px solid white;
+  margin-top: -5px;
+  margin-right: -20px;
+  margin-left: -20px;
+  display: block;
+  clear: both;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF888888', endColorstr='#FF888888');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF888888', endColorstr='#FF888888');
+  background-color: transparent;
+  background-color: #888888;
+  zoom: 1;
+}
+/* line 17, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage h1 {
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  padding-bottom: 12px;
+}
+/* line 25, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage .stage-tabs ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 28, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage .stage-tabs ul li {
+  display: inline-block;
+  float: left;
+  font-size: 11px;
+  line-height: 17px;
+  margin-right: 3px;
+}
+/* line 34, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage .stage-tabs ul li a {
+  padding: 3px 9px 2px 9px;
+  display: block;
+  background-color: #999999;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FF999999');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FF999999');
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#999999));
+  background: -moz-linear-gradient(top, #cccccc, #999999);
+  color: #555555;
+  text-decoration: none;
+}
+/* line 40, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage .stage-tabs ul li a:hover {
+  text-decoration: underline;
+  color: #266989;
+}
+/* line 46, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage .stage-tabs ul li.active a {
+  background-color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFFFFFFF');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFFFFFFF');
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+  background: -moz-linear-gradient(top, white, white);
+}
+/* line 52, ../../../app/assets/stylesheets/all/_center_stage.css.scss */
+.center_stage .stage-tabs + .context_bar {
+  display: none;
+}
+
+/* NEWS FEED ITEM */
+/* line 3, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.thumb img {
+  padding: 2px;
+  border: 1px solid #cccccc;
+}
+
+/* line 8, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item {
+  background-color: #e2e2e2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFFFFFF', endColorstr='#FFE2E2E2');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFFFFFF', endColorstr='#FFE2E2E2');
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, right top, from(white), to(#e2e2e2));
+  background: -moz-linear-gradient(left, white, #e2e2e2);
+  position: relative;
+  padding: 2px 15px 10px 64px;
+  border-right: 5px solid #777777;
+  margin-bottom: 15px;
+  clear: both;
+}
+/* line 15, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .thumb {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 20, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .updated_badge {
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 3px;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: right;
+  width: 31.333%;
+}
+/* line 30, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .meta {
+  font-size: 11px;
+  clear: both;
+  margin-bottom: 5px;
+}
+/* line 35, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .title {
+  float: left;
+  width: 64.667%;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+/* line 42, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .response {
+  padding: 10px 0 0 44px;
+  position: relative;
+}
+/* line 45, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .response .thumb {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+/* line 49, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .response .thumb img {
+  width: 32px;
+  height: 32px;
+}
+/* line 54, ../../../app/assets/stylesheets/all/_news_feed_items.css.scss */
+.feed_item .response .meta {
+  margin-bottom: 0;
+}
+
+/* line 1, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.run_report_btn {
+  margin: 28px 0px 0px 20px;
+}
+
+/* line 4, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab {
+  margin-bottom: 10px;
+}
+/* line 6, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab a {
+  display: block;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  position: relative;
+  padding: 12px 0 12px 46px;
+  height: 34px;
+}
+/* line 14, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab .digit {
+  background: url("/thecity-appkit/v1.3/giving-sprite.png") no-repeat 0 0;
+  width: 27px;
+  height: 41px;
+  text-indent: -5000em;
+  overflow: hidden;
+  position: absolute;
+  left: 9px;
+  top: 12px;
+}
+/* line 24, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab .label {
+  line-height: 1.2;
+  font-size: 12px;
+  display: inline-block;
+  color: #888888;
+}
+/* line 32, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.active a {
+  background: url("/thecity-appkit/v1.3/white-to-trans-gradient.png") repeat-y -640px 0;
+}
+/* line 35, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.active .label {
+  color: #266989;
+}
+/* line 41, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.step-1 .digit {
+  left: 11px;
+}
+/* line 45, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.step-1.active .digit {
+  background-position: -35px 0;
+}
+/* line 51, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.step-2 .digit {
+  background-position: 0 -60px;
+}
+/* line 55, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.step-2.active .digit {
+  background-position: -35px -60px;
+}
+/* line 61, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.step-3 .digit {
+  background-position: 0 -117px;
+  top: 9px;
+}
+/* line 66, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.step-tab.step-3.active .digit {
+  background-position: -35px -117px;
+}
+
+/* line 73, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.special-header {
+  padding: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  border: 1px solid white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99266989', endColorstr='#99266989');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99266989', endColorstr='#99266989');
+  background-color: transparent;
+  background-color: rgba(38, 105, 137, 0.6);
+  zoom: 1;
+  color: white;
+  font-family: Cambria, Georgia, Times, serif;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+/* line 83, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.special-header * {
+  margin: 0;
+}
+
+/* line 88, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.split-trigger {
+  padding: 4px 5px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66999999', endColorstr='#66999999');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66999999', endColorstr='#66999999');
+  background-color: transparent;
+  background-color: rgba(153, 153, 153, 0.4);
+  zoom: 1;
+  border: 1px dashed white;
+  display: block;
+}
+
+/* line 94, ../../../app/assets/stylesheets/all/_giving.css.scss */
+a.split-trigger {
+  background-image: url("/thecity-appkit/v1.3/giving-sprite.png");
+  background-position: -65px -71px;
+  background-repeat: no-repeat;
+  padding: 4px 5px 4px 27px;
+}
+
+/* line 101, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.checkbox-in-a-box {
+  padding: 8px 8px 8px 30px;
+  border: 1px solid white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99999999', endColorstr='#99999999');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#99999999', endColorstr='#99999999');
+  background-color: transparent;
+  background-color: rgba(153, 153, 153, 0.6);
+  zoom: 1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: bold;
+  position: relative;
+  color: #444444;
+}
+/* line 109, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.checkbox-in-a-box input {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+/* line 116, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.big-money-display {
+  line-height: 1.2;
+}
+/* line 118, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.big-money-display .dollar-sign {
+  font-size: 24px;
+  position: relative;
+  top: -5px;
+}
+/* line 123, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.big-money-display .amount {
+  font-size: 36px;
+  font-weight: bold;
+  color: #7c8d09;
+  position: relative;
+}
+
+/* line 130, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.payment-display {
+  margin-top: 10px;
+  width: 175px;
+  height: 100px;
+  background-color: #23698e;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF76A8CC', endColorstr='#FF23698E');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF76A8CC', endColorstr='#FF23698E');
+  zoom: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#76a8cc), to(#23698e));
+  background: -moz-linear-gradient(top, #76a8cc, #23698e);
+  border: 2px solid rgba(37, 89, 118, 0.7);
+  border-bottom-color: #255976;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: #888888 3px 2px 5px;
+}
+/* line 139, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.payment-display .account-type {
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: -0.025em;
+  display: block;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 10px;
+  position: relative;
+  top: 24px;
+}
+/* line 150, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.payment-display .account-number {
+  padding: 0 10px;
+  display: block;
+  text-align: right;
+  color: white;
+  font-size: 26px;
+  line-height: 26px;
+  top: 20px;
+  position: relative;
+  text-shadow: #555555 2px 2px 5px;
+}
+
+/* line 164, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.icon.refresh-icon {
+  background-image: url("/thecity-appkit/v1.3/giving-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -93px -41px;
+  text-indent: -5000em;
+  overflow: hidden;
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  float: left;
+  margin: 2px 3px 0 0;
+}
+/* line 171, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.icon.edit-transaction-icon {
+  background-image: url("/thecity-appkit/v1.3/giving-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -69px -40px;
+  text-indent: -5000em;
+  overflow: hidden;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+/* line 176, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.icon.big-error-icon {
+  background-image: url("/thecity-appkit/v1.3/giving-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -70px 0;
+  text-indent: -5000em;
+  overflow: hidden;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+/* line 181, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.icon.big-calendar-icon {
+  background-image: url("/thecity-appkit/v1.3/giving-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -152px 0;
+  text-indent: -5000em;
+  overflow: hidden;
+  display: inline-block;
+  width: 28px;
+  height: 32px;
+}
+
+/* line 188, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.donations {
+  position: relative;
+  padding-left: 50px;
+  margin-top: 7px;
+}
+/* line 193, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.donations .big-error-icon,
+.donations .big-calendar-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* ACS/VANCO GIVING APP STYLES */
+/* line 201, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_vancoForm {
+  margin-bottom: 10px;
+}
+
+/* line 205, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_ccSection,
+#AcsPayments_achSection {
+  clear: none !important;
+}
+
+/* line 208, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.AcsPayments-hover {
+  margin-left: -20px !important;
+  position: relative;
+  z-index: 9999;
+}
+
+/* line 213, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_vanco_routingnumber {
+  width: 100% !important;
+}
+
+/* line 216, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_accountType {
+  width: 49%;
+  padding-bottom: 0.5%;
+  margin-bottom: 10px;
+}
+
+/* line 222, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.AcsPayments-inline.error {
+  color: #bf311a;
+}
+
+/* line 225, ../../../app/assets/stylesheets/all/_giving.css.scss */
+input.error, select.error {
+  border: 1px solid #bf311a !important;
+}
+
+/* line 228, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_cancelPaymentMethodSection {
+  color: transparent;
+}
+
+/* line 231, ../../../app/assets/stylesheets/all/_giving.css.scss */
+a#remove_split {
+  float: left;
+  clear: both;
+  margin: -10px 0 10px 3px;
+}
+
+/* line 237, ../../../app/assets/stylesheets/all/_giving.css.scss */
+input#AcsPayments_vanco_savepaymentmethod {
+  float: left;
+  margin-right: 6px;
+}
+/* line 240, ../../../app/assets/stylesheets/all/_giving.css.scss */
+input#AcsPayments_vanco_savepaymentmethod + label {
+  float: left;
+  margin-top: 2px;
+}
+
+/* line 245, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_nickname {
+  clear: none !important;
+}
+
+/* line 249, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequency span.inline-help {
+  margin: 6px 5px;
+  float: left;
+}
+/* line 253, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequency [class*="grid"] {
+  margin-bottom: 0 !important;
+}
+
+/* line 258, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencySection,
+#AcsPayments_frequencyDetailsSection {
+  display: inline;
+}
+
+/* line 263, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyGroup,
+#AcsPayments_frequencyEndingSection,
+#AcsPayments_frequencyDetail_weeklyGroup,
+#AcsPayments_startDateGroup,
+#AcsPayments_untilGroup {
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 1% 0.5% 0;
+  margin-bottom: 10px;
+}
+
+/* line 266, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyGroup {
+  margin-bottom: 10px;
+}
+
+/* line 270, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyGroup,
+#AcsPayments_startDateGroup {
+  width: 30%;
+}
+
+/* line 273, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_untilGroup {
+  width: 36%;
+}
+
+/* line 274, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyEndingSection {
+  width: 66%;
+}
+
+/* line 277, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyEndingSection {
+  margin-bottom: 0;
+}
+
+/* line 280, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_until {
+  width: 100%;
+}
+
+/* line 286, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyDetail_twiceAMonthGroup label,
+#AcsPayments_frequencyDetail_weeklyGroup label,
+#AcsPayments_frequencyDetail_everyTwoWeeksGroup label,
+#AcsPayments_frequencyDetail_monthlyGroup label,
+#AcsPayments_frequencyDetail_twiceAMonthGroup label {
+  display: inline;
+}
+
+/* line 293, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyDetail_weeklyGroup,
+#AcsPayments_frequencyDetail_everyTwoWeeksGroup,
+#AcsPayments_frequencyDetail_monthlyGroup,
+#AcsPayments_frequencyDetail_twiceAMonthGroup {
+  margin-top: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* line 298, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_frequencyValidationGroup {
+  clear: both;
+  width: 99%;
+  font-style: italic;
+}
+
+/* line 303, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.fund_payment, .fund_payment_split {
+  clear: both;
+}
+
+/* line 306, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.remove_split {
+  width: 13%;
+  font-size: 11px !important;
+  padding: 4px 6px !important;
+  margin-top: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: url("/thecity-appkit/v1.3/btn_angled_bg.png") repeat 0 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  padding: 8px 12px 7px 12px;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFBF311A', endColorstr='#FFBF311A');
+  background-color: transparent;
+  background-color: #bf311a;
+  zoom: 1;
+  border: 1px solid #b22e18;
+  cursor: pointer;
+}
+/* line 23, ../../../app/assets/stylesheets/all/_mixins.css.scss */
+.remove_split:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #a92b17;
+}
+
+/* line 313, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_creditCardLogos {
+  margin-top: 3px;
+}
+/* line 315, ../../../app/assets/stylesheets/all/_giving.css.scss */
+#AcsPayments_creditCardLogos img {
+  max-width: 28px;
+}
+
+/* line 320, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.giving-thank-you-message {
+  padding-left: 32px;
+  background: url("/thecity-appkit/v1.3/big_check.png") no-repeat 0 6px;
+}
+
+/* line 324, ../../../app/assets/stylesheets/all/_giving.css.scss */
+.giving-error-message {
+  padding-left: 32px;
+  background: url("/thecity-appkit/v1.3/big_error.png") no-repeat 0 6px;
+}
+
+/* line 1, ../../../app/assets/stylesheets/all/_alerts.css.scss */
+.alert-message {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#B3B5D6D9', endColorstr='#B3B5D6D9');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#B3B5D6D9', endColorstr='#B3B5D6D9');
+  background-color: transparent;
+  background-color: rgba(181, 214, 217, 0.7);
+  zoom: 1;
+  color: #5d87a1;
+  padding: 7px 10px;
+  border: 1px solid #dee7ec;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+/* line 8, ../../../app/assets/stylesheets/all/_alerts.css.scss */
+.alert-message p {
+  margin: 0;
+}
+/* line 11, ../../../app/assets/stylesheets/all/_alerts.css.scss */
+.alert-message.error {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66BF311A', endColorstr='#66BF311A');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#66BF311A', endColorstr='#66BF311A');
+  background-color: transparent;
+  background-color: rgba(191, 49, 26, 0.4);
+  zoom: 1;
+  color: #bf311a;
+  border: 1px solid #ee9384;
+}
+/* line 16, ../../../app/assets/stylesheets/all/_alerts.css.scss */
+.alert-message.success {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');
+  background-color: transparent;
+  background-color: rgba(124, 141, 9, 0.4);
+  zoom: 1;
+  color: #7c8d09;
+  border: 1px solid #bbd50e;
+}
+
+/* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+.pln {
+  color: #000;
+}
+
+@media screen {
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .str {
+    color: #080;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .kwd {
+    color: #008;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .com {
+    color: #800;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .typ {
+    color: #606;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .lit {
+    color: #066;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .pun, .opn, .clo {
+    color: #660;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .tag {
+    color: #008;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .atn {
+    color: #606;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .atv {
+    color: #080;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .dec, .var {
+    color: #606;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .fun {
+    color: red;
+  }
+}
+@media print, projection {
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .str {
+    color: #060;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .lit {
+    color: #044;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .pun, .opn, .clo {
+    color: #440;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .atn {
+    color: #404;
+  }
+
+  /* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+  .atv {
+    color: #060;
+  }
+}
+/* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+pre.prettyprint {
+  padding: 2px;
+  border: 1px solid #888888;
+}
+
+/* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
+  list-style-type: none;
+}
+
+/* line 1, ../../../app/assets/stylesheets/all/_prettify.css.scss */
+li.L1, li.L3, li.L5, li.L7, li.L9 {
+  background: #eee;
+}
+
+/* line 29, ../../../app/assets/stylesheets/appkit.css.scss */
+body {
+  margin: 20px;
+}
+
+/* line 31, ../../../app/assets/stylesheets/appkit.css.scss */
+.demo {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');
+  background-color: transparent;
+  background-color: rgba(124, 141, 9, 0.4);
+  zoom: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 20px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+/* line 40, ../../../app/assets/stylesheets/appkit.css.scss */
+.box {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#667C8D09', endColorstr='#667C8D09');
+  background-color: transparent;
+  background-color: rgba(124, 141, 9, 0.4);
+  zoom: 1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+/* line 44, ../../../app/assets/stylesheets/appkit.css.scss */
+.box .demo {
+  margin-bottom: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+/* line 52, ../../../app/assets/stylesheets/appkit.css.scss */
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 63, ../../../app/assets/stylesheets/appkit.css.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 67, ../../../app/assets/stylesheets/appkit.css.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 71, ../../../app/assets/stylesheets/appkit.css.scss */
+.clearfix {
+  display: block;
+}
+
+/* UTILITY CLASSES */
+/* line 77, ../../../app/assets/stylesheets/appkit.css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 78, ../../../app/assets/stylesheets/appkit.css.scss */
+.rule {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 15px;
+}
+
+/* line 79, ../../../app/assets/stylesheets/appkit.css.scss */
+.nolead {
+  margin: 0;
+}
+
+/* line 80, ../../../app/assets/stylesheets/appkit.css.scss */
+.nostyle {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+/* line 81, ../../../app/assets/stylesheets/appkit.css.scss */
+.guttertop {
+  margin-top: 20px;
+}
+
+/* line 82, ../../../app/assets/stylesheets/appkit.css.scss */
+.gutterbottom {
+  margin-bottom: 20px;
+}
+
+/* line 83, ../../../app/assets/stylesheets/appkit.css.scss */
+.smallgutterbottom {
+  margin-bottom: 10px;
+}
+
+/* line 84, ../../../app/assets/stylesheets/appkit.css.scss */
+.smallguttertop {
+  margin-top: 10px;
+}
+
+/* line 85, ../../../app/assets/stylesheets/appkit.css.scss */
+.bottomout {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 86, ../../../app/assets/stylesheets/appkit.css.scss */
+.right {
+  float: right !important;
+}
+
+/* line 87, ../../../app/assets/stylesheets/appkit.css.scss */
+.left {
+  float: left !important;
+}
+
+/* line 88, ../../../app/assets/stylesheets/appkit.css.scss */
+.hide {
+  display: none;
+}
+
+/* line 89, ../../../app/assets/stylesheets/appkit.css.scss */
+.section-end {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 94, ../../../app/assets/stylesheets/appkit.css.scss */
+.section-begin {
+  border-top: 1px solid #cccccc;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+/* GENERIC CONTAINER ITEMS */
+/* line 101, ../../../app/assets/stylesheets/appkit.css.scss */
+.item {
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');";
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFE2E2E2', endColorstr='#FFE2E2E2');
+  background-color: transparent;
+  background-color: #e2e2e2;
+  zoom: 1;
+  margin-bottom: 15px;
+}
+/* line 106, ../../../app/assets/stylesheets/appkit.css.scss */
+.item p {
+  margin-bottom: 0;
+}
+
+/* @end */
