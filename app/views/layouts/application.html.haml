@@ -4,8 +4,6 @@
 		= stylesheet_link_tag    "appkit", :media => "all"
 		= stylesheet_link_tag    "docs", :media => "all"
 		= javascript_include_tag "appkit"
-		= stylesheet_link_tag    "/thecity-appkit/prettify.css", :media => "all"
-		= javascript_include_tag "/thecity-appkit/prettify/prettify.js"
 		/[if IE]
 			= stylesheet_link_tag    "appkit-ie", :media => "all"
 			= javascript_include_tag "appkit-ie"
@@ -19,7 +17,7 @@
 					%div.sidebar-inner
 						%nav.sidenav
 							%ul
-								= active_link_to 'Big Picture', '/', :wrap_tag => :li
+								= active_link_to 'Big Picture', '/thecity-appkit/', :wrap_tag => :li
 								= active_link_to 'Typography', '/thecity-appkit/typography', :wrap_tag => :li
 								= active_link_to 'Forms', '/thecity-appkit/forms', :wrap_tag => :li
 								= active_link_to 'Tables', '/thecity-appkit/tables', :wrap_tag => :li

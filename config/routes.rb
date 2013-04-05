@@ -56,26 +56,26 @@ CityUtility::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 
-  root :to => "utility#index"
+  root :to => "docs#index"
   
-  match "thecity-appkit/typography/" => "utility#typography", :as => :typography
-  match "thecity-appkit/typography/index.html" => "utility#typography"
+  match "thecity-appkit/typography/" => "docs#typography", :as => :typography
+  match "thecity-appkit/typography/index.html" => "docs#typography"
   
-  match "thecity-appkit/forms/" => "utility#forms", :as => :forms
-  match "thecity-appkit/forms/index.html" => "utility#forms"
+  match "thecity-appkit/forms/" => "docs#forms", :as => :forms
+  match "thecity-appkit/forms/index.html" => "docs#forms"
 
-  match "thecity-appkit/grid/" => "utility#grid", :as => :grid
-  match "thecity-appkit/grid/index.html" => "utility#grid"
+  match "thecity-appkit/grid/" => "docs#grid", :as => :grid
+  match "thecity-appkit/grid/index.html" => "docs#grid"
 
-  match "thecity-appkit/buttons/" => "utility#buttons", :as => :buttons
-  match "thecity-appkit/buttons/index.html" => "utility#buttons"
+  match "thecity-appkit/buttons/" => "docs#buttons", :as => :buttons
+  match "thecity-appkit/buttons/index.html" => "docs#buttons"
 
-  match "thecity-appkit/center_stage/" => "utility#center_stage", :as => :center_stage
-  match "thecity-appkit/center_stage/index.html" => "utility#center_stage"
+  match "thecity-appkit/center_stage/" => "docs#center_stage", :as => :center_stage
+  match "thecity-appkit/center_stage/index.html" => "docs#center_stage"
 
-  match "thecity-appkit/tables/" => "utility#tables", :as => :tables
-  match "thecity-appkit/tables/index.html" => "utility#tables"
+  match "thecity-appkit/tables/" => "docs#tables", :as => :tables
+  match "thecity-appkit/tables/index.html" => "docs#tables"
 
-  match "thecity-appkit/news_feed_items/" => "utility#news_feed_items", :as => :news_feed_items
-  match "thecity-appkit/news_feed_items/index.html" => "utility#news_feed_items"
+  match "thecity-appkit/news_feed_items/" => "docs#news_feed_items", :as => :news_feed_items
+  match "thecity-appkit/news_feed_items/index.html" => "docs#news_feed_items"
 end
