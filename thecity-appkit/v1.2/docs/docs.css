@@ -1,5 +1,5 @@
 /* GRID */
-/* line 4, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 4, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 body {
   background-color: #cd5a13;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFA52001', endColorstr='#FFCD5A13');";
@@ -11,7 +11,7 @@ body {
   margin: 0 !important;
 }
 
-/* line 10, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 10, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .container {
   margin: 0 auto;
   max-width: 980px;
@@ -37,25 +37,25 @@ body {
 }
 
 /* SIDEBAR */
-/* line 20, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 20, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .sidebar {
   width: 192px;
   position: absolute;
   margin-right: 1px;
 }
-/* line 24, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 24, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .sidebar nav ul {
   list-style-type: none;
 }
 
-/* line 28, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 28, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .masthead {
   padding: 20px;
   border-bottom: 1px solid #cccccc;
 }
-/* line 31, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 31, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .masthead h1 {
-  background-image: url("/v1.2/sprite.png");
+  background-image: url("/thecity-appkit/v1.2/sprite.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   text-indent: -5000em;
@@ -66,19 +66,19 @@ body {
   margin: 0;
 }
 
-/* line 39, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 39, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .sidenav ul {
   margin: 0;
   padding: 0;
 }
-/* line 43, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 43, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .sidenav li {
   font-size: 18px;
   border-bottom: 1px solid #cccccc;
   margin: 1px 0 0 0;
   position: relative;
 }
-/* line 48, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 48, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .sidenav li a {
   padding: 6px 20px;
   display: block;
@@ -87,7 +87,7 @@ body {
   text-decoration: none;
   color: #777777;
 }
-/* line 55, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 55, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .sidenav li a:hover {
   background-color: #e2e2e2;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#FFFFFFFF', endColorstr='#FFE2E2E2');";
@@ -96,7 +96,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(white), to(#e2e2e2));
   background: -moz-linear-gradient(left, white, #e2e2e2);
 }
-/* line 60, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 60, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .sidenav li.active a {
   background-color: #888888;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FF777777', endColorstr='#FF888888');";
@@ -108,7 +108,7 @@ body {
 }
 
 /* @end SIDEBAR */
-/* line 69, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 69, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .content {
   margin-left: 193px;
   min-height: 500px;
@@ -117,12 +117,12 @@ body {
   border-top: 0;
   border-bottom: 0;
 }
-/* line 76, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 76, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .content .content-inner {
   padding: 20px;
 }
 
-/* line 80, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 80, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 pre {
   font-size: 12px;
   padding: 10px !important;
@@ -140,17 +140,17 @@ pre {
   color: #444444;
   margin-bottom: 15px;
 }
-/* line 90, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 90, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 pre.inline {
   padding: 3px !important;
   margin-bottom: 0;
 }
 
-/* line 96, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 96, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 table pre {
   padding: 3px;
 }
-/* line 99, ../../../app/assets/stylesheets/docs/docs.css.scss */
+/* line 99, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 table h1, table h2, table h3, table h4, table h5, table h6 {
   margin: 0;
 }
