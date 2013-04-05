@@ -55,7 +55,7 @@ body {
 }
 /* line 31, ../../../../app/assets/stylesheets/docs/docs.css.scss */
 .masthead h1 {
-  background-image: url("/thecity-appkit/v1.2/sprite.png");
+  background-image: url("/thecity-appkit/v1.3/sprite.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   text-indent: -5000em;
